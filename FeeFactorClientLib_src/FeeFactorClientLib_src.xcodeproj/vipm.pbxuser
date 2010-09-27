@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* FeeFactorClientLib_src */ = {
+		activeExec = 0;
+		executables = (
+			2EA685431241EDA600E7E69D /* FeeFactorClientLib_src */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2EA685431241EDA600E7E69D /* FeeFactorClientLib_src */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FeeFactorClientLib_src */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FeeFactorClientLib_src */,
+		);
+		codeSenseManager = 2EA6854D1241EDBD00E7E69D /* Code sense */;
+		executables = (
+			2EA685431241EDA600E7E69D /* FeeFactorClientLib_src */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306310566;
+			PBXWorkspaceStateSaveDate = 306310566;
+		};
+		sourceControlManager = 2EA6854C1241EDBD00E7E69D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2EA685431241EDA600E7E69D /* FeeFactorClientLib_src */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FeeFactorClientLib_src;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	2EA6854C1241EDBD00E7E69D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2EA6854D1241EDBD00E7E69D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

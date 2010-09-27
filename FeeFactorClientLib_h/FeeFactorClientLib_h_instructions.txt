@@ -1,0 +1,15 @@
+Developer Netmobo Linking Documentation
+
+Steps to use Netmobo in your iOS application:
+With both your app project and the Netmobo source project open, do the following:
+
+1. Drag the file 'libNetmobo.a' from its Frameworks grouping to your project's Frameworks grouping and make sure 'copy' is selected from the alert window.
+2. Next, drag the grouping 'Netmobo' to your project--this grouping contains Netmobo's header files.
+3. Then, from your project's menu 'Project' -> 'Edit Project Settings' and click on 'Build' tab
+4. search for 'Header Search Paths' which is under 'Search Paths'
+5. click '+' and double-click on 'path' and type in '/usr/include/libxml2'
+6. search for 'other linker Flags' which is under 'linking'
+7. click '+' and add '-lxml2' 
+optionally, if you are having problems compiling, you may also add the ff to 'other link': 
+-ObjC
+-all_load
