@@ -254,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>360</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -275,7 +275,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 0}, {360, 706}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -287,19 +287,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 463}}</string>
+						<string>{{0, 0}, {377, 724}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>360</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>5 434 788 504 0 0 1280 938 </string>
+						<string>209 59 1071 765 0 0 1280 938 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>203pt</string>
+					<string>377pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -329,14 +329,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 458}}</string>
+								<string>{{0, 0}, {689, 719}}</string>
 								<key>RubberWindowFrame</key>
-								<string>5 434 788 504 0 0 1280 938 </string>
+								<string>209 59 1071 765 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>458pt</string>
+							<string>719pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -349,9 +349,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 463}, {580, 0}}</string>
+								<string>{{0, 724}, {689, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>5 434 788 504 0 0 1280 938 </string>
+								<string>209 59 1071 765 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -360,7 +360,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>580pt</string>
+					<string>689pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -375,9 +375,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2EA685471241EDBD00E7E69D</string>
+				<string>2E85ADCD1252C191003873DA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2EA685481241EDBD00E7E69D</string>
+				<string>2E85ADCE1252C191003873DA</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -519,7 +519,7 @@
 		<string>/AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_src/FeeFactorClientLib_src.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>5 434 788 504 0 0 1280 938 </string>
+	<string>209 59 1071 765 0 0 1280 938 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -596,7 +596,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2EA6854A1241EDBD00E7E69D</string>
-				<string>2EA6854B1241EDBD00E7E69D</string>
+				<string>2E85ADCF1252C191003873DA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

@@ -5,17 +5,6 @@
 //  Created by Netmobo on 18/05/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
-/*
-Copyright (c) 2010, NETMOBO LLC
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-Neither the name of NETMOBO LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
 
 #import "Users.h"
 
@@ -84,7 +73,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://subscriber.feefactor.com";
 -(UserSearchResult *)getUsers:(NSDictionary *)query{
 	User *getUser = [[[User alloc] init] autorelease];
 	UserSearchResult *userSearchResult = [[UserSearchResult alloc] init];
-	userSearchResult.userResults = (NSArray *)[xmlParser fromXml:[transport3 doGet:@"/Users/search" params:query] withObject:getUser];
+	userSearchResult.userResults = (NSArray *)[xmlParser fromXml:[transport3 doGet:@"Users/search" params:query] withObject:getUser];
 	return userSearchResult;
 }
 
@@ -106,19 +95,12 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://subscriber.feefactor.com";
 	return returnQuestion;
 }
 
--(UserQuestionSearchResult *)getUserQuestions:(NSNumber *)userId andWhere:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber{
+-(UserQuestionSearchResult *)getUserQuestions:(NSDictionary *)query{
 	
 	UserQuestionSearchResult *searchResults = [[UserQuestionSearchResult alloc] init];
 	UserQuestion *userQusetion = [[UserQuestion alloc] init];
-	NSMutableDictionary *paramsDic = [[NSMutableDictionary alloc] init];
-	[paramsDic setValue:userId forKey:@"userID"];
-	[paramsDic setValue:where forKey:@"whereCondition"];
-	[paramsDic setValue:sort forKey:@"sortString"];
-	[paramsDic setValue:[pageItems stringValue] forKey:@"pageItems"];
-	[paramsDic setValue:[pageNumber stringValue] forKey:@"pageNumber"];
-	searchResults.userQuestions = (NSArray *)[xmlParser fromXml:[transport3 doGet:@"/Users/question/search/" params:paramsDic] withObject:userQusetion];
+	searchResults.userQuestions = (NSArray *)[xmlParser fromXml:[transport3 doGet:@"/Users/question/search/" params:query] withObject:userQusetion];
 	[userQusetion release];
-	[paramsDic release];
 	return searchResults;
 }
 
@@ -147,7 +129,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://subscriber.feefactor.com";
 	return [[transport3 doPost:@"/Users/question" with:updateStr and:reasonDic] intValue];
 }
 
--(Profile *)getUserProfile:(NSNumber *)userID{
+-(Profile *)getProfile:(NSNumber *)userID{
 	
 	NSDictionary *userIdDic = [NSDictionary dictionaryWithObject:[userID stringValue] forKey:@"userID"];
 	Profile *returnProfile = [[Profile alloc] init];
@@ -155,7 +137,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://subscriber.feefactor.com";
 	return returnProfile;
 }
 
--(int)updateProfile:(Profile *)userProfile andParams:(NSString *)reason{
+-(int)updateUserProfile:(Profile *)userProfile andParams:(NSString *)reason{
 	
 	NSDictionary *reasonDic = [NSDictionary dictionaryWithObject:reason forKey:@"reason"];
 	NSString *updateStr = [xmlParser toXml:userProfile andTag:@"Profile" inNameSpace:NAME_SPACE_SUBSCRIBER];
@@ -182,12 +164,4 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://subscriber.feefactor.com";
 	NSString *updateStr = [xmlParser toXml:image andTag:@"Image" inNameSpace:NAME_SPACE_SUBSCRIBER];
 	return [[transport3 doPost:@"/Users/profile/avatar" with:updateStr and:paramsDic] intValue];
 }
-
--(long)getUsersCount:(NSString *)whereCondition{
-	
-	NSDictionary *reasonDic = [NSDictionary dictionaryWithObject:whereCondition forKey:@"whereCondition"];
-	NSString *resultStri = [transport3 doGet:@"/Users/count/" params:reasonDic]; 
-	return [[XmlParser getResult:resultStri] longLongValue];
-}
-
 @end

@@ -15,8 +15,8 @@
 		2899E5220DE3E06400AC0155 /* FeeFactorClientLib_hViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FeeFactorClientLib_hViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FeeFactorClientLib_hViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FeeFactorClientLib_hViewController.m */; };
-		2EA686C11241EE1500E7E69D /* libNetmobo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA686C01241EE1500E7E69D /* libNetmobo.a */; };
 		2EA686C71241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */; };
+		2EDD2116124B331B003556AE /* libNetmobo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDD2115124B331B003556AE /* libNetmobo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +31,9 @@
 		28D7ACF60DDB3853001CB0EB /* FeeFactorClientLib_hViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeeFactorClientLib_hViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* FeeFactorClientLib_hViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeeFactorClientLib_hViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E07EA691248928300EE00ED /* SelfSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSignUp.h; sourceTree = "<group>"; };
+		2E07EA6A124892A800EE00ED /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		2E07EC29124895E300EE00ED /* CardPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPayments.h; sourceTree = "<group>"; };
 		2EA686671241EE0B00E7E69D /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
 		2EA686681241EE0B00E7E69D /* TransactionDetailRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecord.h; sourceTree = "<group>"; };
 		2EA686691241EE0B00E7E69D /* TransactionDetailRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecordSearchResult.h; sourceTree = "<group>"; };
@@ -70,7 +73,6 @@
 		2EA6868F1241EE0B00E7E69D /* PaymentGatewaySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGatewaySearchResult.h; sourceTree = "<group>"; };
 		2EA686901241EE0B00E7E69D /* CardTransactionHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistory.h; sourceTree = "<group>"; };
 		2EA686911241EE0B00E7E69D /* CardTransactionHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistorySearchResult.h; sourceTree = "<group>"; };
-		2EA686921241EE0B00E7E69D /* CardPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPayments.h; sourceTree = "<group>"; };
 		2EA686931241EE0B00E7E69D /* UserPaymentAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorization.h; sourceTree = "<group>"; };
 		2EA686941241EE0B00E7E69D /* UserPaymentAuthorizationSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorizationSearchResult.h; sourceTree = "<group>"; };
 		2EA686961241EE0B00E7E69D /* Brands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brands.h; sourceTree = "<group>"; };
@@ -98,9 +100,7 @@
 		2EA686AE1241EE0B00E7E69D /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		2EA686AF1241EE0B00E7E69D /* UserQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestion.h; sourceTree = "<group>"; };
 		2EA686B01241EE0B00E7E69D /* UserQuestionSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestionSearchResult.h; sourceTree = "<group>"; };
-		2EA686B11241EE0B00E7E69D /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
 		2EA686B21241EE0B00E7E69D /* UserSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchResult.h; sourceTree = "<group>"; };
-		2EA686B31241EE0B00E7E69D /* SelfSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSignUp.h; sourceTree = "<group>"; };
 		2EA686B41241EE0B00E7E69D /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		2EA686B61241EE0B00E7E69D /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		2EA686B91241EE0B00E7E69D /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 		2EA686BC1241EE0B00E7E69D /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		2EA686BE1241EE0B00E7E69D /* RestTransport3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestTransport3.h; sourceTree = "<group>"; };
 		2EA686BF1241EE0B00E7E69D /* XmlHeaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlHeaderHelper.h; sourceTree = "<group>"; };
-		2EA686C01241EE1500E7E69D /* libNetmobo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetmobo.a; sourceTree = "<group>"; };
 		2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FeeFactorClientLib_h_instructions.txt; sourceTree = "<group>"; };
+		2EDD2115124B331B003556AE /* libNetmobo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetmobo.a; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FeeFactorClientLib_h_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeeFactorClientLib_h_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FeeFactorClientLib_h-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FeeFactorClientLib_h-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,7 +123,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
-				2EA686C11241EE1500E7E69D /* libNetmobo.a in Frameworks */,
+				2EDD2116124B331B003556AE /* libNetmobo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +185,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2EA686C01241EE1500E7E69D /* libNetmobo.a */,
+				2EDD2115124B331B003556AE /* libNetmobo.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -286,9 +286,9 @@
 				2EA6868D1241EE0B00E7E69D /* UserBankAccountSearchResult.h */,
 				2EA6868E1241EE0B00E7E69D /* PaymentGateway.h */,
 				2EA6868F1241EE0B00E7E69D /* PaymentGatewaySearchResult.h */,
+				2E07EC29124895E300EE00ED /* CardPayments.h */,
 				2EA686901241EE0B00E7E69D /* CardTransactionHistory.h */,
 				2EA686911241EE0B00E7E69D /* CardTransactionHistorySearchResult.h */,
-				2EA686921241EE0B00E7E69D /* CardPayments.h */,
 				2EA686931241EE0B00E7E69D /* UserPaymentAuthorization.h */,
 				2EA686941241EE0B00E7E69D /* UserPaymentAuthorizationSearchResult.h */,
 			);
@@ -337,9 +337,9 @@
 				2EA686AE1241EE0B00E7E69D /* Profile.h */,
 				2EA686AF1241EE0B00E7E69D /* UserQuestion.h */,
 				2EA686B01241EE0B00E7E69D /* UserQuestionSearchResult.h */,
-				2EA686B11241EE0B00E7E69D /* Users.h */,
+				2E07EA6A124892A800EE00ED /* Users.h */,
 				2EA686B21241EE0B00E7E69D /* UserSearchResult.h */,
-				2EA686B31241EE0B00E7E69D /* SelfSignUp.h */,
+				2E07EA691248928300EE00ED /* SelfSignUp.h */,
 				2EA686B41241EE0B00E7E69D /* Image.h */,
 			);
 			name = Users;

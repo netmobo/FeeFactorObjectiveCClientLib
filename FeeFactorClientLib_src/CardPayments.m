@@ -6,16 +6,16 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 /*
-Copyright (c) 2010, NETMOBO LLC
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-Neither the name of NETMOBO LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
+ Copyright (c) 2010, NETMOBO LLC
+ All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+ Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ Neither the name of NETMOBO LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
 
 #import "CardPayments.h"
 
@@ -33,7 +33,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://paymentsystem.feefactor.com";
 	transport3 = nil;
 	[xmlParser release];
 	xmlParser = nil;
-
+	
 	[super dealloc];
 }
 
@@ -64,7 +64,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://paymentsystem.feefactor.com";
 -(long)rechargeAccountViaCC:(NSString *)paymentGatewayID withSerial:(NSNumber *)serialNumber andLoad:(NSNumber *)load anFirstName:(NSString *)firstName andLastName:(NSString *)lastName andEmail:(NSString *)email andPhone:(NSString *)phoneNumber  andAddr1:(NSString *)address1 
 				   andAddr2:(NSString *)address2 andCity:(NSString *)city andState:(NSString *)state andZip:(NSString *)zip andCountry:(NSString *)country andCardNum:(NSString *)cardNumber 
 				andExpMonth:(NSString *)expirationMonth andExpYear:(NSString *)expirationYear andCardType:(NSString *)cardType andCvv:(NSString *)cvv andDescripion:(NSString *)description 
-andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)merchatPhone andComment:(NSString *)comment andReason:(NSString *)reason{
+	   andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)merchatPhone andComment:(NSString *)comment andReason:(NSString *)reason{
 	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	
@@ -92,10 +92,13 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 	[paramsDic setValue:comment forKey:@"comment"];
 	[paramsDic setValue:reason forKey:@"reason"];
 	
-	// NSLog(@"paramdic is ok");
-	
 	return [[XmlParser getResult: [transport3 doPost:@"/CardPayments/card/account/recharge" with:nil and:paramsDic]] longLongValue];
 	
+	
+	//	long result = [[XmlParser getResult:[transport3 doPost:@"/CardPayments/card/account/recharge" with:nil and:paramsDic]] longLongValue];
+	//	[paramsDic release];
+	//	
+	//	return result;
 }
 
 -(long)getCardTransactionHistoriesCount:(NSNumber *)serialNumber withCondition:(NSString *)where{
@@ -136,7 +139,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 		
 		return [userCardArray objectAtIndex:0];
 	}
-		return nil;
+	return nil;
 }
 
 -(int)updateUserCard:(UserCard *)card andParams:(NSString *)reason{
@@ -207,10 +210,13 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 	
 }
 
--(int)deleteUserCard:(NSNumber *)cardID{
+-(int)deleteUserCard:(NSNumber *)cardID andReason:(NSString *)reason{
 	
-	NSMutableDictionary *reasonDic = [NSMutableDictionary dictionaryWithObject:[cardID stringValue] forKey:@"cardID"];
-	return [transport3 doDelete:@"/CardPayments/card/user/" with:reasonDic];
+	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
+	[paramsDic setValue:[cardID stringValue] forKey:@"cardID"];
+	[paramsDic setValue:reason forKey:@"reason"];
+	
+	return [transport3 doDelete:@"/CardPayments/card/user/" with:paramsDic];
 }
 
 -(NSString *)getUserCardProperty:(NSString *)propertyName andAccountID:(NSNumber *)cardID{
@@ -245,7 +251,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 	[paramsDic setValue:[pageNumber stringValue] forKey:@"pageNumber"];
 	
 	UserCard *getUserCard = [[[UserCard alloc] init] autorelease];
-
+	
 	UserCardSearchResult *getUserCardSearchResult = [[[UserCardSearchResult alloc] init] autorelease];
 	getUserCardSearchResult.results = (NSMutableArray *)[xmlParser fromXml:[transport3 doGet:@"/CardPayments/card/user/search/" params:paramsDic] withObject:getUserCard];
 	return getUserCardSearchResult;
@@ -296,7 +302,12 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 	[paramsDic setValue:[paymentGatewayID stringValue] forKey:@"paymentGatewayID"];
 	[paramsDic setValue:[serialNumber stringValue] forKey:@"serialNumber"];
 	[paramsDic setValue:checkoutData forKey:@"checkoutData"];
-	NSString *result = [transport3 doPost:@"/CardPayments/checkout/account/process" with:@"" and:paramsDic];
+//	NSString *result = [transport3 doPost:@"/CardPayments/checkout/account/process" with:@"" and:paramsDic];
+	
+	NSLog(@"paymentGatewayID: %@ serialNumber: %@ checkoutData: %@", [paymentGatewayID stringValue], [serialNumber stringValue], checkoutData);
+	
+	
+	NSString *result = [transport3 doPut:@"/CardPayments/checkout/account/process" with:@"" and:paramsDic];
 	// NSLog(@"the result is %@",result);
 	[paramsDic release];
 	return [[XmlParser getResult:result] longLongValue];	
@@ -304,7 +315,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 
 
 -(long)rechargeAccountViaUserCard:(NSNumber *)paymentGatewayID andSerialNum:(NSNumber *)serialNumber andLoad:(NSNumber *)load andCardID:(NSNumber *)cardID andCVV:(NSString *)cvv andDescription:(NSString *)description andmerchantDescriptor:(NSString *)merchantDescriptor andmerchantPhone:(NSString *)merchantPhone andComment:(NSString *)comment{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:paymentGatewayID forKey:@"paymentGatewayID"];
 	[paramsDic setValue:serialNumber forKey:@"serialNumber"];
@@ -319,7 +330,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 	NSString *resultStr = [transport3 doPost:@"/CardPayments/card/account/recharge/registered" with:@"" and:paramsDic];
 	return [[XmlParser getResult:resultStr] longLongValue];
 }
-	
+
 -(long)insertUserPaymentAuthorization:(UserPaymentAuthorization *)paymentAuthorization andReason:(NSString *)reason{
 	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
@@ -329,13 +340,13 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 	if(resultStr){
 		
 		return [resultStr longLongValue];
-	
+		
 	}
 	return 0;
 }
 
 -(long)updateUserPaymentAuthorization:(UserPaymentAuthorization *)paymentAuthorization andReason:(NSString *)reason{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:reason forKey:@"reason"];
 	NSString *insertStr = [xmlParser toXml:paymentAuthorization andTag:@"UserPaymentAuthorization" inNameSpace:NAME_SPACE_SUBSCRIBER];
@@ -350,7 +361,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(UserPaymentAuthorization *)getUserPaymentAuthorization:(NSNumber *)paymentAuthorizationID{
-
+	
 	UserPaymentAuthorization *getAuth = [[UserPaymentAuthorization alloc] init];
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:paymentAuthorizationID forKey:@"paymentAuthorizationID"];
@@ -359,7 +370,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(UserPaymentAuthorizationSearchResult *)getUserPaymentAuthorizations:(NSString *)whereCondition andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:whereCondition forKey:@"whereCondition"];
 	[paramsDic setValue:sort forKey:@"sortString"];
@@ -374,7 +385,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(long)getUserPaymentAuthorizationsCount:(NSString *)whereCondition{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:whereCondition forKey:@"whereCondition"];
 	NSString *resultStri = [transport3 doGet:@"/CardPayments/paymentAuthorization/user/count/" params:paramsDic]; 
@@ -382,7 +393,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(int)deleteUserPaymentAuthorization:(NSNumber *)paymentAuthorizationID andReason:(NSString *)reason{ 
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:[paymentAuthorizationID stringValue] forKey:@"paymentAuthorizationID"];
 	[paramsDic setValue:reason forKey:@"reason"];
@@ -390,7 +401,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(int)addUserCardToPaymentAuthorization:(NSNumber *)paymentAuthorizationID andCardID:(NSNumber *)cardID andPriority:(NSNumber *)priority andReason:(NSString *)reason{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:[paymentAuthorizationID stringValue] forKey:@"paymentAuthorizationID"];
 	[paramsDic setValue:[cardID stringValue] forKey:@"cardID"];
@@ -403,7 +414,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(int)removeUserCardFromPaymentAuthorization:(NSNumber *)paymentAuthorizationID andCardID:(NSNumber *)cardID andReason:(NSString *)reason{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:[paymentAuthorizationID stringValue] forKey:@"paymentAuthorizationID"];
 	[paramsDic setValue:cardID forKey:@"cardID"];
@@ -412,7 +423,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(int)addAccountToPaymentAuthorization:(NSNumber *)paymentAuthorizationID andSerialNumber:(NSNumber *)serialNumber andReason:(NSString *)reason{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:[paymentAuthorizationID stringValue] forKey:@"paymentAuthorizationID"];
 	[paramsDic setValue:[serialNumber stringValue] forKey:@"serialNumber"];
@@ -423,7 +434,7 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 }
 
 -(int)removeAccountFromPaymentAuthorization:(NSNumber *)paymentAuthorizationID andSerialNumber:(NSNumber *)serialNumber andReason:(NSString *)reason{
-
+	
 	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
 	[paramsDic setValue:[paymentAuthorizationID stringValue] forKey:@"paymentAuthorizationID"];
 	[paramsDic setValue:serialNumber forKey:@"serialNumber"];
@@ -446,17 +457,19 @@ andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)
 
 -(PaymentGatewaySearchResult *)getBrandPaymentGateways:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber{
 	
-	NSMutableDictionary *paramsDic = [[[NSMutableDictionary alloc] init] autorelease];
+	NSMutableDictionary *paramsDic = [[NSMutableDictionary alloc] init];
 	[paramsDic setValue:where forKey:@"whereCondition"];
 	[paramsDic setValue:sort forKey:@"sortString"];
 	[paramsDic setValue:[pageItems stringValue] forKey:@"pageItems"];
 	[paramsDic setValue:[pageNumber stringValue] forKey:@"pageNumber"];
 	
-	PaymentGateway *getPaymentGateway = [[[PaymentGateway alloc] init] autorelease];
+	PaymentGateway *getPaymentGateway = [[PaymentGateway alloc] init];
 	
-	PaymentGatewaySearchResult *getPaymentGatewaySearchResult = [[[PaymentGatewaySearchResult alloc] init] autorelease];
+	PaymentGatewaySearchResult *getPaymentGatewaySearchResult = [[PaymentGatewaySearchResult alloc] init];
 	getPaymentGatewaySearchResult.paymentGatewayInfoSearchResult = (NSMutableArray *)[xmlParser fromXml:[transport3 doGet:@"/CardPayments/paymentgateway/brand/search/" params:paramsDic] withObject:getPaymentGateway];
-	return getPaymentGatewaySearchResult;
+	[paramsDic release];
+	[getPaymentGateway release];
+	return [getPaymentGatewaySearchResult autorelease];
 	
 }
 

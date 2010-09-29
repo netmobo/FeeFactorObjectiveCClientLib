@@ -58,7 +58,7 @@
 -(int)deleteUserBankAccount:(NSNumber *)bankAccountID andReason:(NSString *)reason;
 -(NSString *)getUserBankAccountProperty:(NSString *)propertyName andAccountID:(NSNumber *)bankAccountID;
 -(CardTransactionHistory *)getCardTransactionHistory:(NSNumber *)serialNumber andCardHistoryID:(NSNumber *)cardHistoryID;
--(int)deleteUserCard:(NSNumber *)cardID;
+-(int)deleteUserCard:(NSNumber *)cardID andReason:(NSString *)reason;
 -(NSString *)getUserCardProperty:(NSString *)propertyName andAccountID:(NSNumber *)cardID;
 -(long)getUserBankAccountsCount:(NSString *)whereCondition;
 -(UserCardSearchResult *)getUserCards:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber;

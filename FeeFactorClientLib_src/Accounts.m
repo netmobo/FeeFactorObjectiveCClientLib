@@ -5,17 +5,6 @@
 //  Created by Netmobo on 17/05/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
-/*
-Copyright (c) 2010, NETMOBO LLC
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-Neither the name of NETMOBO LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
 
 #import "Accounts.h"
 
@@ -46,7 +35,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://accounts.feefactor.com";
 
 -(Account *)getAccount:(NSNumber *)serialNumber{
 	NSDictionary *accountDic = [NSDictionary dictionaryWithObject:[serialNumber stringValue] forKey:@"serialNumber"];
-	NSString *returnStr = [transport3 doGet:@"/Accounts" params:accountDic];
+	NSString *returnStr = [transport3 doGet:@"Accounts" params:accountDic];
 	Account *getAccount = [[Account alloc] init];
 	NSMutableArray *accountArray = (NSMutableArray *)[xmlParser fromXml:returnStr withObject:getAccount];
 	//[getAccount release];
@@ -88,7 +77,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://accounts.feefactor.com";
 	[paramsDic setValue:[pageItems stringValue] forKey:@"pageItems"];
 	[paramsDic setValue:[pageNumber stringValue] forKey:@"pageNumber"];
 	AccountSearchResult *accountSearchResult = [[[AccountSearchResult alloc] init] autorelease];
-	accountSearchResult.accountResults = [NSMutableArray arrayWithArray:[xmlParser fromXml:[transport3 doGet:@"/Accounts/search" params:paramsDic] withObject:getAccount]];
+	accountSearchResult.accountResults = [NSMutableArray arrayWithArray:[xmlParser fromXml:[transport3 doGet:@"Accounts/search" params:paramsDic] withObject:getAccount]];
 	return accountSearchResult;
 }
 
@@ -183,9 +172,13 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://accounts.feefactor.com";
 	NSArray *keys = [NSArray arrayWithObjects:@"serialNumber", @"amount",@"referenceID",@"transactionType",@"reason",nil];
 	NSArray *objects = [NSArray arrayWithObjects:[serialNumber stringValue],[amount stringValue],referenceID,transactionType,reason,nil];
 	NSDictionary *paramsDic = [NSDictionary dictionaryWithObjects:objects forKeys:keys];
-	NSString *resultStri = [transport3 doGet:@"/Accounts/recharge/manual" params:paramsDic]; 
-	return [[XmlParser getResult:resultStri] intValue];
 	
+//	NSString *params = [NSString stringWithFormat:@"?serialNumber=%@&amount=%@&referenceID=%@&transactionType=%@&reason=%@", 
+//						[serialNumber stringValue], [amount stringValue], referenceID, transactionType, reason];
+//	NSString *resultStri = [transport3 doGet:@"/Accounts/recharge/manual" params:paramsDic]; 
+	
+	NSString *resultStri = [transport3 doPut:@"/Accounts/recharge/manual" with:@"none" and:paramsDic]; 
+	return [[XmlParser getResult:resultStri] intValue];
 }
 
 -(int)rechargeAccountViaTransient:(NSNumber *)targetSerialNumber withSource:(NSNumber *) sourceSerialNumber withAmount:(NSNumber *) amount andReason:(NSString *)reason{
@@ -257,7 +250,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://accounts.feefactor.com";
 	[paramsDic setValue:[pageNumber stringValue] forKey:@"pageNumber"];
 	
 	AccountHistorySearchResult *accountHistorySearchResult = [[[AccountHistorySearchResult alloc] init] autorelease];
-	accountHistorySearchResult.accountHistoryResults = [NSMutableArray arrayWithArray:[xmlParser fromXml:[transport3 doGet:@"/Accounts/history/search" params:paramsDic] withObject:getAccountHistory]];
+	accountHistorySearchResult.accountHistoryResults = [NSMutableArray arrayWithArray:[xmlParser fromXml:[transport3 doGet:@"Accounts/history/search" params:paramsDic] withObject:getAccountHistory]];
 	return accountHistorySearchResult;
 }
 
