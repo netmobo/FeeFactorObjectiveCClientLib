@@ -4,35 +4,34 @@ Description
 
 This is the FeeFactor Objective-C Client Library - a helper library for 
 consuming FeeFactor Web Services. FeeFactor Web Services is used to access the 
-Netmobo platform which serves as a worry-free and cost-effect back 
-office for mobile applications.
+Netmobo platform which serves as a worry-free and cost-effective back office 
+for mobile applications.
 
 ===============================================================================
 Introduction
 ===============================================================================
 
-This library is geared to be used in iPhone and iOS applications and other 
-Objective-C-based applications.
+This library is geared for use in iOS applications.
 
-For you to be able to use this library, you will need to sign up for Netmobo 
-account at http://www.netmobo.com.
+To use the library, please sign up for a Netmobo  account at 
+http://www.netmobo.com.
 
-Should you need assistance, you may email support@netmobo.com.
+For assistance and more information, please email us at support@netmobo.com.
 
 ===============================================================================
-Initial Steps in Using this Library in iOS applications
+Initial Steps for Using this Library in iOS applications
 =============================================================================== 
  
 With both your app project and the Netmobo source project open, do the 
 following:
 
-1. Drag from the Netmobo source project Frameworks file 'libNetmobo.a' to your 
-   project's Frameworks grouping and make sure 'copy' is selected from the alert 
-   window.
+1. Drag from the Netmobo source project Frameworks group the file 'libNetmobo.a' 
+   to your project's Frameworks group and make sure 'copy' is selected from the 
+   alert window.
 
-2. Next, drag the grouping 'Netmobo' from the Netmobo source project to your 
-   project and make sure 'copy' is selected from the alert window--this grouping 
-   contains Netmobo's header files.
+2. Next, drag the grouping 'Netmobo' which contains the library's header files, 
+   from the Netmobo source project to your project and make sure 'copy' is 
+   selected from the alert window.
 
 3. From the XCode menu, select 'Project' -> 'Edit Project Settings' and click 
    on the 'Build' tab
