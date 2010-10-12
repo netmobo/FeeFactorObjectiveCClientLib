@@ -3,7 +3,7 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 6/06/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
 /*
 Copyright (c) 2010, NETMOBO LLC
@@ -21,9 +21,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 
 @interface PlanSearchResult : NSObject {
-	NSArray *plans;
+	NSMutableArray *plans;
 }
 
-@property (nonatomic, copy) NSArray *plans;
+@property (nonatomic, retain) NSMutableArray *plans;
 
 @end

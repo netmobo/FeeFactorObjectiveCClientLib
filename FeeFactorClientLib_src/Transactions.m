@@ -3,7 +3,7 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 6/06/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
 /*
 Copyright (c) 2010, NETMOBO LLC
@@ -108,8 +108,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 
 -(TransactionDetailRecordSearchResult *)getRawSwitchLogs:(NSNumber *) brandID accountID:(NSString *)accountID where:(NSString *)where sort:(NSString *)sort pageItems:(NSNumber *)pageItems pageNumber:(NSNumber *) pageNumber{
-	TransactionDetailRecord *transactionDetailRecord = [[TransactionDetailRecord alloc] init];
-    TransactionDetailRecordSearchResult *transactionDetailRecordSearchResult = [[TransactionDetailRecordSearchResult alloc] init];
+	TransactionDetailRecord *transactionDetailRecord = [[[TransactionDetailRecord alloc] init] autorelease];
+    TransactionDetailRecordSearchResult *transactionDetailRecordSearchResult = [[[TransactionDetailRecordSearchResult alloc] init] autorelease];
     
 	NSArray *keys = [NSArray arrayWithObjects:@"brandID", @"accountID",@"whereCondition",@"sortString", @"pageItems", @"pageNumber",nil];
     NSArray *objects = [NSArray arrayWithObjects:[brandID stringValue],accountID,where,sort,[pageItems stringValue], [pageNumber stringValue],nil];
@@ -117,7 +117,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 	
 	
     transactionDetailRecordSearchResult.transactionDetailRecords = (NSArray *)[xmlParser fromXml:[transport3 doGet:@"/Transactions/Raw/search/" params:paramsDic] withObject:transactionDetailRecord];
-	[transactionDetailRecord release];
 	
     return transactionDetailRecordSearchResult;
 }

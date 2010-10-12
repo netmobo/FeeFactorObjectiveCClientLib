@@ -40,33 +40,35 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 306918156;
-			PBXWorkspaceStateSaveDate = 306918156;
+			PBXPerProjectTemplateStateSaveDate = 308477586;
+			PBXWorkspaceStateSaveDate = 308477586;
 		};
 		perUserProjectItems = {
 			2E07EA6C124892AF00EE00ED /* PBXTextBookmark */ = 2E07EA6C124892AF00EE00ED /* PBXTextBookmark */;
 			2E07EC32124895FA00EE00ED /* PBXTextBookmark */ = 2E07EC32124895FA00EE00ED /* PBXTextBookmark */;
+			2E12D0F81262FDF50031E0AE /* PBXTextBookmark */ = 2E12D0F81262FDF50031E0AE /* PBXTextBookmark */;
+			2E12D16F1262FEA30031E0AE /* PBXTextBookmark */ = 2E12D16F1262FEA30031E0AE /* PBXTextBookmark */;
 			2E93A0051249B99C002BCF4C /* PBXTextBookmark */ = 2E93A0051249B99C002BCF4C /* PBXTextBookmark */;
-			2EDD1E13124B24F1003556AE /* PBXTextBookmark */ = 2EDD1E13124B24F1003556AE /* PBXTextBookmark */;
-			2EDD2117124B3324003556AE /* PBXTextBookmark */ = 2EDD2117124B3324003556AE /* PBXTextBookmark */;
 		};
 		sourceControlManager = 2EA6865C1241EDFE00E7E69D /* Source Control */;
 		userBuildSettings = {
 		};
 	};
 	2E07EA691248928300EE00ED /* SelfSignUp.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1335, 643}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 941}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = SelfSignUp.h;
+		path = /AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_h/SelfSignUp.h;
+		sourceTree = "<absolute>";
 	};
 	2E07EA6A124892A800EE00ED /* Users.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {788, 702}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1575}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Users.h;
+		path = /AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_h/Users.h;
+		sourceTree = "<absolute>";
 	};
 	2E07EA6C124892AF00EE00ED /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -79,11 +81,12 @@
 		vrLoc = 0;
 	};
 	2E07EC29124895E300EE00ED /* CardPayments.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {5304, 1287}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 3188}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = CardPayments.h;
+		path = /AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_h/CardPayments.h;
+		sourceTree = "<absolute>";
 	};
 	2E07EC32124895FA00EE00ED /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -93,6 +96,26 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 1575;
+		vrLoc = 0;
+	};
+	2E12D0F81262FDF50031E0AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */;
+		name = "FeeFactorClientLib_h_instructions.txt: 12";
+		rLen = 6;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 0;
+	};
+	2E12D16F1262FEA30031E0AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */;
+		name = "FeeFactorClientLib_h_instructions.txt: 12";
+		rLen = 6;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 861;
 		vrLoc = 0;
 	};
 	2E93A0051249B99C002BCF4C /* PBXTextBookmark */ = {
@@ -152,25 +175,5 @@
 			sepNavSelRange = "{745, 6}";
 			sepNavVisRange = "{0, 861}";
 		};
-	};
-	2EDD1E13124B24F1003556AE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */;
-		name = "FeeFactorClientLib_h_instructions.txt: 12";
-		rLen = 6;
-		rLoc = 745;
-		rType = 0;
-		vrLen = 861;
-		vrLoc = 0;
-	};
-	2EDD2117124B3324003556AE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */;
-		name = "FeeFactorClientLib_h_instructions.txt: 12";
-		rLen = 6;
-		rLoc = 745;
-		rType = 0;
-		vrLen = 861;
-		vrLoc = 0;
 	};
 }

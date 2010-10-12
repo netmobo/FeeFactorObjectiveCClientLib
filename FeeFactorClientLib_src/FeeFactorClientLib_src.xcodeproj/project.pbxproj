@@ -15,85 +15,84 @@
 		2899E5220DE3E06400AC0155 /* FeeFactorClientLib_srcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FeeFactorClientLib_srcViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FeeFactorClientLib_srcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FeeFactorClientLib_srcViewController.m */; };
-		2E85AD7E1252C190003873DA /* RestTransport3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACD61252C18F003873DA /* RestTransport3.m */; };
-		2E85AD7F1252C190003873DA /* XmlHeaderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACD81252C18F003873DA /* XmlHeaderHelper.m */; };
-		2E85AD801252C190003873DA /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACDB1252C18F003873DA /* XmlParser.m */; };
-		2E85AD811252C190003873DA /* TypeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACDD1252C18F003873DA /* TypeMapping.m */; };
-		2E85AD821252C190003873DA /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACDF1252C18F003873DA /* GDataXMLNode.m */; };
-		2E85AD831252C190003873DA /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACE11252C18F003873DA /* Util.m */; };
-		2E85AD841252C190003873DA /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACE51252C18F003873DA /* Config.m */; };
-		2E85AD851252C190003873DA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACE81252C18F003873DA /* User.m */; };
-		2E85AD861252C190003873DA /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACEA1252C18F003873DA /* Profile.m */; };
-		2E85AD871252C190003873DA /* UserQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACEC1252C18F003873DA /* UserQuestion.m */; };
-		2E85AD881252C190003873DA /* UserQuestionSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACEE1252C18F003873DA /* UserQuestionSearchResult.m */; };
-		2E85AD891252C190003873DA /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACF01252C18F003873DA /* Users.m */; };
-		2E85AD8A1252C190003873DA /* UserSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACF21252C18F003873DA /* UserSearchResult.m */; };
-		2E85AD8B1252C190003873DA /* SelfSignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACF41252C18F003873DA /* SelfSignUp.m */; };
-		2E85AD8C1252C190003873DA /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACF61252C18F003873DA /* Image.m */; };
-		2E85AD8D1252C190003873DA /* AccountHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACF91252C18F003873DA /* AccountHistory.m */; };
-		2E85AD8E1252C190003873DA /* AccountHistorySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACFB1252C18F003873DA /* AccountHistorySearchResult.m */; };
-		2E85AD8F1252C190003873DA /* Accounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACFD1252C18F003873DA /* Accounts.m */; };
-		2E85AD901252C190003873DA /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ACFF1252C18F003873DA /* Account.m */; };
-		2E85AD911252C190003873DA /* AccountPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD011252C18F003873DA /* AccountPlan.m */; };
-		2E85AD921252C190003873DA /* AccountRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD031252C18F003873DA /* AccountRC.m */; };
-		2E85AD931252C190003873DA /* AccountRCActivityLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD051252C18F003873DA /* AccountRCActivityLog.m */; };
-		2E85AD941252C190003873DA /* AccountPlanSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD071252C18F003873DA /* AccountPlanSearchResult.m */; };
-		2E85AD951252C190003873DA /* AccountRCSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD091252C18F003873DA /* AccountRCSearchResult.m */; };
-		2E85AD961252C190003873DA /* AccountRCSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD0B1252C18F003873DA /* AccountRCSetting.m */; };
-		2E85AD971252C190003873DA /* AccountSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD0D1252C18F003873DA /* AccountSearchResult.m */; };
-		2E85AD981252C190003873DA /* AccountDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD0F1252C18F003873DA /* AccountDevice.m */; };
-		2E85AD991252C190003873DA /* AccountDeviceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD111252C190003873DA /* AccountDeviceSearchResult.m */; };
-		2E85AD9A1252C190003873DA /* Brands.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD141252C190003873DA /* Brands.m */; };
-		2E85AD9B1252C190003873DA /* CurrencySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD161252C190003873DA /* CurrencySearchResult.m */; };
-		2E85AD9C1252C190003873DA /* ExchangeRateSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD181252C190003873DA /* ExchangeRateSearchResult.m */; };
-		2E85AD9D1252C190003873DA /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD1A1252C190003873DA /* Brand.m */; };
-		2E85AD9E1252C190003873DA /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD1C1252C190003873DA /* Currency.m */; };
-		2E85AD9F1252C190003873DA /* ExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD1E1252C190003873DA /* ExchangeRate.m */; };
-		2E85ADA01252C190003873DA /* BrandProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD201252C190003873DA /* BrandProfile.m */; };
-		2E85ADA11252C190003873DA /* BrandSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD221252C190003873DA /* BrandSearchResult.m */; };
-		2E85ADA21252C190003873DA /* UserCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD251252C190003873DA /* UserCard.m */; };
-		2E85ADA31252C190003873DA /* UserCardSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD271252C190003873DA /* UserCardSearchResult.m */; };
-		2E85ADA41252C190003873DA /* UserBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD291252C190003873DA /* UserBankAccount.m */; };
-		2E85ADA51252C190003873DA /* UserBankAccountSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD2B1252C190003873DA /* UserBankAccountSearchResult.m */; };
-		2E85ADA61252C190003873DA /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD2D1252C190003873DA /* PaymentGateway.m */; };
-		2E85ADA71252C190003873DA /* PaymentGatewaySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD2F1252C190003873DA /* PaymentGatewaySearchResult.m */; };
-		2E85ADA81252C190003873DA /* CardTransactionHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD311252C190003873DA /* CardTransactionHistory.m */; };
-		2E85ADA91252C190003873DA /* CardTransactionHistorySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD331252C190003873DA /* CardTransactionHistorySearchResult.m */; };
-		2E85ADAA1252C190003873DA /* CardPayments.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD351252C190003873DA /* CardPayments.m */; };
-		2E85ADAB1252C190003873DA /* UserPaymentAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD371252C190003873DA /* UserPaymentAuthorization.m */; };
-		2E85ADAC1252C190003873DA /* UserPaymentAuthorizationSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD391252C190003873DA /* UserPaymentAuthorizationSearchResult.m */; };
-		2E85ADAD1252C190003873DA /* AccountInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD3C1252C190003873DA /* AccountInvoice.m */; };
-		2E85ADAE1252C190003873DA /* AccountInvoicePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD3E1252C190003873DA /* AccountInvoicePayment.m */; };
-		2E85ADAF1252C190003873DA /* AccountInvoicePaymentSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD401252C190003873DA /* AccountInvoicePaymentSearchResult.m */; };
-		2E85ADB01252C190003873DA /* AccountInvoiceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD421252C190003873DA /* AccountInvoiceSearchResult.m */; };
-		2E85ADB11252C190003873DA /* BillingRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD441252C190003873DA /* BillingRecord.m */; };
-		2E85ADB21252C190003873DA /* BillingRecordSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD461252C190003873DA /* BillingRecordSearchResult.m */; };
-		2E85ADB31252C190003873DA /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD481252C190003873DA /* Invoice.m */; };
-		2E85ADB41252C190003873DA /* UserPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD4A1252C190003873DA /* UserPayment.m */; };
-		2E85ADB51252C190003873DA /* UserPaymentSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD4C1252C190003873DA /* UserPaymentSearchResult.m */; };
-		2E85ADB61252C190003873DA /* Plan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD4F1252C190003873DA /* Plan.m */; };
-		2E85ADB71252C190003873DA /* PlanRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD511252C190003873DA /* PlanRC.m */; };
-		2E85ADB81252C190003873DA /* PlanRCSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD531252C190003873DA /* PlanRCSearchResult.m */; };
-		2E85ADB91252C190003873DA /* Plans.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD551252C190003873DA /* Plans.m */; };
-		2E85ADBA1252C190003873DA /* PlanSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD571252C190003873DA /* PlanSearchResult.m */; };
-		2E85ADBB1252C190003873DA /* BrandProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD5A1252C190003873DA /* BrandProduct.m */; };
-		2E85ADBC1252C190003873DA /* BrandProductBaserate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD5C1252C190003873DA /* BrandProductBaserate.m */; };
-		2E85ADBD1252C190003873DA /* BrandProductBaserateSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD5E1252C190003873DA /* BrandProductBaserateSearchResult.m */; };
-		2E85ADBE1252C190003873DA /* BrandProductSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD601252C190003873DA /* BrandProductSchedule.m */; };
-		2E85ADBF1252C190003873DA /* BrandProductScheduleSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD621252C190003873DA /* BrandProductScheduleSearchResult.m */; };
-		2E85ADC01252C190003873DA /* BrandProductSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD641252C190003873DA /* BrandProductSearchResult.m */; };
-		2E85ADC11252C190003873DA /* BrandService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD661252C190003873DA /* BrandService.m */; };
-		2E85ADC21252C190003873DA /* BrandServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD681252C190003873DA /* BrandServices.m */; };
-		2E85ADC31252C190003873DA /* BrandServiceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD6A1252C190003873DA /* BrandServiceSearchResult.m */; };
-		2E85ADC41252C190003873DA /* ChargeTypeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD6C1252C190003873DA /* ChargeTypeOperation.m */; };
-		2E85ADC51252C190003873DA /* BrandProductPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD6E1252C190003873DA /* BrandProductPrice.m */; };
-		2E85ADC61252C190003873DA /* BrandProductPlanPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD701252C190003873DA /* BrandProductPlanPrice.m */; };
-		2E85ADC71252C190003873DA /* BrandProductPriceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD721252C190003873DA /* BrandProductPriceSearchResult.m */; };
-		2E85ADC81252C190003873DA /* BrandProductPlanPriceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD741252C190003873DA /* BrandProductPlanPriceSearchResult.m */; };
-		2E85ADC91252C190003873DA /* Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD771252C190003873DA /* Transactions.m */; };
-		2E85ADCA1252C190003873DA /* TransactionDetailRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD791252C190003873DA /* TransactionDetailRecord.m */; };
-		2E85ADCB1252C190003873DA /* TransactionDetailRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD7B1252C190003873DA /* TransactionDetailRecords.m */; };
-		2E85ADCC1252C190003873DA /* TransactionDetailRecordSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E85AD7D1252C190003873DA /* TransactionDetailRecordSearchResult.m */; };
+		2E12CF391262FCB00031E0AE /* NetmoboFeefactorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CE921262FCAF0031E0AE /* NetmoboFeefactorModel.m */; };
+		2E12CF3A1262FCB00031E0AE /* Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CE961262FCAF0031E0AE /* Transactions.m */; };
+		2E12CF3B1262FCB00031E0AE /* TransactionDetailRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CE981262FCAF0031E0AE /* TransactionDetailRecord.m */; };
+		2E12CF3C1262FCB00031E0AE /* TransactionDetailRecordSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CE9A1262FCAF0031E0AE /* TransactionDetailRecordSearchResult.m */; };
+		2E12CF3D1262FCB00031E0AE /* BrandProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CE9D1262FCAF0031E0AE /* BrandProduct.m */; };
+		2E12CF3E1262FCB00031E0AE /* BrandProductBaserate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CE9F1262FCAF0031E0AE /* BrandProductBaserate.m */; };
+		2E12CF3F1262FCB00031E0AE /* BrandProductBaserateSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEA11262FCAF0031E0AE /* BrandProductBaserateSearchResult.m */; };
+		2E12CF401262FCB00031E0AE /* BrandProductSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEA31262FCAF0031E0AE /* BrandProductSchedule.m */; };
+		2E12CF411262FCB00031E0AE /* BrandProductScheduleSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEA51262FCAF0031E0AE /* BrandProductScheduleSearchResult.m */; };
+		2E12CF421262FCB00031E0AE /* BrandProductSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEA71262FCAF0031E0AE /* BrandProductSearchResult.m */; };
+		2E12CF431262FCB00031E0AE /* BrandService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEA91262FCAF0031E0AE /* BrandService.m */; };
+		2E12CF441262FCB00031E0AE /* BrandServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEAB1262FCAF0031E0AE /* BrandServices.m */; };
+		2E12CF451262FCB00031E0AE /* BrandServiceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEAD1262FCAF0031E0AE /* BrandServiceSearchResult.m */; };
+		2E12CF461262FCB00031E0AE /* ChargeTypeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEAF1262FCAF0031E0AE /* ChargeTypeOperation.m */; };
+		2E12CF471262FCB00031E0AE /* BrandProductPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEB11262FCAF0031E0AE /* BrandProductPrice.m */; };
+		2E12CF481262FCB00031E0AE /* BrandProductPlanPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEB31262FCAF0031E0AE /* BrandProductPlanPrice.m */; };
+		2E12CF491262FCB00031E0AE /* BrandProductPriceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEB51262FCAF0031E0AE /* BrandProductPriceSearchResult.m */; };
+		2E12CF4A1262FCB00031E0AE /* BrandProductPlanPriceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEB71262FCAF0031E0AE /* BrandProductPlanPriceSearchResult.m */; };
+		2E12CF4B1262FCB00031E0AE /* Plan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEBA1262FCAF0031E0AE /* Plan.m */; };
+		2E12CF4C1262FCB00031E0AE /* PlanRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEBC1262FCAF0031E0AE /* PlanRC.m */; };
+		2E12CF4D1262FCB00031E0AE /* PlanRCSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEBE1262FCAF0031E0AE /* PlanRCSearchResult.m */; };
+		2E12CF4E1262FCB00031E0AE /* Plans.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEC01262FCAF0031E0AE /* Plans.m */; };
+		2E12CF4F1262FCB00031E0AE /* PlanSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEC21262FCAF0031E0AE /* PlanSearchResult.m */; };
+		2E12CF501262FCB00031E0AE /* AccountInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEC51262FCAF0031E0AE /* AccountInvoice.m */; };
+		2E12CF511262FCB00031E0AE /* AccountInvoicePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEC71262FCAF0031E0AE /* AccountInvoicePayment.m */; };
+		2E12CF521262FCB00031E0AE /* AccountInvoicePaymentSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEC91262FCB00031E0AE /* AccountInvoicePaymentSearchResult.m */; };
+		2E12CF531262FCB00031E0AE /* AccountInvoiceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CECB1262FCB00031E0AE /* AccountInvoiceSearchResult.m */; };
+		2E12CF541262FCB00031E0AE /* BillingRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CECD1262FCB00031E0AE /* BillingRecord.m */; };
+		2E12CF551262FCB00031E0AE /* BillingRecordSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CECF1262FCB00031E0AE /* BillingRecordSearchResult.m */; };
+		2E12CF561262FCB00031E0AE /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CED11262FCB00031E0AE /* Invoice.m */; };
+		2E12CF571262FCB00031E0AE /* UserPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CED31262FCB00031E0AE /* UserPayment.m */; };
+		2E12CF581262FCB00031E0AE /* UserPaymentSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CED51262FCB00031E0AE /* UserPaymentSearchResult.m */; };
+		2E12CF591262FCB00031E0AE /* UserCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CED81262FCB00031E0AE /* UserCard.m */; };
+		2E12CF5A1262FCB00031E0AE /* UserCardSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEDA1262FCB00031E0AE /* UserCardSearchResult.m */; };
+		2E12CF5B1262FCB00031E0AE /* UserBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEDC1262FCB00031E0AE /* UserBankAccount.m */; };
+		2E12CF5C1262FCB00031E0AE /* UserBankAccountSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEDE1262FCB00031E0AE /* UserBankAccountSearchResult.m */; };
+		2E12CF5D1262FCB00031E0AE /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEE01262FCB00031E0AE /* PaymentGateway.m */; };
+		2E12CF5E1262FCB00031E0AE /* PaymentGatewaySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEE21262FCB00031E0AE /* PaymentGatewaySearchResult.m */; };
+		2E12CF5F1262FCB00031E0AE /* CardTransactionHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEE41262FCB00031E0AE /* CardTransactionHistory.m */; };
+		2E12CF601262FCB00031E0AE /* CardTransactionHistorySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEE61262FCB00031E0AE /* CardTransactionHistorySearchResult.m */; };
+		2E12CF611262FCB00031E0AE /* CardPayments.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEE81262FCB00031E0AE /* CardPayments.m */; };
+		2E12CF621262FCB00031E0AE /* UserPaymentAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEEA1262FCB00031E0AE /* UserPaymentAuthorization.m */; };
+		2E12CF631262FCB00031E0AE /* UserPaymentAuthorizationSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEEC1262FCB00031E0AE /* UserPaymentAuthorizationSearchResult.m */; };
+		2E12CF641262FCB00031E0AE /* Brands.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEEF1262FCB00031E0AE /* Brands.m */; };
+		2E12CF651262FCB00031E0AE /* CurrencySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEF11262FCB00031E0AE /* CurrencySearchResult.m */; };
+		2E12CF661262FCB00031E0AE /* ExchangeRateSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEF31262FCB00031E0AE /* ExchangeRateSearchResult.m */; };
+		2E12CF671262FCB00031E0AE /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEF51262FCB00031E0AE /* Brand.m */; };
+		2E12CF681262FCB00031E0AE /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEF71262FCB00031E0AE /* Currency.m */; };
+		2E12CF691262FCB00031E0AE /* ExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEF91262FCB00031E0AE /* ExchangeRate.m */; };
+		2E12CF6A1262FCB00031E0AE /* BrandProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEFB1262FCB00031E0AE /* BrandProfile.m */; };
+		2E12CF6B1262FCB00031E0AE /* BrandSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CEFD1262FCB00031E0AE /* BrandSearchResult.m */; };
+		2E12CF6C1262FCB00031E0AE /* AccountHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF001262FCB00031E0AE /* AccountHistory.m */; };
+		2E12CF6D1262FCB00031E0AE /* AccountHistorySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF021262FCB00031E0AE /* AccountHistorySearchResult.m */; };
+		2E12CF6E1262FCB00031E0AE /* Accounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF041262FCB00031E0AE /* Accounts.m */; };
+		2E12CF6F1262FCB00031E0AE /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF061262FCB00031E0AE /* Account.m */; };
+		2E12CF701262FCB00031E0AE /* AccountPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF081262FCB00031E0AE /* AccountPlan.m */; };
+		2E12CF711262FCB00031E0AE /* AccountRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF0A1262FCB00031E0AE /* AccountRC.m */; };
+		2E12CF721262FCB00031E0AE /* AccountRCActivityLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF0C1262FCB00031E0AE /* AccountRCActivityLog.m */; };
+		2E12CF731262FCB00031E0AE /* AccountPlanSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF0E1262FCB00031E0AE /* AccountPlanSearchResult.m */; };
+		2E12CF741262FCB00031E0AE /* AccountRCSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF101262FCB00031E0AE /* AccountRCSearchResult.m */; };
+		2E12CF751262FCB00031E0AE /* AccountRCSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF121262FCB00031E0AE /* AccountRCSetting.m */; };
+		2E12CF761262FCB00031E0AE /* AccountSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF141262FCB00031E0AE /* AccountSearchResult.m */; };
+		2E12CF771262FCB00031E0AE /* AccountDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF161262FCB00031E0AE /* AccountDevice.m */; };
+		2E12CF781262FCB00031E0AE /* AccountDeviceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF181262FCB00031E0AE /* AccountDeviceSearchResult.m */; };
+		2E12CF791262FCB00031E0AE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF1B1262FCB00031E0AE /* User.m */; };
+		2E12CF7A1262FCB00031E0AE /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF1D1262FCB00031E0AE /* Profile.m */; };
+		2E12CF7B1262FCB00031E0AE /* UserQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF1F1262FCB00031E0AE /* UserQuestion.m */; };
+		2E12CF7C1262FCB00031E0AE /* UserQuestionSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF211262FCB00031E0AE /* UserQuestionSearchResult.m */; };
+		2E12CF7D1262FCB00031E0AE /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF231262FCB00031E0AE /* Users.m */; };
+		2E12CF7E1262FCB00031E0AE /* UserSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF251262FCB00031E0AE /* UserSearchResult.m */; };
+		2E12CF7F1262FCB00031E0AE /* SelfSignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF271262FCB00031E0AE /* SelfSignUp.m */; };
+		2E12CF801262FCB00031E0AE /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF291262FCB00031E0AE /* Image.m */; };
+		2E12CF811262FCB00031E0AE /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF2D1262FCB00031E0AE /* XmlParser.m */; };
+		2E12CF821262FCB00031E0AE /* TypeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF2F1262FCB00031E0AE /* TypeMapping.m */; };
+		2E12CF831262FCB00031E0AE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF311262FCB00031E0AE /* GDataXMLNode.m */; };
+		2E12CF841262FCB00031E0AE /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF331262FCB00031E0AE /* Util.m */; };
+		2E12CF851262FCB00031E0AE /* RestTransport3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF361262FCB00031E0AE /* RestTransport3.m */; };
+		2E12CF861262FCB00031E0AE /* XmlHeaderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E12CF381262FCB00031E0AE /* XmlHeaderHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,164 +107,162 @@
 		28D7ACF60DDB3853001CB0EB /* FeeFactorClientLib_srcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeeFactorClientLib_srcViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* FeeFactorClientLib_srcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeeFactorClientLib_srcViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E85ACD51252C18F003873DA /* RestTransport3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestTransport3.h; sourceTree = "<group>"; };
-		2E85ACD61252C18F003873DA /* RestTransport3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestTransport3.m; sourceTree = "<group>"; };
-		2E85ACD71252C18F003873DA /* XmlHeaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlHeaderHelper.h; sourceTree = "<group>"; };
-		2E85ACD81252C18F003873DA /* XmlHeaderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlHeaderHelper.m; sourceTree = "<group>"; };
-		2E85ACDA1252C18F003873DA /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
-		2E85ACDB1252C18F003873DA /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
-		2E85ACDC1252C18F003873DA /* TypeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMapping.h; sourceTree = "<group>"; };
-		2E85ACDD1252C18F003873DA /* TypeMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeMapping.m; sourceTree = "<group>"; };
-		2E85ACDE1252C18F003873DA /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
-		2E85ACDF1252C18F003873DA /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
-		2E85ACE01252C18F003873DA /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		2E85ACE11252C18F003873DA /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
-		2E85ACE41252C18F003873DA /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
-		2E85ACE51252C18F003873DA /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
-		2E85ACE71252C18F003873DA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		2E85ACE81252C18F003873DA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		2E85ACE91252C18F003873DA /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
-		2E85ACEA1252C18F003873DA /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
-		2E85ACEB1252C18F003873DA /* UserQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestion.h; sourceTree = "<group>"; };
-		2E85ACEC1252C18F003873DA /* UserQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserQuestion.m; sourceTree = "<group>"; };
-		2E85ACED1252C18F003873DA /* UserQuestionSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestionSearchResult.h; sourceTree = "<group>"; };
-		2E85ACEE1252C18F003873DA /* UserQuestionSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserQuestionSearchResult.m; sourceTree = "<group>"; };
-		2E85ACEF1252C18F003873DA /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
-		2E85ACF01252C18F003873DA /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
-		2E85ACF11252C18F003873DA /* UserSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchResult.h; sourceTree = "<group>"; };
-		2E85ACF21252C18F003873DA /* UserSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSearchResult.m; sourceTree = "<group>"; };
-		2E85ACF31252C18F003873DA /* SelfSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSignUp.h; sourceTree = "<group>"; };
-		2E85ACF41252C18F003873DA /* SelfSignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSignUp.m; sourceTree = "<group>"; };
-		2E85ACF51252C18F003873DA /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		2E85ACF61252C18F003873DA /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
-		2E85ACF81252C18F003873DA /* AccountHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistory.h; sourceTree = "<group>"; };
-		2E85ACF91252C18F003873DA /* AccountHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountHistory.m; sourceTree = "<group>"; };
-		2E85ACFA1252C18F003873DA /* AccountHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistorySearchResult.h; sourceTree = "<group>"; };
-		2E85ACFB1252C18F003873DA /* AccountHistorySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountHistorySearchResult.m; sourceTree = "<group>"; };
-		2E85ACFC1252C18F003873DA /* Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accounts.h; sourceTree = "<group>"; };
-		2E85ACFD1252C18F003873DA /* Accounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accounts.m; sourceTree = "<group>"; };
-		2E85ACFE1252C18F003873DA /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
-		2E85ACFF1252C18F003873DA /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
-		2E85AD001252C18F003873DA /* AccountPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlan.h; sourceTree = "<group>"; };
-		2E85AD011252C18F003873DA /* AccountPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountPlan.m; sourceTree = "<group>"; };
-		2E85AD021252C18F003873DA /* AccountRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRC.h; sourceTree = "<group>"; };
-		2E85AD031252C18F003873DA /* AccountRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRC.m; sourceTree = "<group>"; };
-		2E85AD041252C18F003873DA /* AccountRCActivityLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCActivityLog.h; sourceTree = "<group>"; };
-		2E85AD051252C18F003873DA /* AccountRCActivityLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRCActivityLog.m; sourceTree = "<group>"; };
-		2E85AD061252C18F003873DA /* AccountPlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlanSearchResult.h; sourceTree = "<group>"; };
-		2E85AD071252C18F003873DA /* AccountPlanSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountPlanSearchResult.m; sourceTree = "<group>"; };
-		2E85AD081252C18F003873DA /* AccountRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSearchResult.h; sourceTree = "<group>"; };
-		2E85AD091252C18F003873DA /* AccountRCSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRCSearchResult.m; sourceTree = "<group>"; };
-		2E85AD0A1252C18F003873DA /* AccountRCSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSetting.h; sourceTree = "<group>"; };
-		2E85AD0B1252C18F003873DA /* AccountRCSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRCSetting.m; sourceTree = "<group>"; };
-		2E85AD0C1252C18F003873DA /* AccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSearchResult.h; sourceTree = "<group>"; };
-		2E85AD0D1252C18F003873DA /* AccountSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSearchResult.m; sourceTree = "<group>"; };
-		2E85AD0E1252C18F003873DA /* AccountDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDevice.h; sourceTree = "<group>"; };
-		2E85AD0F1252C18F003873DA /* AccountDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDevice.m; sourceTree = "<group>"; };
-		2E85AD101252C18F003873DA /* AccountDeviceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDeviceSearchResult.h; sourceTree = "<group>"; };
-		2E85AD111252C190003873DA /* AccountDeviceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDeviceSearchResult.m; sourceTree = "<group>"; };
-		2E85AD131252C190003873DA /* Brands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brands.h; sourceTree = "<group>"; };
-		2E85AD141252C190003873DA /* Brands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brands.m; sourceTree = "<group>"; };
-		2E85AD151252C190003873DA /* CurrencySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencySearchResult.h; sourceTree = "<group>"; };
-		2E85AD161252C190003873DA /* CurrencySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencySearchResult.m; sourceTree = "<group>"; };
-		2E85AD171252C190003873DA /* ExchangeRateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateSearchResult.h; sourceTree = "<group>"; };
-		2E85AD181252C190003873DA /* ExchangeRateSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRateSearchResult.m; sourceTree = "<group>"; };
-		2E85AD191252C190003873DA /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
-		2E85AD1A1252C190003873DA /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand.m; sourceTree = "<group>"; };
-		2E85AD1B1252C190003873DA /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
-		2E85AD1C1252C190003873DA /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
-		2E85AD1D1252C190003873DA /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
-		2E85AD1E1252C190003873DA /* ExchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRate.m; sourceTree = "<group>"; };
-		2E85AD1F1252C190003873DA /* BrandProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProfile.h; sourceTree = "<group>"; };
-		2E85AD201252C190003873DA /* BrandProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProfile.m; sourceTree = "<group>"; };
-		2E85AD211252C190003873DA /* BrandSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandSearchResult.h; sourceTree = "<group>"; };
-		2E85AD221252C190003873DA /* BrandSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandSearchResult.m; sourceTree = "<group>"; };
-		2E85AD241252C190003873DA /* UserCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCard.h; sourceTree = "<group>"; };
-		2E85AD251252C190003873DA /* UserCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCard.m; sourceTree = "<group>"; };
-		2E85AD261252C190003873DA /* UserCardSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCardSearchResult.h; sourceTree = "<group>"; };
-		2E85AD271252C190003873DA /* UserCardSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCardSearchResult.m; sourceTree = "<group>"; };
-		2E85AD281252C190003873DA /* UserBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccount.h; sourceTree = "<group>"; };
-		2E85AD291252C190003873DA /* UserBankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBankAccount.m; sourceTree = "<group>"; };
-		2E85AD2A1252C190003873DA /* UserBankAccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccountSearchResult.h; sourceTree = "<group>"; };
-		2E85AD2B1252C190003873DA /* UserBankAccountSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBankAccountSearchResult.m; sourceTree = "<group>"; };
-		2E85AD2C1252C190003873DA /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
-		2E85AD2D1252C190003873DA /* PaymentGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
-		2E85AD2E1252C190003873DA /* PaymentGatewaySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGatewaySearchResult.h; sourceTree = "<group>"; };
-		2E85AD2F1252C190003873DA /* PaymentGatewaySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGatewaySearchResult.m; sourceTree = "<group>"; };
-		2E85AD301252C190003873DA /* CardTransactionHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistory.h; sourceTree = "<group>"; };
-		2E85AD311252C190003873DA /* CardTransactionHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTransactionHistory.m; sourceTree = "<group>"; };
-		2E85AD321252C190003873DA /* CardTransactionHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistorySearchResult.h; sourceTree = "<group>"; };
-		2E85AD331252C190003873DA /* CardTransactionHistorySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTransactionHistorySearchResult.m; sourceTree = "<group>"; };
-		2E85AD341252C190003873DA /* CardPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPayments.h; sourceTree = "<group>"; };
-		2E85AD351252C190003873DA /* CardPayments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardPayments.m; sourceTree = "<group>"; };
-		2E85AD361252C190003873DA /* UserPaymentAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorization.h; sourceTree = "<group>"; };
-		2E85AD371252C190003873DA /* UserPaymentAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPaymentAuthorization.m; sourceTree = "<group>"; };
-		2E85AD381252C190003873DA /* UserPaymentAuthorizationSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorizationSearchResult.h; sourceTree = "<group>"; };
-		2E85AD391252C190003873DA /* UserPaymentAuthorizationSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPaymentAuthorizationSearchResult.m; sourceTree = "<group>"; };
-		2E85AD3B1252C190003873DA /* AccountInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoice.h; sourceTree = "<group>"; };
-		2E85AD3C1252C190003873DA /* AccountInvoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoice.m; sourceTree = "<group>"; };
-		2E85AD3D1252C190003873DA /* AccountInvoicePayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePayment.h; sourceTree = "<group>"; };
-		2E85AD3E1252C190003873DA /* AccountInvoicePayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoicePayment.m; sourceTree = "<group>"; };
-		2E85AD3F1252C190003873DA /* AccountInvoicePaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePaymentSearchResult.h; sourceTree = "<group>"; };
-		2E85AD401252C190003873DA /* AccountInvoicePaymentSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoicePaymentSearchResult.m; sourceTree = "<group>"; };
-		2E85AD411252C190003873DA /* AccountInvoiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoiceSearchResult.h; sourceTree = "<group>"; };
-		2E85AD421252C190003873DA /* AccountInvoiceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoiceSearchResult.m; sourceTree = "<group>"; };
-		2E85AD431252C190003873DA /* BillingRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecord.h; sourceTree = "<group>"; };
-		2E85AD441252C190003873DA /* BillingRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingRecord.m; sourceTree = "<group>"; };
-		2E85AD451252C190003873DA /* BillingRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecordSearchResult.h; sourceTree = "<group>"; };
-		2E85AD461252C190003873DA /* BillingRecordSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingRecordSearchResult.m; sourceTree = "<group>"; };
-		2E85AD471252C190003873DA /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
-		2E85AD481252C190003873DA /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
-		2E85AD491252C190003873DA /* UserPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPayment.h; sourceTree = "<group>"; };
-		2E85AD4A1252C190003873DA /* UserPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPayment.m; sourceTree = "<group>"; };
-		2E85AD4B1252C190003873DA /* UserPaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentSearchResult.h; sourceTree = "<group>"; };
-		2E85AD4C1252C190003873DA /* UserPaymentSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPaymentSearchResult.m; sourceTree = "<group>"; };
-		2E85AD4E1252C190003873DA /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
-		2E85AD4F1252C190003873DA /* Plan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plan.m; sourceTree = "<group>"; };
-		2E85AD501252C190003873DA /* PlanRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRC.h; sourceTree = "<group>"; };
-		2E85AD511252C190003873DA /* PlanRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanRC.m; sourceTree = "<group>"; };
-		2E85AD521252C190003873DA /* PlanRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRCSearchResult.h; sourceTree = "<group>"; };
-		2E85AD531252C190003873DA /* PlanRCSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanRCSearchResult.m; sourceTree = "<group>"; };
-		2E85AD541252C190003873DA /* Plans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plans.h; sourceTree = "<group>"; };
-		2E85AD551252C190003873DA /* Plans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plans.m; sourceTree = "<group>"; };
-		2E85AD561252C190003873DA /* PlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSearchResult.h; sourceTree = "<group>"; };
-		2E85AD571252C190003873DA /* PlanSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanSearchResult.m; sourceTree = "<group>"; };
-		2E85AD591252C190003873DA /* BrandProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProduct.h; sourceTree = "<group>"; };
-		2E85AD5A1252C190003873DA /* BrandProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProduct.m; sourceTree = "<group>"; };
-		2E85AD5B1252C190003873DA /* BrandProductBaserate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserate.h; sourceTree = "<group>"; };
-		2E85AD5C1252C190003873DA /* BrandProductBaserate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductBaserate.m; sourceTree = "<group>"; };
-		2E85AD5D1252C190003873DA /* BrandProductBaserateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserateSearchResult.h; sourceTree = "<group>"; };
-		2E85AD5E1252C190003873DA /* BrandProductBaserateSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductBaserateSearchResult.m; sourceTree = "<group>"; };
-		2E85AD5F1252C190003873DA /* BrandProductSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSchedule.h; sourceTree = "<group>"; };
-		2E85AD601252C190003873DA /* BrandProductSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductSchedule.m; sourceTree = "<group>"; };
-		2E85AD611252C190003873DA /* BrandProductScheduleSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductScheduleSearchResult.h; sourceTree = "<group>"; };
-		2E85AD621252C190003873DA /* BrandProductScheduleSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductScheduleSearchResult.m; sourceTree = "<group>"; };
-		2E85AD631252C190003873DA /* BrandProductSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSearchResult.h; sourceTree = "<group>"; };
-		2E85AD641252C190003873DA /* BrandProductSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductSearchResult.m; sourceTree = "<group>"; };
-		2E85AD651252C190003873DA /* BrandService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandService.h; sourceTree = "<group>"; };
-		2E85AD661252C190003873DA /* BrandService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandService.m; sourceTree = "<group>"; };
-		2E85AD671252C190003873DA /* BrandServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServices.h; sourceTree = "<group>"; };
-		2E85AD681252C190003873DA /* BrandServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandServices.m; sourceTree = "<group>"; };
-		2E85AD691252C190003873DA /* BrandServiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServiceSearchResult.h; sourceTree = "<group>"; };
-		2E85AD6A1252C190003873DA /* BrandServiceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandServiceSearchResult.m; sourceTree = "<group>"; };
-		2E85AD6B1252C190003873DA /* ChargeTypeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeTypeOperation.h; sourceTree = "<group>"; };
-		2E85AD6C1252C190003873DA /* ChargeTypeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChargeTypeOperation.m; sourceTree = "<group>"; };
-		2E85AD6D1252C190003873DA /* BrandProductPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPrice.h; sourceTree = "<group>"; };
-		2E85AD6E1252C190003873DA /* BrandProductPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPrice.m; sourceTree = "<group>"; };
-		2E85AD6F1252C190003873DA /* BrandProductPlanPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPrice.h; sourceTree = "<group>"; };
-		2E85AD701252C190003873DA /* BrandProductPlanPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPlanPrice.m; sourceTree = "<group>"; };
-		2E85AD711252C190003873DA /* BrandProductPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPriceSearchResult.h; sourceTree = "<group>"; };
-		2E85AD721252C190003873DA /* BrandProductPriceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPriceSearchResult.m; sourceTree = "<group>"; };
-		2E85AD731252C190003873DA /* BrandProductPlanPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPriceSearchResult.h; sourceTree = "<group>"; };
-		2E85AD741252C190003873DA /* BrandProductPlanPriceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPlanPriceSearchResult.m; sourceTree = "<group>"; };
-		2E85AD761252C190003873DA /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
-		2E85AD771252C190003873DA /* Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transactions.m; sourceTree = "<group>"; };
-		2E85AD781252C190003873DA /* TransactionDetailRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecord.h; sourceTree = "<group>"; };
-		2E85AD791252C190003873DA /* TransactionDetailRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailRecord.m; sourceTree = "<group>"; };
-		2E85AD7A1252C190003873DA /* TransactionDetailRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecords.h; sourceTree = "<group>"; };
-		2E85AD7B1252C190003873DA /* TransactionDetailRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailRecords.m; sourceTree = "<group>"; };
-		2E85AD7C1252C190003873DA /* TransactionDetailRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecordSearchResult.h; sourceTree = "<group>"; };
-		2E85AD7D1252C190003873DA /* TransactionDetailRecordSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailRecordSearchResult.m; sourceTree = "<group>"; };
+		2E12CE911262FCAF0031E0AE /* NetmoboFeefactorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetmoboFeefactorModel.h; sourceTree = "<group>"; };
+		2E12CE921262FCAF0031E0AE /* NetmoboFeefactorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetmoboFeefactorModel.m; sourceTree = "<group>"; };
+		2E12CE951262FCAF0031E0AE /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
+		2E12CE961262FCAF0031E0AE /* Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transactions.m; sourceTree = "<group>"; };
+		2E12CE971262FCAF0031E0AE /* TransactionDetailRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecord.h; sourceTree = "<group>"; };
+		2E12CE981262FCAF0031E0AE /* TransactionDetailRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailRecord.m; sourceTree = "<group>"; };
+		2E12CE991262FCAF0031E0AE /* TransactionDetailRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecordSearchResult.h; sourceTree = "<group>"; };
+		2E12CE9A1262FCAF0031E0AE /* TransactionDetailRecordSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailRecordSearchResult.m; sourceTree = "<group>"; };
+		2E12CE9C1262FCAF0031E0AE /* BrandProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProduct.h; sourceTree = "<group>"; };
+		2E12CE9D1262FCAF0031E0AE /* BrandProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProduct.m; sourceTree = "<group>"; };
+		2E12CE9E1262FCAF0031E0AE /* BrandProductBaserate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserate.h; sourceTree = "<group>"; };
+		2E12CE9F1262FCAF0031E0AE /* BrandProductBaserate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductBaserate.m; sourceTree = "<group>"; };
+		2E12CEA01262FCAF0031E0AE /* BrandProductBaserateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserateSearchResult.h; sourceTree = "<group>"; };
+		2E12CEA11262FCAF0031E0AE /* BrandProductBaserateSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductBaserateSearchResult.m; sourceTree = "<group>"; };
+		2E12CEA21262FCAF0031E0AE /* BrandProductSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSchedule.h; sourceTree = "<group>"; };
+		2E12CEA31262FCAF0031E0AE /* BrandProductSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductSchedule.m; sourceTree = "<group>"; };
+		2E12CEA41262FCAF0031E0AE /* BrandProductScheduleSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductScheduleSearchResult.h; sourceTree = "<group>"; };
+		2E12CEA51262FCAF0031E0AE /* BrandProductScheduleSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductScheduleSearchResult.m; sourceTree = "<group>"; };
+		2E12CEA61262FCAF0031E0AE /* BrandProductSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSearchResult.h; sourceTree = "<group>"; };
+		2E12CEA71262FCAF0031E0AE /* BrandProductSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductSearchResult.m; sourceTree = "<group>"; };
+		2E12CEA81262FCAF0031E0AE /* BrandService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandService.h; sourceTree = "<group>"; };
+		2E12CEA91262FCAF0031E0AE /* BrandService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandService.m; sourceTree = "<group>"; };
+		2E12CEAA1262FCAF0031E0AE /* BrandServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServices.h; sourceTree = "<group>"; };
+		2E12CEAB1262FCAF0031E0AE /* BrandServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandServices.m; sourceTree = "<group>"; };
+		2E12CEAC1262FCAF0031E0AE /* BrandServiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServiceSearchResult.h; sourceTree = "<group>"; };
+		2E12CEAD1262FCAF0031E0AE /* BrandServiceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandServiceSearchResult.m; sourceTree = "<group>"; };
+		2E12CEAE1262FCAF0031E0AE /* ChargeTypeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeTypeOperation.h; sourceTree = "<group>"; };
+		2E12CEAF1262FCAF0031E0AE /* ChargeTypeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChargeTypeOperation.m; sourceTree = "<group>"; };
+		2E12CEB01262FCAF0031E0AE /* BrandProductPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPrice.h; sourceTree = "<group>"; };
+		2E12CEB11262FCAF0031E0AE /* BrandProductPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPrice.m; sourceTree = "<group>"; };
+		2E12CEB21262FCAF0031E0AE /* BrandProductPlanPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPrice.h; sourceTree = "<group>"; };
+		2E12CEB31262FCAF0031E0AE /* BrandProductPlanPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPlanPrice.m; sourceTree = "<group>"; };
+		2E12CEB41262FCAF0031E0AE /* BrandProductPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPriceSearchResult.h; sourceTree = "<group>"; };
+		2E12CEB51262FCAF0031E0AE /* BrandProductPriceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPriceSearchResult.m; sourceTree = "<group>"; };
+		2E12CEB61262FCAF0031E0AE /* BrandProductPlanPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPriceSearchResult.h; sourceTree = "<group>"; };
+		2E12CEB71262FCAF0031E0AE /* BrandProductPlanPriceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProductPlanPriceSearchResult.m; sourceTree = "<group>"; };
+		2E12CEB91262FCAF0031E0AE /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
+		2E12CEBA1262FCAF0031E0AE /* Plan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plan.m; sourceTree = "<group>"; };
+		2E12CEBB1262FCAF0031E0AE /* PlanRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRC.h; sourceTree = "<group>"; };
+		2E12CEBC1262FCAF0031E0AE /* PlanRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanRC.m; sourceTree = "<group>"; };
+		2E12CEBD1262FCAF0031E0AE /* PlanRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRCSearchResult.h; sourceTree = "<group>"; };
+		2E12CEBE1262FCAF0031E0AE /* PlanRCSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanRCSearchResult.m; sourceTree = "<group>"; };
+		2E12CEBF1262FCAF0031E0AE /* Plans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plans.h; sourceTree = "<group>"; };
+		2E12CEC01262FCAF0031E0AE /* Plans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plans.m; sourceTree = "<group>"; };
+		2E12CEC11262FCAF0031E0AE /* PlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSearchResult.h; sourceTree = "<group>"; };
+		2E12CEC21262FCAF0031E0AE /* PlanSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanSearchResult.m; sourceTree = "<group>"; };
+		2E12CEC41262FCAF0031E0AE /* AccountInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoice.h; sourceTree = "<group>"; };
+		2E12CEC51262FCAF0031E0AE /* AccountInvoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoice.m; sourceTree = "<group>"; };
+		2E12CEC61262FCAF0031E0AE /* AccountInvoicePayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePayment.h; sourceTree = "<group>"; };
+		2E12CEC71262FCAF0031E0AE /* AccountInvoicePayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoicePayment.m; sourceTree = "<group>"; };
+		2E12CEC81262FCAF0031E0AE /* AccountInvoicePaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePaymentSearchResult.h; sourceTree = "<group>"; };
+		2E12CEC91262FCB00031E0AE /* AccountInvoicePaymentSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoicePaymentSearchResult.m; sourceTree = "<group>"; };
+		2E12CECA1262FCB00031E0AE /* AccountInvoiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoiceSearchResult.h; sourceTree = "<group>"; };
+		2E12CECB1262FCB00031E0AE /* AccountInvoiceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInvoiceSearchResult.m; sourceTree = "<group>"; };
+		2E12CECC1262FCB00031E0AE /* BillingRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecord.h; sourceTree = "<group>"; };
+		2E12CECD1262FCB00031E0AE /* BillingRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingRecord.m; sourceTree = "<group>"; };
+		2E12CECE1262FCB00031E0AE /* BillingRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecordSearchResult.h; sourceTree = "<group>"; };
+		2E12CECF1262FCB00031E0AE /* BillingRecordSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingRecordSearchResult.m; sourceTree = "<group>"; };
+		2E12CED01262FCB00031E0AE /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
+		2E12CED11262FCB00031E0AE /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
+		2E12CED21262FCB00031E0AE /* UserPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPayment.h; sourceTree = "<group>"; };
+		2E12CED31262FCB00031E0AE /* UserPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPayment.m; sourceTree = "<group>"; };
+		2E12CED41262FCB00031E0AE /* UserPaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentSearchResult.h; sourceTree = "<group>"; };
+		2E12CED51262FCB00031E0AE /* UserPaymentSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPaymentSearchResult.m; sourceTree = "<group>"; };
+		2E12CED71262FCB00031E0AE /* UserCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCard.h; sourceTree = "<group>"; };
+		2E12CED81262FCB00031E0AE /* UserCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCard.m; sourceTree = "<group>"; };
+		2E12CED91262FCB00031E0AE /* UserCardSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCardSearchResult.h; sourceTree = "<group>"; };
+		2E12CEDA1262FCB00031E0AE /* UserCardSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCardSearchResult.m; sourceTree = "<group>"; };
+		2E12CEDB1262FCB00031E0AE /* UserBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccount.h; sourceTree = "<group>"; };
+		2E12CEDC1262FCB00031E0AE /* UserBankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBankAccount.m; sourceTree = "<group>"; };
+		2E12CEDD1262FCB00031E0AE /* UserBankAccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccountSearchResult.h; sourceTree = "<group>"; };
+		2E12CEDE1262FCB00031E0AE /* UserBankAccountSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBankAccountSearchResult.m; sourceTree = "<group>"; };
+		2E12CEDF1262FCB00031E0AE /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		2E12CEE01262FCB00031E0AE /* PaymentGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
+		2E12CEE11262FCB00031E0AE /* PaymentGatewaySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGatewaySearchResult.h; sourceTree = "<group>"; };
+		2E12CEE21262FCB00031E0AE /* PaymentGatewaySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGatewaySearchResult.m; sourceTree = "<group>"; };
+		2E12CEE31262FCB00031E0AE /* CardTransactionHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistory.h; sourceTree = "<group>"; };
+		2E12CEE41262FCB00031E0AE /* CardTransactionHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTransactionHistory.m; sourceTree = "<group>"; };
+		2E12CEE51262FCB00031E0AE /* CardTransactionHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistorySearchResult.h; sourceTree = "<group>"; };
+		2E12CEE61262FCB00031E0AE /* CardTransactionHistorySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTransactionHistorySearchResult.m; sourceTree = "<group>"; };
+		2E12CEE71262FCB00031E0AE /* CardPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPayments.h; sourceTree = "<group>"; };
+		2E12CEE81262FCB00031E0AE /* CardPayments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardPayments.m; sourceTree = "<group>"; };
+		2E12CEE91262FCB00031E0AE /* UserPaymentAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorization.h; sourceTree = "<group>"; };
+		2E12CEEA1262FCB00031E0AE /* UserPaymentAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPaymentAuthorization.m; sourceTree = "<group>"; };
+		2E12CEEB1262FCB00031E0AE /* UserPaymentAuthorizationSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorizationSearchResult.h; sourceTree = "<group>"; };
+		2E12CEEC1262FCB00031E0AE /* UserPaymentAuthorizationSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPaymentAuthorizationSearchResult.m; sourceTree = "<group>"; };
+		2E12CEEE1262FCB00031E0AE /* Brands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brands.h; sourceTree = "<group>"; };
+		2E12CEEF1262FCB00031E0AE /* Brands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brands.m; sourceTree = "<group>"; };
+		2E12CEF01262FCB00031E0AE /* CurrencySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencySearchResult.h; sourceTree = "<group>"; };
+		2E12CEF11262FCB00031E0AE /* CurrencySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencySearchResult.m; sourceTree = "<group>"; };
+		2E12CEF21262FCB00031E0AE /* ExchangeRateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateSearchResult.h; sourceTree = "<group>"; };
+		2E12CEF31262FCB00031E0AE /* ExchangeRateSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRateSearchResult.m; sourceTree = "<group>"; };
+		2E12CEF41262FCB00031E0AE /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
+		2E12CEF51262FCB00031E0AE /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand.m; sourceTree = "<group>"; };
+		2E12CEF61262FCB00031E0AE /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		2E12CEF71262FCB00031E0AE /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		2E12CEF81262FCB00031E0AE /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
+		2E12CEF91262FCB00031E0AE /* ExchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRate.m; sourceTree = "<group>"; };
+		2E12CEFA1262FCB00031E0AE /* BrandProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProfile.h; sourceTree = "<group>"; };
+		2E12CEFB1262FCB00031E0AE /* BrandProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProfile.m; sourceTree = "<group>"; };
+		2E12CEFC1262FCB00031E0AE /* BrandSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandSearchResult.h; sourceTree = "<group>"; };
+		2E12CEFD1262FCB00031E0AE /* BrandSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandSearchResult.m; sourceTree = "<group>"; };
+		2E12CEFF1262FCB00031E0AE /* AccountHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistory.h; sourceTree = "<group>"; };
+		2E12CF001262FCB00031E0AE /* AccountHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountHistory.m; sourceTree = "<group>"; };
+		2E12CF011262FCB00031E0AE /* AccountHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistorySearchResult.h; sourceTree = "<group>"; };
+		2E12CF021262FCB00031E0AE /* AccountHistorySearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountHistorySearchResult.m; sourceTree = "<group>"; };
+		2E12CF031262FCB00031E0AE /* Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accounts.h; sourceTree = "<group>"; };
+		2E12CF041262FCB00031E0AE /* Accounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accounts.m; sourceTree = "<group>"; };
+		2E12CF051262FCB00031E0AE /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		2E12CF061262FCB00031E0AE /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		2E12CF071262FCB00031E0AE /* AccountPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlan.h; sourceTree = "<group>"; };
+		2E12CF081262FCB00031E0AE /* AccountPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountPlan.m; sourceTree = "<group>"; };
+		2E12CF091262FCB00031E0AE /* AccountRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRC.h; sourceTree = "<group>"; };
+		2E12CF0A1262FCB00031E0AE /* AccountRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRC.m; sourceTree = "<group>"; };
+		2E12CF0B1262FCB00031E0AE /* AccountRCActivityLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCActivityLog.h; sourceTree = "<group>"; };
+		2E12CF0C1262FCB00031E0AE /* AccountRCActivityLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRCActivityLog.m; sourceTree = "<group>"; };
+		2E12CF0D1262FCB00031E0AE /* AccountPlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlanSearchResult.h; sourceTree = "<group>"; };
+		2E12CF0E1262FCB00031E0AE /* AccountPlanSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountPlanSearchResult.m; sourceTree = "<group>"; };
+		2E12CF0F1262FCB00031E0AE /* AccountRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSearchResult.h; sourceTree = "<group>"; };
+		2E12CF101262FCB00031E0AE /* AccountRCSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRCSearchResult.m; sourceTree = "<group>"; };
+		2E12CF111262FCB00031E0AE /* AccountRCSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSetting.h; sourceTree = "<group>"; };
+		2E12CF121262FCB00031E0AE /* AccountRCSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRCSetting.m; sourceTree = "<group>"; };
+		2E12CF131262FCB00031E0AE /* AccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSearchResult.h; sourceTree = "<group>"; };
+		2E12CF141262FCB00031E0AE /* AccountSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSearchResult.m; sourceTree = "<group>"; };
+		2E12CF151262FCB00031E0AE /* AccountDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDevice.h; sourceTree = "<group>"; };
+		2E12CF161262FCB00031E0AE /* AccountDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDevice.m; sourceTree = "<group>"; };
+		2E12CF171262FCB00031E0AE /* AccountDeviceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDeviceSearchResult.h; sourceTree = "<group>"; };
+		2E12CF181262FCB00031E0AE /* AccountDeviceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDeviceSearchResult.m; sourceTree = "<group>"; };
+		2E12CF1A1262FCB00031E0AE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		2E12CF1B1262FCB00031E0AE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		2E12CF1C1262FCB00031E0AE /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		2E12CF1D1262FCB00031E0AE /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		2E12CF1E1262FCB00031E0AE /* UserQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestion.h; sourceTree = "<group>"; };
+		2E12CF1F1262FCB00031E0AE /* UserQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserQuestion.m; sourceTree = "<group>"; };
+		2E12CF201262FCB00031E0AE /* UserQuestionSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestionSearchResult.h; sourceTree = "<group>"; };
+		2E12CF211262FCB00031E0AE /* UserQuestionSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserQuestionSearchResult.m; sourceTree = "<group>"; };
+		2E12CF221262FCB00031E0AE /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		2E12CF231262FCB00031E0AE /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		2E12CF241262FCB00031E0AE /* UserSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchResult.h; sourceTree = "<group>"; };
+		2E12CF251262FCB00031E0AE /* UserSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSearchResult.m; sourceTree = "<group>"; };
+		2E12CF261262FCB00031E0AE /* SelfSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSignUp.h; sourceTree = "<group>"; };
+		2E12CF271262FCB00031E0AE /* SelfSignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSignUp.m; sourceTree = "<group>"; };
+		2E12CF281262FCB00031E0AE /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		2E12CF291262FCB00031E0AE /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		2E12CF2C1262FCB00031E0AE /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
+		2E12CF2D1262FCB00031E0AE /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
+		2E12CF2E1262FCB00031E0AE /* TypeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMapping.h; sourceTree = "<group>"; };
+		2E12CF2F1262FCB00031E0AE /* TypeMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeMapping.m; sourceTree = "<group>"; };
+		2E12CF301262FCB00031E0AE /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		2E12CF311262FCB00031E0AE /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		2E12CF321262FCB00031E0AE /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		2E12CF331262FCB00031E0AE /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		2E12CF351262FCB00031E0AE /* RestTransport3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestTransport3.h; sourceTree = "<group>"; };
+		2E12CF361262FCB00031E0AE /* RestTransport3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestTransport3.m; sourceTree = "<group>"; };
+		2E12CF371262FCB00031E0AE /* XmlHeaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlHeaderHelper.h; sourceTree = "<group>"; };
+		2E12CF381262FCB00031E0AE /* XmlHeaderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlHeaderHelper.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FeeFactorClientLib_src_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeeFactorClientLib_src_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FeeFactorClientLib_src-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FeeFactorClientLib_src-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -306,7 +303,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2E85ACD21252C18F003873DA /* Netmobo */,
+				2E12CE901262FCAF0031E0AE /* Netmobo V1 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -345,273 +342,263 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E85ACD21252C18F003873DA /* Netmobo */ = {
+		2E12CE901262FCAF0031E0AE /* Netmobo V1 */ = {
 			isa = PBXGroup;
 			children = (
-				2E85ACE21252C18F003873DA /* FeeFactor_API */,
-				2E85ACD31252C18F003873DA /* REST_XML_API */,
+				2E12CF2A1262FCB00031E0AE /* REST_XML_API */,
+				2E12CE931262FCAF0031E0AE /* FeeFactor_API */,
+				2E12CE911262FCAF0031E0AE /* NetmoboFeefactorModel.h */,
+				2E12CE921262FCAF0031E0AE /* NetmoboFeefactorModel.m */,
 			);
-			name = Netmobo;
+			name = "Netmobo V1";
 			sourceTree = "<group>";
 		};
-		2E85ACD31252C18F003873DA /* REST_XML_API */ = {
+		2E12CE931262FCAF0031E0AE /* FeeFactor_API */ = {
 			isa = PBXGroup;
 			children = (
-				2E85ACD91252C18F003873DA /* Util */,
-				2E85ACD41252C18F003873DA /* Transport */,
-			);
-			name = REST_XML_API;
-			sourceTree = "<group>";
-		};
-		2E85ACD41252C18F003873DA /* Transport */ = {
-			isa = PBXGroup;
-			children = (
-				2E85ACD51252C18F003873DA /* RestTransport3.h */,
-				2E85ACD61252C18F003873DA /* RestTransport3.m */,
-				2E85ACD71252C18F003873DA /* XmlHeaderHelper.h */,
-				2E85ACD81252C18F003873DA /* XmlHeaderHelper.m */,
-			);
-			name = Transport;
-			sourceTree = "<group>";
-		};
-		2E85ACD91252C18F003873DA /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				2E85ACDA1252C18F003873DA /* XmlParser.h */,
-				2E85ACDB1252C18F003873DA /* XmlParser.m */,
-				2E85ACDC1252C18F003873DA /* TypeMapping.h */,
-				2E85ACDD1252C18F003873DA /* TypeMapping.m */,
-				2E85ACDE1252C18F003873DA /* GDataXMLNode.h */,
-				2E85ACDF1252C18F003873DA /* GDataXMLNode.m */,
-				2E85ACE01252C18F003873DA /* Util.h */,
-				2E85ACE11252C18F003873DA /* Util.m */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		2E85ACE21252C18F003873DA /* FeeFactor_API */ = {
-			isa = PBXGroup;
-			children = (
-				2E85AD751252C190003873DA /* Transactions */,
-				2E85AD581252C190003873DA /* Services */,
-				2E85AD4D1252C190003873DA /* Plans */,
-				2E85AD3A1252C190003873DA /* Invoices */,
-				2E85AD231252C190003873DA /* Cardpayments */,
-				2E85AD121252C190003873DA /* Brands */,
-				2E85ACF71252C18F003873DA /* Accounts */,
-				2E85ACE61252C18F003873DA /* Users */,
-				2E85ACE31252C18F003873DA /* Config */,
+				2E12CF191262FCB00031E0AE /* Users */,
+				2E12CEFE1262FCB00031E0AE /* Accounts */,
+				2E12CEED1262FCB00031E0AE /* Brands */,
+				2E12CED61262FCB00031E0AE /* Cardpayments */,
+				2E12CEC31262FCAF0031E0AE /* Invoices */,
+				2E12CEB81262FCAF0031E0AE /* Plans */,
+				2E12CE9B1262FCAF0031E0AE /* Services */,
+				2E12CE941262FCAF0031E0AE /* Transactions */,
 			);
 			name = FeeFactor_API;
 			sourceTree = "<group>";
 		};
-		2E85ACE31252C18F003873DA /* Config */ = {
+		2E12CE941262FCAF0031E0AE /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
-				2E85ACE41252C18F003873DA /* Config.h */,
-				2E85ACE51252C18F003873DA /* Config.m */,
+				2E12CE951262FCAF0031E0AE /* Transactions.h */,
+				2E12CE961262FCAF0031E0AE /* Transactions.m */,
+				2E12CE971262FCAF0031E0AE /* TransactionDetailRecord.h */,
+				2E12CE981262FCAF0031E0AE /* TransactionDetailRecord.m */,
+				2E12CE991262FCAF0031E0AE /* TransactionDetailRecordSearchResult.h */,
+				2E12CE9A1262FCAF0031E0AE /* TransactionDetailRecordSearchResult.m */,
 			);
-			name = Config;
+			name = Transactions;
 			sourceTree = "<group>";
 		};
-		2E85ACE61252C18F003873DA /* Users */ = {
+		2E12CE9B1262FCAF0031E0AE /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				2E85ACE71252C18F003873DA /* User.h */,
-				2E85ACE81252C18F003873DA /* User.m */,
-				2E85ACE91252C18F003873DA /* Profile.h */,
-				2E85ACEA1252C18F003873DA /* Profile.m */,
-				2E85ACEB1252C18F003873DA /* UserQuestion.h */,
-				2E85ACEC1252C18F003873DA /* UserQuestion.m */,
-				2E85ACED1252C18F003873DA /* UserQuestionSearchResult.h */,
-				2E85ACEE1252C18F003873DA /* UserQuestionSearchResult.m */,
-				2E85ACEF1252C18F003873DA /* Users.h */,
-				2E85ACF01252C18F003873DA /* Users.m */,
-				2E85ACF11252C18F003873DA /* UserSearchResult.h */,
-				2E85ACF21252C18F003873DA /* UserSearchResult.m */,
-				2E85ACF31252C18F003873DA /* SelfSignUp.h */,
-				2E85ACF41252C18F003873DA /* SelfSignUp.m */,
-				2E85ACF51252C18F003873DA /* Image.h */,
-				2E85ACF61252C18F003873DA /* Image.m */,
-			);
-			name = Users;
-			sourceTree = "<group>";
-		};
-		2E85ACF71252C18F003873DA /* Accounts */ = {
-			isa = PBXGroup;
-			children = (
-				2E85ACF81252C18F003873DA /* AccountHistory.h */,
-				2E85ACF91252C18F003873DA /* AccountHistory.m */,
-				2E85ACFA1252C18F003873DA /* AccountHistorySearchResult.h */,
-				2E85ACFB1252C18F003873DA /* AccountHistorySearchResult.m */,
-				2E85ACFC1252C18F003873DA /* Accounts.h */,
-				2E85ACFD1252C18F003873DA /* Accounts.m */,
-				2E85ACFE1252C18F003873DA /* Account.h */,
-				2E85ACFF1252C18F003873DA /* Account.m */,
-				2E85AD001252C18F003873DA /* AccountPlan.h */,
-				2E85AD011252C18F003873DA /* AccountPlan.m */,
-				2E85AD021252C18F003873DA /* AccountRC.h */,
-				2E85AD031252C18F003873DA /* AccountRC.m */,
-				2E85AD041252C18F003873DA /* AccountRCActivityLog.h */,
-				2E85AD051252C18F003873DA /* AccountRCActivityLog.m */,
-				2E85AD061252C18F003873DA /* AccountPlanSearchResult.h */,
-				2E85AD071252C18F003873DA /* AccountPlanSearchResult.m */,
-				2E85AD081252C18F003873DA /* AccountRCSearchResult.h */,
-				2E85AD091252C18F003873DA /* AccountRCSearchResult.m */,
-				2E85AD0A1252C18F003873DA /* AccountRCSetting.h */,
-				2E85AD0B1252C18F003873DA /* AccountRCSetting.m */,
-				2E85AD0C1252C18F003873DA /* AccountSearchResult.h */,
-				2E85AD0D1252C18F003873DA /* AccountSearchResult.m */,
-				2E85AD0E1252C18F003873DA /* AccountDevice.h */,
-				2E85AD0F1252C18F003873DA /* AccountDevice.m */,
-				2E85AD101252C18F003873DA /* AccountDeviceSearchResult.h */,
-				2E85AD111252C190003873DA /* AccountDeviceSearchResult.m */,
-			);
-			name = Accounts;
-			sourceTree = "<group>";
-		};
-		2E85AD121252C190003873DA /* Brands */ = {
-			isa = PBXGroup;
-			children = (
-				2E85AD131252C190003873DA /* Brands.h */,
-				2E85AD141252C190003873DA /* Brands.m */,
-				2E85AD151252C190003873DA /* CurrencySearchResult.h */,
-				2E85AD161252C190003873DA /* CurrencySearchResult.m */,
-				2E85AD171252C190003873DA /* ExchangeRateSearchResult.h */,
-				2E85AD181252C190003873DA /* ExchangeRateSearchResult.m */,
-				2E85AD191252C190003873DA /* Brand.h */,
-				2E85AD1A1252C190003873DA /* Brand.m */,
-				2E85AD1B1252C190003873DA /* Currency.h */,
-				2E85AD1C1252C190003873DA /* Currency.m */,
-				2E85AD1D1252C190003873DA /* ExchangeRate.h */,
-				2E85AD1E1252C190003873DA /* ExchangeRate.m */,
-				2E85AD1F1252C190003873DA /* BrandProfile.h */,
-				2E85AD201252C190003873DA /* BrandProfile.m */,
-				2E85AD211252C190003873DA /* BrandSearchResult.h */,
-				2E85AD221252C190003873DA /* BrandSearchResult.m */,
-			);
-			name = Brands;
-			sourceTree = "<group>";
-		};
-		2E85AD231252C190003873DA /* Cardpayments */ = {
-			isa = PBXGroup;
-			children = (
-				2E85AD241252C190003873DA /* UserCard.h */,
-				2E85AD251252C190003873DA /* UserCard.m */,
-				2E85AD261252C190003873DA /* UserCardSearchResult.h */,
-				2E85AD271252C190003873DA /* UserCardSearchResult.m */,
-				2E85AD281252C190003873DA /* UserBankAccount.h */,
-				2E85AD291252C190003873DA /* UserBankAccount.m */,
-				2E85AD2A1252C190003873DA /* UserBankAccountSearchResult.h */,
-				2E85AD2B1252C190003873DA /* UserBankAccountSearchResult.m */,
-				2E85AD2C1252C190003873DA /* PaymentGateway.h */,
-				2E85AD2D1252C190003873DA /* PaymentGateway.m */,
-				2E85AD2E1252C190003873DA /* PaymentGatewaySearchResult.h */,
-				2E85AD2F1252C190003873DA /* PaymentGatewaySearchResult.m */,
-				2E85AD301252C190003873DA /* CardTransactionHistory.h */,
-				2E85AD311252C190003873DA /* CardTransactionHistory.m */,
-				2E85AD321252C190003873DA /* CardTransactionHistorySearchResult.h */,
-				2E85AD331252C190003873DA /* CardTransactionHistorySearchResult.m */,
-				2E85AD341252C190003873DA /* CardPayments.h */,
-				2E85AD351252C190003873DA /* CardPayments.m */,
-				2E85AD361252C190003873DA /* UserPaymentAuthorization.h */,
-				2E85AD371252C190003873DA /* UserPaymentAuthorization.m */,
-				2E85AD381252C190003873DA /* UserPaymentAuthorizationSearchResult.h */,
-				2E85AD391252C190003873DA /* UserPaymentAuthorizationSearchResult.m */,
-			);
-			name = Cardpayments;
-			sourceTree = "<group>";
-		};
-		2E85AD3A1252C190003873DA /* Invoices */ = {
-			isa = PBXGroup;
-			children = (
-				2E85AD3B1252C190003873DA /* AccountInvoice.h */,
-				2E85AD3C1252C190003873DA /* AccountInvoice.m */,
-				2E85AD3D1252C190003873DA /* AccountInvoicePayment.h */,
-				2E85AD3E1252C190003873DA /* AccountInvoicePayment.m */,
-				2E85AD3F1252C190003873DA /* AccountInvoicePaymentSearchResult.h */,
-				2E85AD401252C190003873DA /* AccountInvoicePaymentSearchResult.m */,
-				2E85AD411252C190003873DA /* AccountInvoiceSearchResult.h */,
-				2E85AD421252C190003873DA /* AccountInvoiceSearchResult.m */,
-				2E85AD431252C190003873DA /* BillingRecord.h */,
-				2E85AD441252C190003873DA /* BillingRecord.m */,
-				2E85AD451252C190003873DA /* BillingRecordSearchResult.h */,
-				2E85AD461252C190003873DA /* BillingRecordSearchResult.m */,
-				2E85AD471252C190003873DA /* Invoice.h */,
-				2E85AD481252C190003873DA /* Invoice.m */,
-				2E85AD491252C190003873DA /* UserPayment.h */,
-				2E85AD4A1252C190003873DA /* UserPayment.m */,
-				2E85AD4B1252C190003873DA /* UserPaymentSearchResult.h */,
-				2E85AD4C1252C190003873DA /* UserPaymentSearchResult.m */,
-			);
-			name = Invoices;
-			sourceTree = "<group>";
-		};
-		2E85AD4D1252C190003873DA /* Plans */ = {
-			isa = PBXGroup;
-			children = (
-				2E85AD4E1252C190003873DA /* Plan.h */,
-				2E85AD4F1252C190003873DA /* Plan.m */,
-				2E85AD501252C190003873DA /* PlanRC.h */,
-				2E85AD511252C190003873DA /* PlanRC.m */,
-				2E85AD521252C190003873DA /* PlanRCSearchResult.h */,
-				2E85AD531252C190003873DA /* PlanRCSearchResult.m */,
-				2E85AD541252C190003873DA /* Plans.h */,
-				2E85AD551252C190003873DA /* Plans.m */,
-				2E85AD561252C190003873DA /* PlanSearchResult.h */,
-				2E85AD571252C190003873DA /* PlanSearchResult.m */,
-			);
-			name = Plans;
-			sourceTree = "<group>";
-		};
-		2E85AD581252C190003873DA /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				2E85AD591252C190003873DA /* BrandProduct.h */,
-				2E85AD5A1252C190003873DA /* BrandProduct.m */,
-				2E85AD5B1252C190003873DA /* BrandProductBaserate.h */,
-				2E85AD5C1252C190003873DA /* BrandProductBaserate.m */,
-				2E85AD5D1252C190003873DA /* BrandProductBaserateSearchResult.h */,
-				2E85AD5E1252C190003873DA /* BrandProductBaserateSearchResult.m */,
-				2E85AD5F1252C190003873DA /* BrandProductSchedule.h */,
-				2E85AD601252C190003873DA /* BrandProductSchedule.m */,
-				2E85AD611252C190003873DA /* BrandProductScheduleSearchResult.h */,
-				2E85AD621252C190003873DA /* BrandProductScheduleSearchResult.m */,
-				2E85AD631252C190003873DA /* BrandProductSearchResult.h */,
-				2E85AD641252C190003873DA /* BrandProductSearchResult.m */,
-				2E85AD651252C190003873DA /* BrandService.h */,
-				2E85AD661252C190003873DA /* BrandService.m */,
-				2E85AD671252C190003873DA /* BrandServices.h */,
-				2E85AD681252C190003873DA /* BrandServices.m */,
-				2E85AD691252C190003873DA /* BrandServiceSearchResult.h */,
-				2E85AD6A1252C190003873DA /* BrandServiceSearchResult.m */,
-				2E85AD6B1252C190003873DA /* ChargeTypeOperation.h */,
-				2E85AD6C1252C190003873DA /* ChargeTypeOperation.m */,
-				2E85AD6D1252C190003873DA /* BrandProductPrice.h */,
-				2E85AD6E1252C190003873DA /* BrandProductPrice.m */,
-				2E85AD6F1252C190003873DA /* BrandProductPlanPrice.h */,
-				2E85AD701252C190003873DA /* BrandProductPlanPrice.m */,
-				2E85AD711252C190003873DA /* BrandProductPriceSearchResult.h */,
-				2E85AD721252C190003873DA /* BrandProductPriceSearchResult.m */,
-				2E85AD731252C190003873DA /* BrandProductPlanPriceSearchResult.h */,
-				2E85AD741252C190003873DA /* BrandProductPlanPriceSearchResult.m */,
+				2E12CE9C1262FCAF0031E0AE /* BrandProduct.h */,
+				2E12CE9D1262FCAF0031E0AE /* BrandProduct.m */,
+				2E12CE9E1262FCAF0031E0AE /* BrandProductBaserate.h */,
+				2E12CE9F1262FCAF0031E0AE /* BrandProductBaserate.m */,
+				2E12CEA01262FCAF0031E0AE /* BrandProductBaserateSearchResult.h */,
+				2E12CEA11262FCAF0031E0AE /* BrandProductBaserateSearchResult.m */,
+				2E12CEA21262FCAF0031E0AE /* BrandProductSchedule.h */,
+				2E12CEA31262FCAF0031E0AE /* BrandProductSchedule.m */,
+				2E12CEA41262FCAF0031E0AE /* BrandProductScheduleSearchResult.h */,
+				2E12CEA51262FCAF0031E0AE /* BrandProductScheduleSearchResult.m */,
+				2E12CEA61262FCAF0031E0AE /* BrandProductSearchResult.h */,
+				2E12CEA71262FCAF0031E0AE /* BrandProductSearchResult.m */,
+				2E12CEA81262FCAF0031E0AE /* BrandService.h */,
+				2E12CEA91262FCAF0031E0AE /* BrandService.m */,
+				2E12CEAA1262FCAF0031E0AE /* BrandServices.h */,
+				2E12CEAB1262FCAF0031E0AE /* BrandServices.m */,
+				2E12CEAC1262FCAF0031E0AE /* BrandServiceSearchResult.h */,
+				2E12CEAD1262FCAF0031E0AE /* BrandServiceSearchResult.m */,
+				2E12CEAE1262FCAF0031E0AE /* ChargeTypeOperation.h */,
+				2E12CEAF1262FCAF0031E0AE /* ChargeTypeOperation.m */,
+				2E12CEB01262FCAF0031E0AE /* BrandProductPrice.h */,
+				2E12CEB11262FCAF0031E0AE /* BrandProductPrice.m */,
+				2E12CEB21262FCAF0031E0AE /* BrandProductPlanPrice.h */,
+				2E12CEB31262FCAF0031E0AE /* BrandProductPlanPrice.m */,
+				2E12CEB41262FCAF0031E0AE /* BrandProductPriceSearchResult.h */,
+				2E12CEB51262FCAF0031E0AE /* BrandProductPriceSearchResult.m */,
+				2E12CEB61262FCAF0031E0AE /* BrandProductPlanPriceSearchResult.h */,
+				2E12CEB71262FCAF0031E0AE /* BrandProductPlanPriceSearchResult.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
 		};
-		2E85AD751252C190003873DA /* Transactions */ = {
+		2E12CEB81262FCAF0031E0AE /* Plans */ = {
 			isa = PBXGroup;
 			children = (
-				2E85AD761252C190003873DA /* Transactions.h */,
-				2E85AD771252C190003873DA /* Transactions.m */,
-				2E85AD781252C190003873DA /* TransactionDetailRecord.h */,
-				2E85AD791252C190003873DA /* TransactionDetailRecord.m */,
-				2E85AD7A1252C190003873DA /* TransactionDetailRecords.h */,
-				2E85AD7B1252C190003873DA /* TransactionDetailRecords.m */,
-				2E85AD7C1252C190003873DA /* TransactionDetailRecordSearchResult.h */,
-				2E85AD7D1252C190003873DA /* TransactionDetailRecordSearchResult.m */,
+				2E12CEB91262FCAF0031E0AE /* Plan.h */,
+				2E12CEBA1262FCAF0031E0AE /* Plan.m */,
+				2E12CEBB1262FCAF0031E0AE /* PlanRC.h */,
+				2E12CEBC1262FCAF0031E0AE /* PlanRC.m */,
+				2E12CEBD1262FCAF0031E0AE /* PlanRCSearchResult.h */,
+				2E12CEBE1262FCAF0031E0AE /* PlanRCSearchResult.m */,
+				2E12CEBF1262FCAF0031E0AE /* Plans.h */,
+				2E12CEC01262FCAF0031E0AE /* Plans.m */,
+				2E12CEC11262FCAF0031E0AE /* PlanSearchResult.h */,
+				2E12CEC21262FCAF0031E0AE /* PlanSearchResult.m */,
 			);
-			name = Transactions;
+			name = Plans;
+			sourceTree = "<group>";
+		};
+		2E12CEC31262FCAF0031E0AE /* Invoices */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CEC41262FCAF0031E0AE /* AccountInvoice.h */,
+				2E12CEC51262FCAF0031E0AE /* AccountInvoice.m */,
+				2E12CEC61262FCAF0031E0AE /* AccountInvoicePayment.h */,
+				2E12CEC71262FCAF0031E0AE /* AccountInvoicePayment.m */,
+				2E12CEC81262FCAF0031E0AE /* AccountInvoicePaymentSearchResult.h */,
+				2E12CEC91262FCB00031E0AE /* AccountInvoicePaymentSearchResult.m */,
+				2E12CECA1262FCB00031E0AE /* AccountInvoiceSearchResult.h */,
+				2E12CECB1262FCB00031E0AE /* AccountInvoiceSearchResult.m */,
+				2E12CECC1262FCB00031E0AE /* BillingRecord.h */,
+				2E12CECD1262FCB00031E0AE /* BillingRecord.m */,
+				2E12CECE1262FCB00031E0AE /* BillingRecordSearchResult.h */,
+				2E12CECF1262FCB00031E0AE /* BillingRecordSearchResult.m */,
+				2E12CED01262FCB00031E0AE /* Invoice.h */,
+				2E12CED11262FCB00031E0AE /* Invoice.m */,
+				2E12CED21262FCB00031E0AE /* UserPayment.h */,
+				2E12CED31262FCB00031E0AE /* UserPayment.m */,
+				2E12CED41262FCB00031E0AE /* UserPaymentSearchResult.h */,
+				2E12CED51262FCB00031E0AE /* UserPaymentSearchResult.m */,
+			);
+			name = Invoices;
+			sourceTree = "<group>";
+		};
+		2E12CED61262FCB00031E0AE /* Cardpayments */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CED71262FCB00031E0AE /* UserCard.h */,
+				2E12CED81262FCB00031E0AE /* UserCard.m */,
+				2E12CED91262FCB00031E0AE /* UserCardSearchResult.h */,
+				2E12CEDA1262FCB00031E0AE /* UserCardSearchResult.m */,
+				2E12CEDB1262FCB00031E0AE /* UserBankAccount.h */,
+				2E12CEDC1262FCB00031E0AE /* UserBankAccount.m */,
+				2E12CEDD1262FCB00031E0AE /* UserBankAccountSearchResult.h */,
+				2E12CEDE1262FCB00031E0AE /* UserBankAccountSearchResult.m */,
+				2E12CEDF1262FCB00031E0AE /* PaymentGateway.h */,
+				2E12CEE01262FCB00031E0AE /* PaymentGateway.m */,
+				2E12CEE11262FCB00031E0AE /* PaymentGatewaySearchResult.h */,
+				2E12CEE21262FCB00031E0AE /* PaymentGatewaySearchResult.m */,
+				2E12CEE31262FCB00031E0AE /* CardTransactionHistory.h */,
+				2E12CEE41262FCB00031E0AE /* CardTransactionHistory.m */,
+				2E12CEE51262FCB00031E0AE /* CardTransactionHistorySearchResult.h */,
+				2E12CEE61262FCB00031E0AE /* CardTransactionHistorySearchResult.m */,
+				2E12CEE71262FCB00031E0AE /* CardPayments.h */,
+				2E12CEE81262FCB00031E0AE /* CardPayments.m */,
+				2E12CEE91262FCB00031E0AE /* UserPaymentAuthorization.h */,
+				2E12CEEA1262FCB00031E0AE /* UserPaymentAuthorization.m */,
+				2E12CEEB1262FCB00031E0AE /* UserPaymentAuthorizationSearchResult.h */,
+				2E12CEEC1262FCB00031E0AE /* UserPaymentAuthorizationSearchResult.m */,
+			);
+			name = Cardpayments;
+			sourceTree = "<group>";
+		};
+		2E12CEED1262FCB00031E0AE /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CEEE1262FCB00031E0AE /* Brands.h */,
+				2E12CEEF1262FCB00031E0AE /* Brands.m */,
+				2E12CEF01262FCB00031E0AE /* CurrencySearchResult.h */,
+				2E12CEF11262FCB00031E0AE /* CurrencySearchResult.m */,
+				2E12CEF21262FCB00031E0AE /* ExchangeRateSearchResult.h */,
+				2E12CEF31262FCB00031E0AE /* ExchangeRateSearchResult.m */,
+				2E12CEF41262FCB00031E0AE /* Brand.h */,
+				2E12CEF51262FCB00031E0AE /* Brand.m */,
+				2E12CEF61262FCB00031E0AE /* Currency.h */,
+				2E12CEF71262FCB00031E0AE /* Currency.m */,
+				2E12CEF81262FCB00031E0AE /* ExchangeRate.h */,
+				2E12CEF91262FCB00031E0AE /* ExchangeRate.m */,
+				2E12CEFA1262FCB00031E0AE /* BrandProfile.h */,
+				2E12CEFB1262FCB00031E0AE /* BrandProfile.m */,
+				2E12CEFC1262FCB00031E0AE /* BrandSearchResult.h */,
+				2E12CEFD1262FCB00031E0AE /* BrandSearchResult.m */,
+			);
+			name = Brands;
+			sourceTree = "<group>";
+		};
+		2E12CEFE1262FCB00031E0AE /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CEFF1262FCB00031E0AE /* AccountHistory.h */,
+				2E12CF001262FCB00031E0AE /* AccountHistory.m */,
+				2E12CF011262FCB00031E0AE /* AccountHistorySearchResult.h */,
+				2E12CF021262FCB00031E0AE /* AccountHistorySearchResult.m */,
+				2E12CF031262FCB00031E0AE /* Accounts.h */,
+				2E12CF041262FCB00031E0AE /* Accounts.m */,
+				2E12CF051262FCB00031E0AE /* Account.h */,
+				2E12CF061262FCB00031E0AE /* Account.m */,
+				2E12CF071262FCB00031E0AE /* AccountPlan.h */,
+				2E12CF081262FCB00031E0AE /* AccountPlan.m */,
+				2E12CF091262FCB00031E0AE /* AccountRC.h */,
+				2E12CF0A1262FCB00031E0AE /* AccountRC.m */,
+				2E12CF0B1262FCB00031E0AE /* AccountRCActivityLog.h */,
+				2E12CF0C1262FCB00031E0AE /* AccountRCActivityLog.m */,
+				2E12CF0D1262FCB00031E0AE /* AccountPlanSearchResult.h */,
+				2E12CF0E1262FCB00031E0AE /* AccountPlanSearchResult.m */,
+				2E12CF0F1262FCB00031E0AE /* AccountRCSearchResult.h */,
+				2E12CF101262FCB00031E0AE /* AccountRCSearchResult.m */,
+				2E12CF111262FCB00031E0AE /* AccountRCSetting.h */,
+				2E12CF121262FCB00031E0AE /* AccountRCSetting.m */,
+				2E12CF131262FCB00031E0AE /* AccountSearchResult.h */,
+				2E12CF141262FCB00031E0AE /* AccountSearchResult.m */,
+				2E12CF151262FCB00031E0AE /* AccountDevice.h */,
+				2E12CF161262FCB00031E0AE /* AccountDevice.m */,
+				2E12CF171262FCB00031E0AE /* AccountDeviceSearchResult.h */,
+				2E12CF181262FCB00031E0AE /* AccountDeviceSearchResult.m */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		2E12CF191262FCB00031E0AE /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CF1A1262FCB00031E0AE /* User.h */,
+				2E12CF1B1262FCB00031E0AE /* User.m */,
+				2E12CF1C1262FCB00031E0AE /* Profile.h */,
+				2E12CF1D1262FCB00031E0AE /* Profile.m */,
+				2E12CF1E1262FCB00031E0AE /* UserQuestion.h */,
+				2E12CF1F1262FCB00031E0AE /* UserQuestion.m */,
+				2E12CF201262FCB00031E0AE /* UserQuestionSearchResult.h */,
+				2E12CF211262FCB00031E0AE /* UserQuestionSearchResult.m */,
+				2E12CF221262FCB00031E0AE /* Users.h */,
+				2E12CF231262FCB00031E0AE /* Users.m */,
+				2E12CF241262FCB00031E0AE /* UserSearchResult.h */,
+				2E12CF251262FCB00031E0AE /* UserSearchResult.m */,
+				2E12CF261262FCB00031E0AE /* SelfSignUp.h */,
+				2E12CF271262FCB00031E0AE /* SelfSignUp.m */,
+				2E12CF281262FCB00031E0AE /* Image.h */,
+				2E12CF291262FCB00031E0AE /* Image.m */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		2E12CF2A1262FCB00031E0AE /* REST_XML_API */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CF341262FCB00031E0AE /* Transport */,
+				2E12CF2B1262FCB00031E0AE /* Util */,
+			);
+			name = REST_XML_API;
+			sourceTree = "<group>";
+		};
+		2E12CF2B1262FCB00031E0AE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CF2C1262FCB00031E0AE /* XmlParser.h */,
+				2E12CF2D1262FCB00031E0AE /* XmlParser.m */,
+				2E12CF2E1262FCB00031E0AE /* TypeMapping.h */,
+				2E12CF2F1262FCB00031E0AE /* TypeMapping.m */,
+				2E12CF301262FCB00031E0AE /* GDataXMLNode.h */,
+				2E12CF311262FCB00031E0AE /* GDataXMLNode.m */,
+				2E12CF321262FCB00031E0AE /* Util.h */,
+				2E12CF331262FCB00031E0AE /* Util.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2E12CF341262FCB00031E0AE /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				2E12CF351262FCB00031E0AE /* RestTransport3.h */,
+				2E12CF361262FCB00031E0AE /* RestTransport3.m */,
+				2E12CF371262FCB00031E0AE /* XmlHeaderHelper.h */,
+				2E12CF381262FCB00031E0AE /* XmlHeaderHelper.m */,
+			);
+			name = Transport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -671,85 +658,84 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* FeeFactorClientLib_srcAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* FeeFactorClientLib_srcViewController.m in Sources */,
-				2E85AD7E1252C190003873DA /* RestTransport3.m in Sources */,
-				2E85AD7F1252C190003873DA /* XmlHeaderHelper.m in Sources */,
-				2E85AD801252C190003873DA /* XmlParser.m in Sources */,
-				2E85AD811252C190003873DA /* TypeMapping.m in Sources */,
-				2E85AD821252C190003873DA /* GDataXMLNode.m in Sources */,
-				2E85AD831252C190003873DA /* Util.m in Sources */,
-				2E85AD841252C190003873DA /* Config.m in Sources */,
-				2E85AD851252C190003873DA /* User.m in Sources */,
-				2E85AD861252C190003873DA /* Profile.m in Sources */,
-				2E85AD871252C190003873DA /* UserQuestion.m in Sources */,
-				2E85AD881252C190003873DA /* UserQuestionSearchResult.m in Sources */,
-				2E85AD891252C190003873DA /* Users.m in Sources */,
-				2E85AD8A1252C190003873DA /* UserSearchResult.m in Sources */,
-				2E85AD8B1252C190003873DA /* SelfSignUp.m in Sources */,
-				2E85AD8C1252C190003873DA /* Image.m in Sources */,
-				2E85AD8D1252C190003873DA /* AccountHistory.m in Sources */,
-				2E85AD8E1252C190003873DA /* AccountHistorySearchResult.m in Sources */,
-				2E85AD8F1252C190003873DA /* Accounts.m in Sources */,
-				2E85AD901252C190003873DA /* Account.m in Sources */,
-				2E85AD911252C190003873DA /* AccountPlan.m in Sources */,
-				2E85AD921252C190003873DA /* AccountRC.m in Sources */,
-				2E85AD931252C190003873DA /* AccountRCActivityLog.m in Sources */,
-				2E85AD941252C190003873DA /* AccountPlanSearchResult.m in Sources */,
-				2E85AD951252C190003873DA /* AccountRCSearchResult.m in Sources */,
-				2E85AD961252C190003873DA /* AccountRCSetting.m in Sources */,
-				2E85AD971252C190003873DA /* AccountSearchResult.m in Sources */,
-				2E85AD981252C190003873DA /* AccountDevice.m in Sources */,
-				2E85AD991252C190003873DA /* AccountDeviceSearchResult.m in Sources */,
-				2E85AD9A1252C190003873DA /* Brands.m in Sources */,
-				2E85AD9B1252C190003873DA /* CurrencySearchResult.m in Sources */,
-				2E85AD9C1252C190003873DA /* ExchangeRateSearchResult.m in Sources */,
-				2E85AD9D1252C190003873DA /* Brand.m in Sources */,
-				2E85AD9E1252C190003873DA /* Currency.m in Sources */,
-				2E85AD9F1252C190003873DA /* ExchangeRate.m in Sources */,
-				2E85ADA01252C190003873DA /* BrandProfile.m in Sources */,
-				2E85ADA11252C190003873DA /* BrandSearchResult.m in Sources */,
-				2E85ADA21252C190003873DA /* UserCard.m in Sources */,
-				2E85ADA31252C190003873DA /* UserCardSearchResult.m in Sources */,
-				2E85ADA41252C190003873DA /* UserBankAccount.m in Sources */,
-				2E85ADA51252C190003873DA /* UserBankAccountSearchResult.m in Sources */,
-				2E85ADA61252C190003873DA /* PaymentGateway.m in Sources */,
-				2E85ADA71252C190003873DA /* PaymentGatewaySearchResult.m in Sources */,
-				2E85ADA81252C190003873DA /* CardTransactionHistory.m in Sources */,
-				2E85ADA91252C190003873DA /* CardTransactionHistorySearchResult.m in Sources */,
-				2E85ADAA1252C190003873DA /* CardPayments.m in Sources */,
-				2E85ADAB1252C190003873DA /* UserPaymentAuthorization.m in Sources */,
-				2E85ADAC1252C190003873DA /* UserPaymentAuthorizationSearchResult.m in Sources */,
-				2E85ADAD1252C190003873DA /* AccountInvoice.m in Sources */,
-				2E85ADAE1252C190003873DA /* AccountInvoicePayment.m in Sources */,
-				2E85ADAF1252C190003873DA /* AccountInvoicePaymentSearchResult.m in Sources */,
-				2E85ADB01252C190003873DA /* AccountInvoiceSearchResult.m in Sources */,
-				2E85ADB11252C190003873DA /* BillingRecord.m in Sources */,
-				2E85ADB21252C190003873DA /* BillingRecordSearchResult.m in Sources */,
-				2E85ADB31252C190003873DA /* Invoice.m in Sources */,
-				2E85ADB41252C190003873DA /* UserPayment.m in Sources */,
-				2E85ADB51252C190003873DA /* UserPaymentSearchResult.m in Sources */,
-				2E85ADB61252C190003873DA /* Plan.m in Sources */,
-				2E85ADB71252C190003873DA /* PlanRC.m in Sources */,
-				2E85ADB81252C190003873DA /* PlanRCSearchResult.m in Sources */,
-				2E85ADB91252C190003873DA /* Plans.m in Sources */,
-				2E85ADBA1252C190003873DA /* PlanSearchResult.m in Sources */,
-				2E85ADBB1252C190003873DA /* BrandProduct.m in Sources */,
-				2E85ADBC1252C190003873DA /* BrandProductBaserate.m in Sources */,
-				2E85ADBD1252C190003873DA /* BrandProductBaserateSearchResult.m in Sources */,
-				2E85ADBE1252C190003873DA /* BrandProductSchedule.m in Sources */,
-				2E85ADBF1252C190003873DA /* BrandProductScheduleSearchResult.m in Sources */,
-				2E85ADC01252C190003873DA /* BrandProductSearchResult.m in Sources */,
-				2E85ADC11252C190003873DA /* BrandService.m in Sources */,
-				2E85ADC21252C190003873DA /* BrandServices.m in Sources */,
-				2E85ADC31252C190003873DA /* BrandServiceSearchResult.m in Sources */,
-				2E85ADC41252C190003873DA /* ChargeTypeOperation.m in Sources */,
-				2E85ADC51252C190003873DA /* BrandProductPrice.m in Sources */,
-				2E85ADC61252C190003873DA /* BrandProductPlanPrice.m in Sources */,
-				2E85ADC71252C190003873DA /* BrandProductPriceSearchResult.m in Sources */,
-				2E85ADC81252C190003873DA /* BrandProductPlanPriceSearchResult.m in Sources */,
-				2E85ADC91252C190003873DA /* Transactions.m in Sources */,
-				2E85ADCA1252C190003873DA /* TransactionDetailRecord.m in Sources */,
-				2E85ADCB1252C190003873DA /* TransactionDetailRecords.m in Sources */,
-				2E85ADCC1252C190003873DA /* TransactionDetailRecordSearchResult.m in Sources */,
+				2E12CF391262FCB00031E0AE /* NetmoboFeefactorModel.m in Sources */,
+				2E12CF3A1262FCB00031E0AE /* Transactions.m in Sources */,
+				2E12CF3B1262FCB00031E0AE /* TransactionDetailRecord.m in Sources */,
+				2E12CF3C1262FCB00031E0AE /* TransactionDetailRecordSearchResult.m in Sources */,
+				2E12CF3D1262FCB00031E0AE /* BrandProduct.m in Sources */,
+				2E12CF3E1262FCB00031E0AE /* BrandProductBaserate.m in Sources */,
+				2E12CF3F1262FCB00031E0AE /* BrandProductBaserateSearchResult.m in Sources */,
+				2E12CF401262FCB00031E0AE /* BrandProductSchedule.m in Sources */,
+				2E12CF411262FCB00031E0AE /* BrandProductScheduleSearchResult.m in Sources */,
+				2E12CF421262FCB00031E0AE /* BrandProductSearchResult.m in Sources */,
+				2E12CF431262FCB00031E0AE /* BrandService.m in Sources */,
+				2E12CF441262FCB00031E0AE /* BrandServices.m in Sources */,
+				2E12CF451262FCB00031E0AE /* BrandServiceSearchResult.m in Sources */,
+				2E12CF461262FCB00031E0AE /* ChargeTypeOperation.m in Sources */,
+				2E12CF471262FCB00031E0AE /* BrandProductPrice.m in Sources */,
+				2E12CF481262FCB00031E0AE /* BrandProductPlanPrice.m in Sources */,
+				2E12CF491262FCB00031E0AE /* BrandProductPriceSearchResult.m in Sources */,
+				2E12CF4A1262FCB00031E0AE /* BrandProductPlanPriceSearchResult.m in Sources */,
+				2E12CF4B1262FCB00031E0AE /* Plan.m in Sources */,
+				2E12CF4C1262FCB00031E0AE /* PlanRC.m in Sources */,
+				2E12CF4D1262FCB00031E0AE /* PlanRCSearchResult.m in Sources */,
+				2E12CF4E1262FCB00031E0AE /* Plans.m in Sources */,
+				2E12CF4F1262FCB00031E0AE /* PlanSearchResult.m in Sources */,
+				2E12CF501262FCB00031E0AE /* AccountInvoice.m in Sources */,
+				2E12CF511262FCB00031E0AE /* AccountInvoicePayment.m in Sources */,
+				2E12CF521262FCB00031E0AE /* AccountInvoicePaymentSearchResult.m in Sources */,
+				2E12CF531262FCB00031E0AE /* AccountInvoiceSearchResult.m in Sources */,
+				2E12CF541262FCB00031E0AE /* BillingRecord.m in Sources */,
+				2E12CF551262FCB00031E0AE /* BillingRecordSearchResult.m in Sources */,
+				2E12CF561262FCB00031E0AE /* Invoice.m in Sources */,
+				2E12CF571262FCB00031E0AE /* UserPayment.m in Sources */,
+				2E12CF581262FCB00031E0AE /* UserPaymentSearchResult.m in Sources */,
+				2E12CF591262FCB00031E0AE /* UserCard.m in Sources */,
+				2E12CF5A1262FCB00031E0AE /* UserCardSearchResult.m in Sources */,
+				2E12CF5B1262FCB00031E0AE /* UserBankAccount.m in Sources */,
+				2E12CF5C1262FCB00031E0AE /* UserBankAccountSearchResult.m in Sources */,
+				2E12CF5D1262FCB00031E0AE /* PaymentGateway.m in Sources */,
+				2E12CF5E1262FCB00031E0AE /* PaymentGatewaySearchResult.m in Sources */,
+				2E12CF5F1262FCB00031E0AE /* CardTransactionHistory.m in Sources */,
+				2E12CF601262FCB00031E0AE /* CardTransactionHistorySearchResult.m in Sources */,
+				2E12CF611262FCB00031E0AE /* CardPayments.m in Sources */,
+				2E12CF621262FCB00031E0AE /* UserPaymentAuthorization.m in Sources */,
+				2E12CF631262FCB00031E0AE /* UserPaymentAuthorizationSearchResult.m in Sources */,
+				2E12CF641262FCB00031E0AE /* Brands.m in Sources */,
+				2E12CF651262FCB00031E0AE /* CurrencySearchResult.m in Sources */,
+				2E12CF661262FCB00031E0AE /* ExchangeRateSearchResult.m in Sources */,
+				2E12CF671262FCB00031E0AE /* Brand.m in Sources */,
+				2E12CF681262FCB00031E0AE /* Currency.m in Sources */,
+				2E12CF691262FCB00031E0AE /* ExchangeRate.m in Sources */,
+				2E12CF6A1262FCB00031E0AE /* BrandProfile.m in Sources */,
+				2E12CF6B1262FCB00031E0AE /* BrandSearchResult.m in Sources */,
+				2E12CF6C1262FCB00031E0AE /* AccountHistory.m in Sources */,
+				2E12CF6D1262FCB00031E0AE /* AccountHistorySearchResult.m in Sources */,
+				2E12CF6E1262FCB00031E0AE /* Accounts.m in Sources */,
+				2E12CF6F1262FCB00031E0AE /* Account.m in Sources */,
+				2E12CF701262FCB00031E0AE /* AccountPlan.m in Sources */,
+				2E12CF711262FCB00031E0AE /* AccountRC.m in Sources */,
+				2E12CF721262FCB00031E0AE /* AccountRCActivityLog.m in Sources */,
+				2E12CF731262FCB00031E0AE /* AccountPlanSearchResult.m in Sources */,
+				2E12CF741262FCB00031E0AE /* AccountRCSearchResult.m in Sources */,
+				2E12CF751262FCB00031E0AE /* AccountRCSetting.m in Sources */,
+				2E12CF761262FCB00031E0AE /* AccountSearchResult.m in Sources */,
+				2E12CF771262FCB00031E0AE /* AccountDevice.m in Sources */,
+				2E12CF781262FCB00031E0AE /* AccountDeviceSearchResult.m in Sources */,
+				2E12CF791262FCB00031E0AE /* User.m in Sources */,
+				2E12CF7A1262FCB00031E0AE /* Profile.m in Sources */,
+				2E12CF7B1262FCB00031E0AE /* UserQuestion.m in Sources */,
+				2E12CF7C1262FCB00031E0AE /* UserQuestionSearchResult.m in Sources */,
+				2E12CF7D1262FCB00031E0AE /* Users.m in Sources */,
+				2E12CF7E1262FCB00031E0AE /* UserSearchResult.m in Sources */,
+				2E12CF7F1262FCB00031E0AE /* SelfSignUp.m in Sources */,
+				2E12CF801262FCB00031E0AE /* Image.m in Sources */,
+				2E12CF811262FCB00031E0AE /* XmlParser.m in Sources */,
+				2E12CF821262FCB00031E0AE /* TypeMapping.m in Sources */,
+				2E12CF831262FCB00031E0AE /* GDataXMLNode.m in Sources */,
+				2E12CF841262FCB00031E0AE /* Util.m in Sources */,
+				2E12CF851262FCB00031E0AE /* RestTransport3.m in Sources */,
+				2E12CF861262FCB00031E0AE /* XmlHeaderHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

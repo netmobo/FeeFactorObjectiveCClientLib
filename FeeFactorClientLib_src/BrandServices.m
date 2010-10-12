@@ -3,8 +3,19 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 6/06/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
+/*
+Copyright (c) 2010, NETMOBO LLC
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of NETMOBO LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
 
 #import "BrandServices.h"
 
@@ -36,9 +47,8 @@
 	
 	NSMutableDictionary *brandDic = [NSMutableDictionary dictionaryWithObject:[scheduleID stringValue] forKey:@"scheduleID"];
 	NSString *returnStr = [transport3 doGet:@"/Services/Brand/product/schedule/" params:brandDic];
-	BrandProductSchedule *getBrandProductSchedule = [[BrandProductSchedule alloc] init];
+	BrandProductSchedule *getBrandProductSchedule = [[[BrandProductSchedule alloc] init] autorelease];
 	NSArray *brandProductScheduleArray = (NSArray *)[xmlParser fromXml:returnStr withObject:getBrandProductSchedule];
-	[getBrandProductSchedule release];
 	if ([brandProductScheduleArray count] > 0) {
 		
 		return [brandProductScheduleArray objectAtIndex:0];
@@ -69,9 +79,8 @@
 	
 	NSMutableDictionary *brandDic = [NSMutableDictionary dictionaryWithObject:[productID stringValue] forKey:@"productID"];
 	NSString *returnStr = [transport3 doGet:@"/Services/Brand/product/" params:brandDic];
-	BrandProduct *getBrandProduct = [[BrandProduct alloc] init];
+	BrandProduct *getBrandProduct = [[[BrandProduct alloc] init] autorelease];
 	NSArray *brandProductArray = (NSArray *)[xmlParser fromXml:returnStr withObject:getBrandProduct];
-	[getBrandProduct release];
 	if ([brandProductArray count] > 0) {
 		
 		return [brandProductArray objectAtIndex:0];
@@ -92,9 +101,8 @@
 
 	NSMutableDictionary *brandDic = [NSMutableDictionary dictionaryWithObject:[baserateID stringValue] forKey:@"baserateID"];
 	NSString *returnStr = [transport3 doGet:@"/Services/Brand/product/" params:brandDic];
-	BrandProductBaserate *getBrandProductBaserate = [[BrandProductBaserate alloc] init];
+	BrandProductBaserate *getBrandProductBaserate = [[[BrandProductBaserate alloc] init] autorelease];
 	NSArray *brandProductBaserateArray = (NSArray *)[xmlParser fromXml:returnStr withObject:getBrandProductBaserate];
-	[getBrandProductBaserate release];
 	if ([brandProductBaserateArray count] > 0) {
 		
 		return [brandProductBaserateArray objectAtIndex:0];
@@ -186,9 +194,8 @@
 	
 	NSMutableDictionary *brandDic = [NSMutableDictionary dictionaryWithObject:[serviceID stringValue] forKey:@"serviceID"];
 	NSString *returnStr = [transport3 doGet:@"/Services/Brand" params:brandDic];
-	BrandService *getBrandService = [[BrandService alloc] init];
+	BrandService *getBrandService = [[[BrandService alloc] init] autorelease];
 	NSArray *brandServiceArray = (NSArray *)[xmlParser fromXml:returnStr withObject:getBrandService];
-	[getBrandService release];
 	if ([brandServiceArray count] > 0) {
 		
 		return [brandServiceArray objectAtIndex:0];
@@ -202,9 +209,8 @@
 
 	NSMutableDictionary *paramsdic = [NSMutableDictionary dictionaryWithObject:[priceID stringValue] forKey:@"priceID"];
 	NSString *returnStr = [transport3 doGet:@"/Services/Brand/product/prices/" params:paramsdic];
-	BrandProductPrice *getBrandProductPrice = [[BrandProductPrice alloc] init];
+	BrandProductPrice *getBrandProductPrice = [[[BrandProductPrice alloc] init] autorelease];
 	NSArray *brandProductpriceArray = (NSArray *)[xmlParser fromXml:returnStr withObject:getBrandProductPrice];
-	[getBrandProductPrice release];
 	if ([brandProductpriceArray count] > 0) {
 		
 		return [brandProductpriceArray objectAtIndex:0];
@@ -221,9 +227,9 @@
 	[paramsDic setValue:[pageItems stringValue] forKey:@"pageItems"];
 	[paramsDic setValue:[pageNumber stringValue] forKey:@"pageNumber"];
 	
-	BrandProductPrice *getBrandProductPrice = [[BrandProductPrice alloc] init];
+	BrandProductPrice *getBrandProductPrice = [[[BrandProductPrice alloc] init] autorelease];
 	
-	BrandProductPriceSearchResult *getBrandProductPriceSearchResult= [[BrandProductPriceSearchResult alloc] init];
+	BrandProductPriceSearchResult *getBrandProductPriceSearchResult= [[[BrandProductPriceSearchResult alloc] init] autorelease];
 	getBrandProductPriceSearchResult.results = (NSMutableArray *)[xmlParser fromXml:[transport3 doGet:@"/Services/Brand/product/prices/search/" params:paramsDic] withObject:getBrandProductPrice];
 	return getBrandProductPriceSearchResult;
 }
@@ -241,9 +247,8 @@
 
 	NSMutableDictionary *paramsdic = [NSMutableDictionary dictionaryWithObject:[priceID stringValue] forKey:@"priceID"];
 	NSString *returnStr = [transport3 doGet:@"/Services/Brand/product/prices/plan/" params:paramsdic];
-	BrandProductPlanPrice *getBrandProductPlanPrice = [[BrandProductPlanPrice alloc] init];
+	BrandProductPlanPrice *getBrandProductPlanPrice = [[[BrandProductPlanPrice alloc] init] autorelease];
 	NSArray *brandProductPlanPriceArray = (NSArray *)[xmlParser fromXml:returnStr withObject:getBrandProductPlanPrice];
-	[getBrandProductPlanPrice release];
 	if ([brandProductPlanPriceArray count] > 0) {
 		
 		return [brandProductPlanPriceArray objectAtIndex:0];
@@ -261,9 +266,9 @@
 	[paramsDic setValue:[pageItems stringValue] forKey:@"pageItems"];
 	[paramsDic setValue:[pageNumber stringValue] forKey:@"pageNumber"];
 	
-	BrandProductPlanPrice *getBrandProductPlanPrice = [[BrandProductPlanPrice alloc] init];
+	BrandProductPlanPrice *getBrandProductPlanPrice = [[[BrandProductPlanPrice alloc] init] autorelease];
 	
-	BrandProductPlanPriceSearchResult *getBrandProductPlanPriceSearchResult= [[BrandProductPlanPriceSearchResult alloc] init];
+	BrandProductPlanPriceSearchResult *getBrandProductPlanPriceSearchResult= [[[BrandProductPlanPriceSearchResult alloc] init] autorelease];
 	getBrandProductPlanPriceSearchResult.results = (NSMutableArray *)[xmlParser fromXml:[transport3 doGet:@"/Services/Brand/product/prices/plan/search/" params:paramsDic] withObject:getBrandProductPlanPrice];
 	return getBrandProductPlanPriceSearchResult;
 }

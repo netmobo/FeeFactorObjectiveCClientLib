@@ -3,7 +3,7 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 17/05/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
 /*
 Copyright (c) 2010, NETMOBO LLC
@@ -18,8 +18,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 */
 
 #import <Foundation/Foundation.h>
-#import "RestTransport3.h"
-#import "XmlParser.h"
 #import "Account.h"
 #import "AccountHistory.h"
 #import "AccountSearchResult.h"
@@ -31,13 +29,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 @interface Accounts : NSObject {
 
-    @protected
-	RestTransport3 *transport3;
-	XmlParser *xmlParser;
+//    @protected
+//	RestTransport3 *transport3;
+//	XmlParser *xmlParser;
 }
 
-@property (nonatomic, retain) RestTransport3 *transport3;
-@property (nonatomic, retain) XmlParser *xmlParser;
+//@property (nonatomic, retain) RestTransport3 *transport3;
+//@property (nonatomic, retain) XmlParser *xmlParser;
 
 -(Account *)getAccount:(NSNumber *)serialNumber;
 -(int)updateAccount:(Account *)account;
@@ -52,7 +50,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 -(int)deleteAccountRC:(NSNumber *)accountRCId;
 -(int)getAccountPlanHistoriesCount:(NSNumber *)serialNumber andCondition:(NSString *)where;
 -(int)getAccountPlansCount:(NSNumber *)serialNumber andCondition:(NSString *)where;
--(int)rechargeAccountManual:(NSNumber *)serialNumber withAmount:(NSNumber *) amount withReferentceID:(NSString *) referenceID withTransactionType:(NSString *)transactionType andReason:(NSString *)reason;
+-(int)rechargeAccountManual:(NSNumber *)serialNumber withAmount:(NSNumber *) amount withReferenceID:(NSString *) referenceID withTransactionType:(NSString *)transactionType andReason:(NSString *)reason;
 -(int)rechargeAccountViaTransient:(NSNumber *)targetSerialNumber withSource:(NSNumber *) sourceSerialNumber withAmount:(NSNumber *) amount andReason:(NSString *)reason;
 -(AccountPlanSearchResult *)getAccountPlans:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber;
 -(AccountPlanSearchResult *)getAccountPlanHistories:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber;

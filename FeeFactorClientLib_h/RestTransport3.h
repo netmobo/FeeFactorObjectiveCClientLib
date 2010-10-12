@@ -3,7 +3,7 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 15/05/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
 /*
 Copyright (c) 2010, NETMOBO LLC
@@ -18,16 +18,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 */
 
 #import <Foundation/Foundation.h>
-#import "Config.h"
 #import "XmlParser.h"
 
 @interface RestTransport3 : NSObject {
-	Config *config;
 	XmlParser *xmlParser;
 }
 
 @property (nonatomic, retain) XmlParser *xmlParser;
-@property (nonatomic, retain) Config *config;
 
 
 - (NSString *)doGet:(NSString *)serviceName params:(NSDictionary *)params;

@@ -12,6 +12,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+//
+//  GDataXMLNode.m
+//  FeeFactor
+//
+//  Created by Netmobo on 23/05/10.
+//  Copyright 2010 Netmobo. All rights reserved.
+//
+/*
+ Copyright (c) 2010, NETMOBO LLC
+ All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+ Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ Neither the name of NETMOBO LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
 
 #define GDATAXMLNODE_DEFINE_GLOBALS 1
 #import "GDataXMLNode.h"
@@ -1060,57 +1078,60 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
 }
 
 - (NSArray *)elementsForName:(NSString *)name {
+	
+	NSString *desiredName = name;
+	
+	if (xmlNode_ != NULL) {
+		
+		NSString *prefix = [[self class] prefixForName:desiredName];
+		if (prefix) {
+			
+			xmlChar* desiredPrefix = GDataGetXMLString(prefix);
+			
+			xmlNsPtr foundNS = xmlSearchNs(xmlNode_->doc, xmlNode_, desiredPrefix);
+			if (foundNS) {
+				
+				// we found a namespace; fall back on elementsForLocalName:URI:
+				// to get the elements
+				NSString *desiredURI = [self stringFromXMLString:(foundNS->href)];
+				NSString *localName = [[self class] localNameForName:desiredName];
+				
+				//				NSArray *nsArray = [self elementsForLocalName:localName URI:desiredURI];
+				//				return nsArray;
+				
+				
+				
+				return [self elementsForLocalName:localName URI:desiredURI];
+			}
+		}
+		
+		// no namespace found for the node's prefix; try an exact match
+		// for the name argument, including any prefix
+		NSMutableArray *array = [[[NSMutableArray alloc] init] autorelease];
+		
+		// walk our list of cached child nodes
+		//    NSArray *children = [self children];
+		
+		for (GDataXMLNode *child in [self children]) {
+			
+			xmlNodePtr currNode = [child XMLNode];
+			
+			// find all children which are elements with the desired name
+			if (currNode->type == XML_ELEMENT_NODE) {
+				
+				NSString *qName = [child name];
+				if ([qName isEqual:name]) {
+					[array addObject:child];
+				}
+			}
+		}
+		
+		if ([array count] > 0) {
+			return array;
 
-  NSString *desiredName = name;
-
-  if (xmlNode_ != NULL) {
-
-    NSString *prefix = [[self class] prefixForName:desiredName];
-    if (prefix) {
-
-      xmlChar* desiredPrefix = GDataGetXMLString(prefix);
-
-      xmlNsPtr foundNS = xmlSearchNs(xmlNode_->doc, xmlNode_, desiredPrefix);
-      if (foundNS) {
-
-        // we found a namespace; fall back on elementsForLocalName:URI:
-        // to get the elements
-        NSString *desiredURI = [self stringFromXMLString:(foundNS->href)];
-        NSString *localName = [[self class] localNameForName:desiredName];
-
-        NSArray *nsArray = [self elementsForLocalName:localName URI:desiredURI];
-        return nsArray;
-      }
-    }
-
-    // no namespace found for the node's prefix; try an exact match
-    // for the name argument, including any prefix
-    NSMutableArray *array = nil;
-
-    // walk our list of cached child nodes
-    NSArray *children = [self children];
-
-    for (GDataXMLNode *child in children) {
-
-      xmlNodePtr currNode = [child XMLNode];
-
-      // find all children which are elements with the desired name
-      if (currNode->type == XML_ELEMENT_NODE) {
-
-        NSString *qName = [child name];
-        if ([qName isEqual:name]) {
-
-          if (array == nil) {
-            array = [NSMutableArray arrayWithObject:child];
-          } else {
-            [array addObject:child];
-          }
-        }
-      }
-    }
-    return array;
-  }
-  return nil;
+		}
+	}
+	return nil;
 }
 
 - (NSArray *)elementsForLocalName:(NSString *)localName URI:(NSString *)URI {

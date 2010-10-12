@@ -3,7 +3,7 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 19/05/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
 /*
 Copyright (c) 2010, NETMOBO LLC
@@ -23,7 +23,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 @interface XmlParser : NSObject {
 
 }
-+(NSMutableDictionary *)propertDictionary:(NSObject *) objt;
++ (NSMutableDictionary *)propertyDictionary:(NSObject *) obj;
 
 +(NSString *)getResult:(NSString *)xmlString;
 
