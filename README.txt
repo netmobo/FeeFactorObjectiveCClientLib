@@ -50,7 +50,13 @@ Optionally, if you are having problems compiling, you may also add the ff to
    -ObjC
    -all_load
 
-8. From your Netmobo welcome email, you will find your Netmobo settings. Usually, you set your Netmobo configuration in your app's AppDelegate in your user login method. This configuration stays in memory via a Singleton called "netmoboFeefactorModel" throughout the life the app. All the settings won't need to be changed escept for the username and password configuration--these will change depending on the user logging in or out, it is a new user signing up, the username/password needs of certain Netmobo methods such as the recharge via manual which requires you give the method your brand admin's username and password. 
+8. From your Netmobo welcome email, you will find your Netmobo settings. Usually, 
+you set your Netmobo configuration in your app's AppDelegate in your user login method. 
+This configuration stays in memory via a Singleton called "netmoboFeefactorModel" throughout 
+the life the app. All the settings won't need to be changed escept for the username and 
+password configuration--these will change depending on the user logging in or out, it is a 
+new user signing up, the username/password needs of certain Netmobo methods such as the 
+recharge via manual which requires you give the method your brand admin's username and password. 
 
 Sample login method which initializes your app's Netmobo configuration:
 
