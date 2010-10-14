@@ -50,6 +50,58 @@ Optionally, if you are having problems compiling, you may also add the ff to
    -ObjC
    -all_load
 
+8. From your Netmobo welcome email, you will find your Netmobo settings. Usually, 
+you set your Netmobo configuration in your app's AppDelegate in your user login method. 
+This configuration stays in memory via a Singleton called "netmoboFeefactorModel" throughout 
+the life the app. All the settings won't need to be changed escept for the username and 
+password configuration--these will change depending on the user logging in or out, it is a 
+new user signing up, the username/password needs of certain Netmobo methods such as the 
+recharge via manual which requires you give the method your brand admin's username and password. 
+
+Sample login method which initializes your app's Netmobo configuration:
+
+- (NSString *) loginWithUser:(NSString *) aUser andPassword:(NSString *) aPassword {
+	
+	// 1) first initialize your Netmobo Singleton which is needed by
+	// different Netmobo classes:
+	NetmoboFeefactorModel *netmoboFeefactorModel = [NetmoboFeefactorModel sharedModel];
+	
+	// 2) next initialize your own Singleton for your app's own
+	// configuration settings:
+	Model *model = [Model sharedModel];
+	
+	// 3) set up your configuration based on the settings you got
+	// from your Netmobo welcome email:
+	[netmoboFeefactorModel setSchema:@"http"];
+	[netmoboFeefactorModel setHost:@"70.42.72.151"];
+	[netmoboFeefactorModel setPort:@"12345"]; 
+	[netmoboFeefactorModel setServiceUrl:@"/feefactor/rest"];
+	[netmoboFeefactorModel setEncode:@"UTF-8"];
+	[netmoboFeefactorModel setRealm:@"feefactor"];
+	
+	// 4) get from the user their username and password
+	// to open up their Netmobo user account
+	[netmoboFeefactorModel setUserName:[NSString stringWithFormat:@"%@|%@", [model brandID], aUser] ];
+	[netmoboFeefactorModel setPassWord:aPassword];
+	
+	// 5) get details from the user's account to 
+	// continue setting up Netmobo configuration:
+	// This method gets the account of the user based on
+	// the configuration settings you entered earlier (schema, host, 
+	// username, password, etc.):
+	Accounts *accountsInterface = [[[Accounts alloc] init] autorelease];
+	NSArray *accounts = [[accountsInterface getAccounts:@"" andSort:@"" andPageItems:[NSNumber numberWithInt:1] andPageNumber:[NSNumber numberWithInt:1]] accountResults];
+	
+	if ([[netmoboFeefactorModel errorCode] isEqualToString:@"none"]) {
+		Account *account = [accounts objectAtIndex:0];
+		[model setUserID:[account.userID stringValue]];
+		[model setSerialNumber:[account.serialNumber stringValue]];	
+		[model setAccountID:account.accountID];
+		[model setUserName:[NSString stringWithFormat:@"%@|%@", [model brandID], aUser]];
+	}
+	
+	return [netmoboFeefactorModel errorCode];
+}
 
 ===============================================================================
 Authentication
@@ -139,17 +191,17 @@ authentication, you may then retrieve needed user information for handling the
 user's session such as userID, serialNumber, accountID:
 
 - (NSString *) loginWithUser:(NSString *) aUser andPassword:(NSString *) aPassword {
+	NetmoboFeefactorModel *netmoboFeefactorModel = [NetmoboFeefactorModel sharedModel];
 	Model *model = [Model sharedModel];
 	
-	[transport3.config setSchema:@"http"];
-	[transport3.config setHost:@"api.feefactor.com"];
-	[transport3.config setPort:@"80"]; 
-	[transport3.config setServiceUrl:@"//rest"];
-	[transport3.config setUserName:[NSString stringWithFormat:@"%@|%@", 
-            [model brandID], aUser] ];
-	[transport3.config setPassWord:aPassword];
-	[transport3.config setEncode:@"UTF-8"];
-	[transport3.config setRealm:@"feefactor"];
+	[netmoboFeefactorModel setSchema:@"http"];
+	[netmoboFeefactorModel setHost:@"70.42.72.151"];
+	[netmoboFeefactorModel setPort:@"12345"]; 
+	[netmoboFeefactorModel setServiceUrl:@"/feefactor/rest"];
+	[netmoboFeefactorModel setUserName:[NSString stringWithFormat:@"%@|%@", [model brandID], aUser] ];
+	[netmoboFeefactorModel setPassWord:aPassword];
+	[netmoboFeefactorModel setEncode:@"UTF-8"];
+	[netmoboFeefactorModel setRealm:@"feefactor"];
 	
 	// after sending the necessary fields for authentication to the
 	// FeeFactor web service, you must execute a FeeFactor call to get
@@ -161,15 +213,15 @@ user's session such as userID, serialNumber, accountID:
 	// to the fields 'getAccounts' and 'andSort' and the number 1
 	// to 'andPageItems' and 'andPageNumber'
 	Accounts *accountsInterface = [[Accounts alloc] init];
-	NSArray *accounts = [[accountsInterface getAccounts:@"" andSort:@"" 
-            andPageItems:[NSNumber numberWithInt:1] andPageNumber:[NSNumber 
-            numberWithInt:1]] accountResults];
-
-	if ([transport3.config.errorCode isEqualToString:@"none"]) {
+	NSArray *accounts = [[accountsInterface getAccounts:@"" andSort:@"" andPageItems:[NSNumber numberWithInt:1] andPageNumber:[NSNumber numberWithInt:1]] accountResults];
+	
+	if ([[netmoboFeefactorModel errorCode] isEqualToString:@"none"]) {
 		Account *account = [accounts objectAtIndex:0];
 		[model setUserID:[account.userID stringValue]];
 		[model setSerialNumber:[account.serialNumber stringValue]];	
 		[model setAccountID:account.accountID];
+		[model setUserName:aUser];
+		[model setPassWord:aPassword];
 	}
-	return transport3.config.errorCode;
+	return [netmoboFeefactorModel errorCode];
 }
