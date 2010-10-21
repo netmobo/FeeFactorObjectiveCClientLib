@@ -3,19 +3,19 @@
 	1D6058900D05DD3D006BFB54 /* FeeFactorClientLib_h */ = {
 		activeExec = 0;
 		executables = (
-			2EA686531241EDF000E7E69D /* FeeFactorClientLib_h */,
+			2E85A607126FF23500827D9A /* FeeFactorClientLib_h */,
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 2EA686531241EDF000E7E69D /* FeeFactorClientLib_h */;
+		activeExecutable = 2E85A607126FF23500827D9A /* FeeFactorClientLib_h */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* FeeFactorClientLib_h */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* FeeFactorClientLib_h */,
 		);
-		codeSenseManager = 2EA6865D1241EDFE00E7E69D /* Code sense */;
+		codeSenseManager = 2E85A60C126FF24000827D9A /* Code sense */;
 		executables = (
-			2EA686531241EDF000E7E69D /* FeeFactorClientLib_h */,
+			2E85A607126FF23500827D9A /* FeeFactorClientLib_h */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -23,7 +23,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					610,
+					341,
 					20,
 					48,
 					43,
@@ -40,95 +40,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308477586;
-			PBXWorkspaceStateSaveDate = 308477586;
+			PBXPerProjectTemplateStateSaveDate = 309326527;
+			PBXWorkspaceStateSaveDate = 309326527;
 		};
-		perUserProjectItems = {
-			2E07EA6C124892AF00EE00ED /* PBXTextBookmark */ = 2E07EA6C124892AF00EE00ED /* PBXTextBookmark */;
-			2E07EC32124895FA00EE00ED /* PBXTextBookmark */ = 2E07EC32124895FA00EE00ED /* PBXTextBookmark */;
-			2E12D0F81262FDF50031E0AE /* PBXTextBookmark */ = 2E12D0F81262FDF50031E0AE /* PBXTextBookmark */;
-			2E12D16F1262FEA30031E0AE /* PBXTextBookmark */ = 2E12D16F1262FEA30031E0AE /* PBXTextBookmark */;
-			2E93A0051249B99C002BCF4C /* PBXTextBookmark */ = 2E93A0051249B99C002BCF4C /* PBXTextBookmark */;
-		};
-		sourceControlManager = 2EA6865C1241EDFE00E7E69D /* Source Control */;
+		sourceControlManager = 2E85A60B126FF24000827D9A /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	2E07EA691248928300EE00ED /* SelfSignUp.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = SelfSignUp.h;
-		path = /AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_h/SelfSignUp.h;
-		sourceTree = "<absolute>";
-	};
-	2E07EA6A124892A800EE00ED /* Users.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = Users.h;
-		path = /AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_h/Users.h;
-		sourceTree = "<absolute>";
-	};
-	2E07EA6C124892AF00EE00ED /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2E07EA691248928300EE00ED /* SelfSignUp.h */;
-		name = "SelfSignUp.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 941;
-		vrLoc = 0;
-	};
-	2E07EC29124895E300EE00ED /* CardPayments.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = CardPayments.h;
-		path = /AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_h/CardPayments.h;
-		sourceTree = "<absolute>";
-	};
-	2E07EC32124895FA00EE00ED /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2E07EA6A124892A800EE00ED /* Users.h */;
-		name = "Users.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1575;
-		vrLoc = 0;
-	};
-	2E12D0F81262FDF50031E0AE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */;
-		name = "FeeFactorClientLib_h_instructions.txt: 12";
-		rLen = 6;
-		rLoc = 745;
-		rType = 0;
-		vrLen = 861;
-		vrLoc = 0;
-	};
-	2E12D16F1262FEA30031E0AE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */;
-		name = "FeeFactorClientLib_h_instructions.txt: 12";
-		rLen = 6;
-		rLoc = 745;
-		rType = 0;
-		vrLen = 861;
-		vrLoc = 0;
-	};
-	2E93A0051249B99C002BCF4C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2E07EC29124895E300EE00ED /* CardPayments.h */;
-		name = "CardPayments.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 3188;
-		vrLoc = 0;
-	};
-	2EA686531241EDF000E7E69D /* FeeFactorClientLib_h */ = {
+	2E85A607126FF23500827D9A /* FeeFactorClientLib_h */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -155,7 +74,7 @@
 		sourceDirectories = (
 		);
 	};
-	2EA6865C1241EDFE00E7E69D /* Source Control */ = {
+	2E85A60B126FF24000827D9A /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
@@ -165,15 +84,8 @@
 			};
 		};
 	};
-	2EA6865D1241EDFE00E7E69D /* Code sense */ = {
+	2E85A60C126FF24000827D9A /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	2EA686C61241EE8800E7E69D /* FeeFactorClientLib_h_instructions.txt */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1090, 643}}";
-			sepNavSelRange = "{745, 6}";
-			sepNavVisRange = "{0, 861}";
-		};
 	};
 }

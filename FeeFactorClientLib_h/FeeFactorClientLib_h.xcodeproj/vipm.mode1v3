@@ -178,7 +178,7 @@
 	<key>FavBarConfig</key>
 	<dict>
 		<key>PBXProjectModuleGUID</key>
-		<string>2EA686591241EDFE00E7E69D</string>
+		<string>2E85A695126FF29500827D9A</string>
 		<key>XCBarModuleItemNames</key>
 		<dict/>
 		<key>XCBarModuleItems</key>
@@ -254,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>354</real>
+								<real>186</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -272,12 +272,11 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {354, 662}}</string>
+							<string>{{0, 0}, {186, 445}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -289,19 +288,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {371, 680}}</string>
+						<string>{{0, 0}, {203, 463}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>354</real>
+							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>247 82 1225 721 0 0 1280 938 </string>
+						<string>315 113 788 504 0 0 1280 938 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>371pt</string>
+					<string>203pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -312,7 +311,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FeeFactorClientLib_h_instructions.txt</string>
+								<string></string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,18 +319,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FeeFactorClientLib_h_instructions.txt</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>2E12D16F1262FEA30031E0AE</string>
-										<key>history</key>
-										<array>
-											<string>2E07EA6C124892AF00EE00ED</string>
-											<string>2E07EC32124895FA00EE00ED</string>
-											<string>2E93A0051249B99C002BCF4C</string>
-											<string>2E12D0F81262FDF50031E0AE</string>
-										</array>
+										<string></string>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -342,14 +330,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {849, 675}}</string>
+								<string>{{0, 0}, {580, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>247 82 1225 721 0 0 1280 938 </string>
+								<string>315 113 788 504 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>675pt</string>
+							<string>0pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -362,18 +350,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 680}, {849, 0}}</string>
+								<string>{{0, 5}, {580, 458}}</string>
 								<key>RubberWindowFrame</key>
-								<string>247 82 1225 721 0 0 1280 938 </string>
+								<string>315 113 788 504 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>458pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>849pt</string>
+					<string>580pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -388,9 +376,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2E12D1701262FEA30031E0AE</string>
+				<string>2E85A6A2126FF2CC00827D9A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2E12D1711262FEA30031E0AE</string>
+				<string>2E85A6A3126FF2CC00827D9A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -528,11 +516,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>2EA6865A1241EDFE00E7E69D</string>
+		<string>2E85A696126FF29500827D9A</string>
 		<string>/AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_h/FeeFactorClientLib_h.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>247 82 1225 721 0 0 1280 938 </string>
+	<string>315 113 788 504 0 0 1280 938 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -562,7 +550,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {500, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>267 321 500 500 0 0 1280 938 </string>
+								<string>48 392 500 500 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -586,7 +574,7 @@
 								<key>Frame</key>
 								<string>{{0, 223}, {500, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>267 321 500 500 0 0 1280 938 </string>
+								<string>48 392 500 500 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -608,8 +596,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>2EA6865A1241EDFE00E7E69D</string>
-				<string>2E12D1721262FEA30031E0AE</string>
+				<string>2E85A696126FF29500827D9A</string>
+				<string>2E85A6A4126FF2CC00827D9A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -618,9 +606,9 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>267 321 500 500 0 0 1280 938 </string>
+			<string>48 392 500 500 0 0 1280 938 </string>
 			<key>WindowToolGUID</key>
-			<string>2EA6865A1241EDFE00E7E69D</string>
+			<string>2E85A696126FF29500827D9A</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>

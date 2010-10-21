@@ -1,9 +1,9 @@
 //
 //  main.m
-//  FeefactorVip2
+//  FeeFactorClientLib_h
 //
-//  Created by Netmobo on 8/24/10.
-//  Copyright InstrucToons.com 2010. All rights reserved.
+//  Created by Vicente Malixi on 10/21/10.
+//  Copyright Aurisoft 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
