@@ -294,7 +294,7 @@
 							<real>360</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>143 128 1071 765 0 0 1280 938 </string>
+						<string>-6 173 1071 765 0 0 1280 938 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +331,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {689, 719}}</string>
 								<key>RubberWindowFrame</key>
-								<string>143 128 1071 765 0 0 1280 938 </string>
+								<string>-6 173 1071 765 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -351,7 +351,7 @@
 								<key>Frame</key>
 								<string>{{0, 724}, {689, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>143 128 1071 765 0 0 1280 938 </string>
+								<string>-6 173 1071 765 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -375,9 +375,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2E12CF871262FCB20031E0AE</string>
+				<string>2E0B07A2126FE7D8000869A6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2E12CF881262FCB20031E0AE</string>
+				<string>2E0B07A3126FE7D8000869A6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -519,7 +519,7 @@
 		<string>/AurisoftApps/Netmobo/Netmobolibe/FeeFactorClientLib_src/FeeFactorClientLib_src.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>143 128 1071 765 0 0 1280 938 </string>
+	<string>-6 173 1071 765 0 0 1280 938 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -596,7 +596,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2EA6854A1241EDBD00E7E69D</string>
-				<string>2E12CF891262FCB20031E0AE</string>
+				<string>2E0B07A4126FE7D8000869A6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

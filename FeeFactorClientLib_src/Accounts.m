@@ -208,8 +208,7 @@ static NSString *NAME_SPACE_SUBSCRIBER = @"http://accounts.feefactor.com";
 	NSDictionary *paramsDic = [NSDictionary dictionaryWithObjects:objects forKeys:keys];
 	
 	NSString *resultStri = [transport3 doPut:@"/Accounts/recharge/manual" with:@"none" and:paramsDic]; 
-
-
+	
 	return [[XmlParser getResult:resultStri] intValue];
 }
 

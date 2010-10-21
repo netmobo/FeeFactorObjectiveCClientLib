@@ -61,16 +61,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 	
 	NSString *myRequestString = [NSString stringWithFormat:@"%@://%@%@%@%@%@",[netmoboFeefactorModel schema],[netmoboFeefactorModel host],@":",[netmoboFeefactorModel port],[netmoboFeefactorModel serviceUrl],serviceName];
 	
-	
-	
 	NSString *appendingURLString = [self getParamsString:params];
 	myRequestString = [myRequestString stringByAppendingString:appendingURLString];
 	
 	NSURLCredential *credential = [NSURLCredential credentialWithUser:[netmoboFeefactorModel userName]
 															 password:[netmoboFeefactorModel passWord]
 														  persistence:NSURLCredentialPersistenceForSession];
-	
-	
 	
 	NSURLProtectionSpace *protectionSpace = [[NSURLProtectionSpace alloc]
 											 initWithHost:[netmoboFeefactorModel host]
