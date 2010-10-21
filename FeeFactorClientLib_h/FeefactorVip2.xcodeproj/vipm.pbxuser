@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* FeefactorVip2AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1898}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FeefactorVip2 */ = {
+		activeExec = 0;
+		executables = (
+			2E926A1E122355DF00A22826 /* FeefactorVip2 */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* FeefactorVip2ViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {582, 531}}";
+			sepNavSelRange = "{210, 0}";
+			sepNavVisRange = "{0, 282}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2E926A1E122355DF00A22826 /* FeefactorVip2 */;
+		activeSDKPreference = iphoneos4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FeefactorVip2 */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FeefactorVip2 */,
+		);
+		codeSenseManager = 2E926B13122355EC00A22826 /* Code sense */;
+		executables = (
+			2E926A1E122355DF00A22826 /* FeefactorVip2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					292,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					525,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					494,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 309323463;
+			PBXWorkspaceStateSaveDate = 309323463;
+		};
+		perUserProjectItems = {
+			2E14C5BF126FD0AB005E816A /* PBXTextBookmark */ = 2E14C5BF126FD0AB005E816A /* PBXTextBookmark */;
+			2E14C5F8126FE6E1005E816A /* PBXTextBookmark */ = 2E14C5F8126FE6E1005E816A /* PBXTextBookmark */;
+			2E337AAD122F5E7800FEBD58 /* PBXTextBookmark */ = 2E337AAD122F5E7800FEBD58 /* PBXTextBookmark */;
+			2E926B741223572500A22826 /* PBXTextBookmark */ = 2E926B741223572500A22826 /* PBXTextBookmark */;
+			2E971F37122CFF6300632854 /* PBXTextBookmark */ = 2E971F37122CFF6300632854 /* PBXTextBookmark */;
+			2E971F39122CFF6300632854 /* PBXTextBookmark */ = 2E971F39122CFF6300632854 /* PBXTextBookmark */;
+			2E971F3A122CFF6300632854 /* PBXTextBookmark */ = 2E971F3A122CFF6300632854 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2E926B12122355EC00A22826 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2E14C5BF126FD0AB005E816A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FeefactorVip2AppDelegate.m */;
+		name = "FeefactorVip2AppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1898;
+		vrLoc = 0;
+	};
+	2E14C5F8126FE6E1005E816A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FeefactorVip2AppDelegate.m */;
+		name = "FeefactorVip2AppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1898;
+		vrLoc = 0;
+	};
+	2E3379D2122F5DAA00FEBD58 /* BrandProductBaserate.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BrandProductBaserate.h;
+		path = "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserate.h";
+		sourceTree = "<absolute>";
+	};
+	2E337AAD122F5E7800FEBD58 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2E3379D2122F5DAA00FEBD58 /* BrandProductBaserate.h */;
+		name = "BrandProductBaserate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	2E926A1E122355DF00A22826 /* FeefactorVip2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FeefactorVip2;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	2E926B12122355EC00A22826 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2E926B13122355EC00A22826 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2E926B231223565C00A22826 /* Netmobo */ = {
+		activeExec = 0;
+	};
+	2E926B741223572500A22826 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* FeefactorVip2ViewController.h */;
+		name = "FeefactorVip2ViewController.h: 10";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 282;
+		vrLoc = 0;
+	};
+	2E971DF2122CFDB300632854 /* UserSearchResult.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = UserSearchResult.h;
+		path = "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserSearchResult.h";
+		sourceTree = "<absolute>";
+	};
+	2E971E05122CFDB300632854 /* AccountRCActivityLog.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AccountRCActivityLog.h;
+		path = "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCActivityLog.h";
+		sourceTree = "<absolute>";
+	};
+	2E971E6E122CFDB300632854 /* BrandProductPlanPrice.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BrandProductPlanPrice.h;
+		path = "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPrice.h";
+		sourceTree = "<absolute>";
+	};
+	2E971F37122CFF6300632854 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2E971E6E122CFDB300632854 /* BrandProductPlanPrice.h */;
+		name = "BrandProductPlanPrice.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 0;
+	};
+	2E971F39122CFF6300632854 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2E971E05122CFDB300632854 /* AccountRCActivityLog.h */;
+		name = "AccountRCActivityLog.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1402;
+		vrLoc = 0;
+	};
+	2E971F3A122CFF6300632854 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2E971DF2122CFDB300632854 /* UserSearchResult.h */;
+		name = "UserSearchResult.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 0;
+	};
+}

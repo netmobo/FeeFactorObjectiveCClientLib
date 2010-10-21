@@ -1,0 +1,15 @@
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m: In function '+[Config initWithSchema:host:port:serviceUrl:userName:password:encode:realm:]':
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:39: warning: 'Config' may not respond to '+setSchema:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:39: warning: (Messages without a matching method signature
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:39: warning: will be assumed to return 'id' and accept
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:39: warning: '...' as arguments.)
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:40: warning: 'Config' may not respond to '+setHost:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:41: warning: 'Config' may not respond to '+setPort:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:42: warning: 'Config' may not respond to '+setServiceUrl:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:43: warning: 'Config' may not respond to '+setUserName:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:44: warning: 'Config' may not respond to '+setPassWord:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:45: warning: 'Config' may not respond to '+setEncode:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:46: warning: 'Config' may not respond to '+setRealm:'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m: At top level:
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:67: warning: incomplete implementation of class 'Config'
+/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/Config.m:67: warning: method definition for '-initWithSchema:host:port:serviceUrl:userName:password:encode:realm:' not found

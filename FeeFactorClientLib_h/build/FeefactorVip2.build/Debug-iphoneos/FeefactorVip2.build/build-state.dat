@@ -1,0 +1,2707 @@
+TFeefactorVip2
+v7
+r0
+t304316987.653439
+cCheck dependencies
+cCpResource build/Debug-iphoneos/FeefactorVip2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/Info.plist FeefactorVip2-Info.plist
+cCompileXIB /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/MainWindow.xib
+cCompileXIB /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2ViewController.xib
+cProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-ealihcrpqeahjkdaoixuowahenod/FeefactorVip2_Prefix.pch.gch FeefactorVip2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-eenyzptpmbeclqexwatpixgzspuz/FeefactorVip2_Prefix.pch.gch FeefactorVip2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/main.o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2 normal armv6
+cCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/main.o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2 normal armv7
+cCreateUniversalBinary /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2 normal "armv6 armv7"
+cGenerateDSYMFile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app.dSYM /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2
+cProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/C073F59F-ABB8-4C62-8640-9EB978C543DD.mobileprovision" /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision
+cTouch /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent
+cCodeSign /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Account.h
+c000000004CABC7C800000000000011AC
+t1286326216
+s4524
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Account.m
+c000000004CAD71D70000000000000DA0
+t1286435287
+s3488
+i"Account.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDevice.h
+c000000004CABC7C80000000000000797
+t1286326216
+s1943
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDevice.m
+c000000004CABC7C8000000000000075A
+t1286326216
+s1882
+i"AccountDevice.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDeviceSearchResult.h
+c000000004CABC7C8000000000000072E
+t1286326216
+s1838
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDeviceSearchResult.m
+c000000004CABC7C8000000000000074C
+t1286326216
+s1868
+i"AccountDeviceSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistory.h
+c000000004CABC7C8000000000000098C
+t1286326216
+s2444
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistory.m
+c000000004CABC7C8000000000000097B
+t1286326216
+s2427
+i"AccountHistory.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistorySearchResult.h
+c000000004CABC7C80000000000000736
+t1286326216
+s1846
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistorySearchResult.m
+c000000004CABC7C80000000000000750
+t1286326216
+s1872
+i"AccountHistorySearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoice.h
+c000000004CABC7C80000000000000C28
+t1286326216
+s3112
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoice.m
+c000000004CABC7C80000000000000B18
+t1286326216
+s2840
+i"AccountInvoice.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePayment.h
+c000000004CABC7C800000000000007ED
+t1286326216
+s2029
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePayment.m
+c000000004CABC7C800000000000007ED
+t1286326216
+s2029
+i"AccountInvoicePayment.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePaymentSearchResult.h
+c000000004CABC7C80000000000000730
+t1286326216
+s1840
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePaymentSearchResult.m
+c000000004CABC7C80000000000000766
+t1286326216
+s1894
+i"AccountInvoicePaymentSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoiceSearchResult.h
+c000000004CABC7C80000000000000714
+t1286326216
+s1812
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoiceSearchResult.m
+c000000004CABC7C8000000000000073C
+t1286326216
+s1852
+i"AccountInvoiceSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlan.h
+c000000004CABC7C800000000000008EA
+t1286326216
+s2282
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlan.m
+c000000004CABC7C800000000000007C0
+t1286326216
+s1984
+i"AccountPlan.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlanSearchResult.h
+c000000004CABC7C8000000000000071C
+t1286326216
+s1820
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlanSearchResult.m
+c000000004CABC7C80000000000000740
+t1286326216
+s1856
+i"AccountPlanSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRC.h
+c000000004CABC7C80000000000000B56
+t1286326216
+s2902
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRC.m
+c000000004CABC7C80000000000000934
+t1286326216
+s2356
+i"AccountRC.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCActivityLog.h
+c000000004CABC7C80000000000000B68
+t1286326216
+s2920
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCActivityLog.m
+c000000004CABC7C800000000000008FF
+t1286326216
+s2303
+i"AccountRCActivityLog.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSearchResult.h
+c000000004CABC7C80000000000000711
+t1286326216
+s1809
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSearchResult.m
+c000000004CABC7C80000000000000734
+t1286326216
+s1844
+i"AccountRCSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSetting.h
+c000000004CABC7C900000000000007AB
+t1286326217
+s1963
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSetting.m
+c000000004CABC7C90000000000000735
+t1286326217
+s1845
+i"AccountRCSetting.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountSearchResult.h
+c000000004CABC7C90000000000000715
+t1286326217
+s1813
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountSearchResult.m
+c000000004CABC7C90000000000000728
+t1286326217
+s1832
+i"AccountSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Accounts.h
+c000000004CB29FCD000000000000116B
+t1286774733
+s4459
+i<Foundation/Foundation.h>
+i"Account.h"
+i"AccountHistory.h"
+i"AccountSearchResult.h"
+i"AccountRC.h"
+i"AccountRCSearchResult.h"
+i"AccountPlanSearchResult.h"
+i"AccountPlan.h"
+i"AccountHistorySearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Accounts.m
+c000000004CB2C49E0000000000004130
+t1286784158
+s16688
+i"Accounts.h"
+i"RestTransport3.h"
+i"XmlParser.h"
+i"NetmoboFeefactorModel.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecord.h
+c000000004CABC7C90000000000000C6C
+t1286326217
+s3180
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecord.m
+c000000004CABC7C90000000000000B7C
+t1286326217
+s2940
+i"BillingRecord.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecordSearchResult.h
+c000000004CABC7C90000000000000710
+t1286326217
+s1808
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecordSearchResult.m
+c000000004CABC7C90000000000000736
+t1286326217
+s1846
+i"BillingRecordSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brand.h
+c000000004CABC7C90000000000000CA5
+t1286326217
+s3237
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brand.m
+c000000004CABC7C90000000000000A54
+t1286326217
+s2644
+i"Brand.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProduct.h
+c000000004CABC7C900000000000009E3
+t1286326217
+s2531
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProduct.m
+c000000004CABC7C90000000000000945
+t1286326217
+s2373
+i"BrandProduct.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserate.h
+c000000004CABC7C90000000000000931
+t1286326217
+s2353
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserate.m
+c000000004CABC7C900000000000008C4
+t1286326217
+s2244
+i"BrandProductBaserate.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserateSearchResult.h
+c000000004CABC7C9000000000000072E
+t1286326217
+s1838
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserateSearchResult.m
+c000000004CABC7C90000000000000763
+t1286326217
+s1891
+i"BrandProductBaserateSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPrice.h
+c000000004CABC7C900000000000008DE
+t1286326217
+s2270
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPrice.m
+c000000004CABC7C900000000000008B7
+t1286326217
+s2231
+i"BrandProductPlanPrice.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPriceSearchResult.h
+c000000004CABC7C90000000000000727
+t1286326217
+s1831
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPriceSearchResult.m
+c000000004CABC7C9000000000000073D
+t1286326217
+s1853
+i"BrandProductPlanPriceSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPrice.h
+c000000004CABC7C900000000000008D6
+t1286326217
+s2262
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPrice.m
+c000000004CABC7C900000000000008AB
+t1286326217
+s2219
+i"BrandProductPrice.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPriceSearchResult.h
+c000000004CABC7C9000000000000071F
+t1286326217
+s1823
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPriceSearchResult.m
+c000000004CABC7C90000000000000731
+t1286326217
+s1841
+i"BrandProductPriceSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSchedule.h
+c000000004CABC7C900000000000008BF
+t1286326217
+s2239
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSchedule.m
+c000000004CABC7C90000000000000883
+t1286326217
+s2179
+i"BrandProductSchedule.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductScheduleSearchResult.h
+c000000004CABC7C9000000000000072F
+t1286326217
+s1839
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductScheduleSearchResult.m
+c000000004CABC7C90000000000000763
+t1286326217
+s1891
+i"BrandProductScheduleSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSearchResult.h
+c000000004CABC7C9000000000000070F
+t1286326217
+s1807
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSearchResult.m
+c000000004CABC7C90000000000000733
+t1286326217
+s1843
+i"BrandProductSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProfile.h
+c000000004CABC7C90000000000000D4B
+t1286326217
+s3403
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProfile.m
+c000000004CABC7C90000000000000BF0
+t1286326217
+s3056
+i"BrandProfile.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandSearchResult.h
+c000000004CABC7C9000000000000070A
+t1286326217
+s1802
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandSearchResult.m
+c000000004CABC7C9000000000000070D
+t1286326217
+s1805
+i"BrandSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandService.h
+c000000004CABC7C900000000000009DA
+t1286326217
+s2522
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandService.m
+c000000004CABC7C900000000000009A3
+t1286326217
+s2467
+i"BrandService.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServiceSearchResult.h
+c000000004CABC7C90000000000000711
+t1286326217
+s1809
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServiceSearchResult.m
+c000000004CABC7C90000000000000733
+t1286326217
+s1843
+i"BrandServiceSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServices.h
+c000000004CABC7C900000000000011AC
+t1286326217
+s4524
+i<Foundation/Foundation.h>
+i"RestTransport3.h"
+i"XmlParser.h"
+i"BrandProductSchedule.h"
+i"BrandProductSearchResult.h"
+i"BrandProduct.h"
+i"BrandProductBaserate.h"
+i"BrandServiceSearchResult.h"
+i"BrandProductScheduleSearchResult.h"
+i"BrandProductBaserateSearchResult.h"
+i"BrandService.h"
+i"BrandProductPrice.h"
+i"BrandProductPriceSearchResult.h"
+i"BrandProductPlanPrice.h"
+i"BrandProductPlanPriceSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServices.m
+c000000004CABCCF20000000000003987
+t1286327538
+s14727
+i"BrandServices.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brands.h
+c000000004CABC7C90000000000000AA4
+t1286326217
+s2724
+i<Foundation/Foundation.h>
+i"RestTransport3.h"
+i"XmlParser.h"
+i"ExchangeRate.h"
+i"Currency.h"
+i"Brand.h"
+i"ExchangeRateSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brands.m
+c000000004CABCEA2000000000000170D
+t1286327970
+s5901
+i"Brands.h"
+i"CurrencySearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardPayments.h
+c000000004CABC7C90000000000001B98
+t1286326217
+s7064
+i<Foundation/Foundation.h>
+i"RestTransport3.h"
+i"XmlParser.h"
+i"UserCard.h"
+i"UserBankAccount.h"
+i"CardTransactionHistory.h"
+i"UserCardSearchResult.h"
+i"CardTransactionHistorySearchResult.h"
+i"UserBankAccountSearchResult.h"
+i"UserPaymentAuthorization.h"
+i"UserPaymentAuthorizationSearchResult.h"
+i"PaymentGateway.h"
+i"PaymentGatewaySearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardPayments.m
+c000000004CAC36C10000000000005FC7
+t1286354625
+s24519
+i"CardPayments.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistory.h
+c000000004CABC7C90000000000000FDC
+t1286326217
+s4060
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistory.m
+c000000004CABC7C90000000000000E6E
+t1286326217
+s3694
+i"CardTransactionHistory.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistorySearchResult.h
+c000000004CABC7C90000000000000739
+t1286326217
+s1849
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistorySearchResult.m
+c000000004CABC7C9000000000000074F
+t1286326217
+s1871
+i"CardTransactionHistorySearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ChargeTypeOperation.h
+c000000004CABC7C90000000000000B74
+t1286326217
+s2932
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ChargeTypeOperation.m
+c000000004CABC7C90000000000000AD4
+t1286326217
+s2772
+i"ChargeTypeOperation.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Config.h
+c000000004C904897000000000000090F
+t1284524183
+s2319
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Config.m
+c000000004C9048980000000000000866
+t1284524184
+s2150
+i"Config.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Currency.h
+c000000004CABC7C90000000000000893
+t1286326217
+s2195
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Currency.m
+c000000004CABC7C900000000000007E3
+t1286326217
+s2019
+i"Currency.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CurrencySearchResult.h
+c000000004CABC7C9000000000000070F
+t1286326217
+s1807
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CurrencySearchResult.m
+c000000004CABC7C90000000000000715
+t1286326217
+s1813
+i"CurrencySearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRate.h
+c000000004CABC7C90000000000000843
+t1286326217
+s2115
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRate.m
+c000000004CABC7CA0000000000000788
+t1286326218
+s1928
+i"ExchangeRate.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRateSearchResult.h
+c000000004CABC7CA000000000000071C
+t1286326218
+s1820
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRateSearchResult.m
+c000000004CABC7CA0000000000000745
+t1286326218
+s1861
+i"ExchangeRateSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/FeefactorVip2ViewController.xib
+c000000004C731E5F0000000000001A5D
+t1282612831
+s6749
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/FeefactorVip2_Prefix.pch
+c000000004C731E5F00000000000000C3
+t1282612831
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/GDataXMLNode.h
+c000000004CABC7BC00000000000022FB
+t1286326204
+s8955
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+i<libxml/parser.h>
+i<libxml/xmlstring.h>
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i"GDataDefines.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/GDataXMLNode.m
+c000000004CABC7BE000000000000D649
+t1286326206
+s54857
+i"GDataXMLNode.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Image.h
+c000000004CABC7CA0000000000000731
+t1286326218
+s1841
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Image.m
+c000000004CABC7CA000000000000070D
+t1286326218
+s1805
+i"Image.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Invoice.h
+c000000004CABC7CA0000000000000EBB
+t1286326218
+s3771
+i<Foundation/Foundation.h>
+i"RestTransport3.h"
+i"XmlParser.h"
+i"UserPayment.h"
+i"AccountInvoice.h"
+i"BillingRecord.h"
+i"UserPaymentSearchResult.h"
+i"AccountInvoicePaymentSearchResult.h"
+i"BillingRecordSearchResult.h"
+i"AccountInvoiceSearchResult.h"
+i"AccountInvoicePayment.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Invoice.m
+c000000004CABCD4300000000000029C1
+t1286327619
+s10689
+i"Invoice.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/MainWindow.xib
+c000000004C731E5F0000000000004E71
+t1282612831
+s20081
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/NetmoboFeefactorModel.h
+c000000004CAED68F000000000000098B
+t1286526607
+s2443
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/NetmoboFeefactorModel.m
+c000000004CAED6A30000000000000C13
+t1286526627
+s3091
+i"NetmoboFeefactorModel.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGateway.h
+c000000004CABC7CA0000000000000921
+t1286326218
+s2337
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGateway.m
+c000000004CABC7CA00000000000008D8
+t1286326218
+s2264
+i"PaymentGateway.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGatewaySearchResult.h
+c000000004CAED3B50000000000000735
+t1286525877
+s1845
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGatewaySearchResult.m
+c000000004CAED3B50000000000000758
+t1286525877
+s1880
+i"PaymentGatewaySearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plan.h
+c000000004CABC7CA00000000000009AE
+t1286326218
+s2478
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plan.m
+c000000004CABC7CA0000000000000949
+t1286326218
+s2377
+i"Plan.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRC.h
+c000000004CABC7CA00000000000007C8
+t1286326218
+s1992
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRC.m
+c000000004CABC7CA00000000000007A8
+t1286326218
+s1960
+i"PlanRC.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRCSearchResult.h
+c000000004CABC7CA00000000000006F4
+t1286326218
+s1780
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRCSearchResult.m
+c000000004CABC7CA000000000000070C
+t1286326218
+s1804
+i"PlanRCSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanSearchResult.h
+c000000004CABC7CA00000000000006FE
+t1286326218
+s1790
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanSearchResult.m
+c000000004CABC7CA0000000000000703
+t1286326218
+s1795
+i"PlanSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plans.h
+c000000004CABC7CA00000000000009ED
+t1286326218
+s2541
+i<Foundation/Foundation.h>
+i"RestTransport3.h"
+i"XmlParser.h"
+i"PlanRC.h"
+i"Plan.h"
+i"PlanSearchResult.h"
+i"PlanRCSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plans.m
+c000000004CABC7CA00000000000015BD
+t1286326218
+s5565
+i"Plans.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Profile.h
+c000000004CABC7CA0000000000000D3C
+t1286326218
+s3388
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Profile.m
+c000000004CABC7CA0000000000000BE1
+t1286326218
+s3041
+i"Profile.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/RestTransport3.h
+c000000004CABC7CA0000000000000919
+t1286326218
+s2329
+i<Foundation/Foundation.h>
+i"XmlParser.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/RestTransport3.m
+c000000004CB5A3AD0000000000003641
+t1286972333
+s13889
+i"NetmoboFeefactorModel.h"
+i"RestTransport3.h"
+i"GDataXMLNode.h"
+i"Util.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/SelfSignUp.h
+c000000004CABC7CA0000000000000988
+t1286326218
+s2440
+i<Foundation/Foundation.h>
+i"User.h"
+i"UserQuestionSearchResult.h"
+i"UserQuestion.h"
+i"RestTransport3.h"
+i"XmlParser.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/SelfSignUp.m
+c000000004CAECC6B00000000000011AD
+t1286524011
+s4525
+i"SelfSignUp.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecord.h
+c000000004CABC7CA00000000000010A5
+t1286326218
+s4261
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecord.m
+c000000004CABC7CA0000000000000F94
+t1286326218
+s3988
+i"TransactionDetailRecord.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecordSearchResult.h
+c000000004CABC7CA000000000000073A
+t1286326218
+s1850
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecordSearchResult.m
+c000000004CABC7CA0000000000000775
+t1286326218
+s1909
+i"TransactionDetailRecordSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecords.h
+c000000004C54BC260000000000000C11
+t1280621606
+s3089
+i<Foundation/Foundation.h>
+i"TransactionDetailRecord.h"
+i"TransactionDetailRecordSearchResult.h"
+i"RestTransport3.h"
+i"XmlParser.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecords.m
+c000000004C7349640000000000002E12
+t1282623844
+s11794
+i"TransactionDetailRecords.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Transactions.h
+c000000004CABC7CA00000000000011E1
+t1286326218
+s4577
+i<Foundation/Foundation.h>
+i"TransactionDetailRecord.h"
+i"TransactionDetailRecordSearchResult.h"
+i"RestTransport3.h"
+i"XmlParser.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Transactions.m
+c000000004CABCBB000000000000034CC
+t1286327216
+s13516
+i"Transactions.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TypeMapping.h
+c000000004CABC7B8000000000000073F
+t1286326200
+s1855
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TypeMapping.m
+c000000004CABC7BA000000000000073E
+t1286326202
+s1854
+i"TypeMapping.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/User.h
+c000000004CABC7CA0000000000000AAB
+t1286326218
+s2731
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/User.m
+c000000004CABC7CA00000000000009EB
+t1286326218
+s2539
+i"User.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccount.h
+c000000004CABC7CA0000000000000AFB
+t1286326218
+s2811
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccount.m
+c000000004CABC7CA0000000000000A5A
+t1286326218
+s2650
+i"UserBankAccount.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccountSearchResult.h
+c000000004CABC7CA0000000000000736
+t1286326218
+s1846
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccountSearchResult.m
+c000000004CABC7CA000000000000074F
+t1286326218
+s1871
+i"UserBankAccountSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCard.h
+c000000004CABC7CA0000000000000C83
+t1286326218
+s3203
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCard.m
+c000000004CABC7CA0000000000000BAB
+t1286326218
+s2987
+i"UserCard.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCardSearchResult.h
+c000000004CABC7CA0000000000000714
+t1286326218
+s1812
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCardSearchResult.m
+c000000004CABC7CA0000000000000716
+t1286326218
+s1814
+i"UserCardSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPayment.h
+c000000004CABC7CA00000000000009FD
+t1286326218
+s2557
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPayment.m
+c000000004CABC7CA0000000000000997
+t1286326218
+s2455
+i"UserPayment.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorization.h
+c000000004CABC7CA0000000000000A22
+t1286326218
+s2594
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorization.m
+c000000004CABC7CA00000000000009F5
+t1286326218
+s2549
+i"UserPaymentAuthorization.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorizationSearchResult.h
+c000000004CABC7CA000000000000072D
+t1286326218
+s1837
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorizationSearchResult.m
+c000000004CABC7CA0000000000000746
+t1286326218
+s1862
+i"UserPaymentAuthorizationSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentSearchResult.h
+c000000004CABC7CA000000000000070A
+t1286326218
+s1802
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentSearchResult.m
+c000000004CABC7CA0000000000000730
+t1286326218
+s1840
+i"UserPaymentSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestion.h
+c000000004CABC7CA000000000000083B
+t1286326218
+s2107
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestion.m
+c000000004CABC7CA0000000000000788
+t1286326218
+s1928
+i"UserQuestion.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestionSearchResult.h
+c000000004CABC7CA0000000000000718
+t1286326218
+s1816
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestionSearchResult.m
+c000000004CABC7CA0000000000000734
+t1286326218
+s1844
+i"UserQuestionSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserSearchResult.h
+c000000004CABC7CA0000000000000706
+t1286326218
+s1798
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserSearchResult.m
+c000000004CABC7CA0000000000000720
+t1286326218
+s1824
+i"UserSearchResult.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Users.h
+c000000004CABC7CA0000000000000CCA
+t1286326218
+s3274
+i<Foundation/Foundation.h>
+i"RestTransport3.h"
+i"XmlParser.h"
+i"User.h"
+i"UserSearchResult.h"
+i"UserQuestion.h"
+i"UserQuestionSearchResult.h"
+i"Profile.h"
+i"Image.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Users.m
+c000000004CABD0140000000000002276
+t1286328340
+s8822
+i"Users.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Util.h
+c000000004CABC7C00000000000000763
+t1286326208
+s1891
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Util.m
+c000000004CB53FF40000000000001551
+t1286946804
+s5457
+i"Util.h"
+i<Foundation/NSObjCRuntime.h>
+i"objc/runtime.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlHeaderHelper.h
+c000000004CABC7CA00000000000006FD
+t1286326218
+s1789
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlHeaderHelper.m
+c000000004CABC7CB000000000000077E
+t1286326219
+s1918
+i"XmlHeaderHelper.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlParser.h
+c000000004CABF8A100000000000007B1
+t1286338721
+s1969
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlParser.m
+c000000004CAEDDD70000000000001DF1
+t1286528471
+s7665
+i"NetmoboFeefactorModel.h"
+i"XmlParser.h"
+i"GDataXMLNode.h"
+i<Foundation/NSObjCRuntime.h>
+i"objc/runtime.h"
+i"TypeMapping.h"
+i"XmlHeaderHelper.h"
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app
+t1282624187
+s374
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app.dSYM
+t1282624186
+s102
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2
+t1282624186
+s1052384
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2ViewController.nib
+t1282619552
+s795
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/Info.plist
+t1282619552
+s750
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/MainWindow.nib
+t1282619552
+s1135
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/PkgInfo
+t1282619552
+s8
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/ResourceRules.plist
+t1282619552
+s485
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision
+t1282619554
+s7173
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/libNetmobo.a
+c000000004C734A9A00000000002AF080
+t1282624154
+s2814080
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Account.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountDevice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountDeviceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountHistory.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountHistorySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoicePayment.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoicePaymentSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoiceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountPlan.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountPlanSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRC.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRCActivityLog.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRCSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRCSetting.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Accounts.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BillingRecord.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BillingRecordSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Brand.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProduct.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductBaserate.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductBaserateSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPlanPrice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPlanPriceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPrice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPriceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductSchedule.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductScheduleSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProfile.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandService.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandServiceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandServices.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Brands.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CardPayments.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CardTransactionHistory.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CardTransactionHistorySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/ChargeTypeOperation.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Config.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Currency.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CurrencySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/ExchangeRate.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/ExchangeRateSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2
+t1282624186
+s523952
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2.LinkFileList
+c000000004C73389F0000000000000089
+t1282619551
+s137
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/GDataXMLNode.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Image.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Invoice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/NetmoboFeefactorModel.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PaymentGateway.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PaymentGatewaySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Plan.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PlanRC.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PlanRCSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PlanSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Plans.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Profile.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/RestTransport3.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/SelfSignUp.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TransactionDetailRecord.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TransactionDetailRecordSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TransactionDetailRecords.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Transactions.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TypeMapping.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/User.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserBankAccount.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserBankAccountSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserCard.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserCardSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPayment.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPaymentAuthorization.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPaymentAuthorizationSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPaymentSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserQuestion.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserQuestionSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Users.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Util.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/XmlHeaderHelper.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/XmlParser.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/main.o
+t1282619553
+s6456
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Account.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountDevice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountDeviceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountHistory.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountHistorySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoicePayment.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoicePaymentSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoiceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountPlan.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountPlanSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRC.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRCActivityLog.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRCSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRCSetting.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Accounts.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BillingRecord.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BillingRecordSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Brand.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProduct.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductBaserate.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductBaserateSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPlanPrice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPlanPriceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPrice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPriceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductSchedule.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductScheduleSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProfile.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandService.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandServiceSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandServices.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Brands.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CardPayments.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CardTransactionHistory.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CardTransactionHistorySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/ChargeTypeOperation.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Config.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Currency.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CurrencySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/ExchangeRate.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/ExchangeRateSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2
+t1282624186
+s507468
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2.LinkFileList
+c000000004C73389F0000000000000089
+t1282619551
+s137
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/GDataXMLNode.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Image.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Invoice.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/NetmoboFeefactorModel.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PaymentGateway.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PaymentGatewaySearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Plan.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PlanRC.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PlanRCSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PlanSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Plans.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Profile.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/RestTransport3.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/SelfSignUp.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TransactionDetailRecord.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TransactionDetailRecordSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TransactionDetailRecords.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Transactions.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TypeMapping.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/User.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserBankAccount.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserBankAccountSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserCard.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserCardSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPayment.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPaymentAuthorization.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPaymentAuthorizationSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPaymentSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserQuestion.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserQuestionSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserSearchResult.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Users.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Util.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/XmlHeaderHelper.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/XmlParser.o
+t2
+s0
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/main.o
+t1282619553
+s6440
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/libNetmobo.a
+c000000004CBD04C2000000000043E05C
+t1287455938
+s4448348
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/main.m
+c000000004C8776AB0000000000000169
+t1283946155
+s361
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2ViewController.xib
+c000000004C731E5F0000000000001A5D
+t1282612831
+s6749
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2_Prefix.pch
+c000000004C731E5F00000000000000C3
+t1282612831
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/MainWindow.xib
+c000000004C731E5F0000000000004E71
+t1282612831
+s20081
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app
+t1282624187
+s374
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app.dSYM
+t1282624186
+s102
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2
+t1282624186
+s1052384
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2ViewController.nib
+t1282619552
+s795
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/Info.plist
+t1282619552
+s750
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/MainWindow.nib
+t1282619552
+s1135
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/PkgInfo
+t1282619552
+s8
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/ResourceRules.plist
+t1282619552
+s485
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision
+t1282619554
+s7173
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/libNetmobo.a
+c000000004C734A9A00000000002AF080
+t1282624154
+s2814080
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent
+t1282619554
+s432
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2
+t1282624186
+s523952
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2.LinkFileList
+c000000004C73389F0000000000000089
+t1282619551
+s137
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/main.o
+t1282619553
+s6456
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2
+t1282624186
+s507468
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2.LinkFileList
+c000000004C73389F0000000000000089
+t1282619551
+s137
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/main.o
+t1282619553
+s6440
+
+N/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m
+c000000004C731E5F0000000000000170
+t1282612831
+s368
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C5B59520000000000000110
+t1281055058
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C5B401F00000000000001A7
+t1281048607
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004BFE07B10000000000002AD2
+t1274939313
+s10962
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/libxml/parser.h
+c000000004BFE06DE00000000000098A9
+t1274939102
+s39081
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/libxml/tree.h
+c000000004BFE06DE0000000000008F14
+t1274939102
+s36628
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/libxml/xmlstring.h
+c000000004BFE06DE000000000000155A
+t1274939102
+s5466
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004BFE06DE0000000000003F47
+t1274939102
+s16199
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004BFE06DE0000000000004BF8
+t1274939102
+s19448
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/objc/runtime.h
+c000000004BFDF9B700000000000053F9
+t1274935735
+s21497
+
+N/Users/vipm/Library/MobileDevice/Provisioning Profiles/2B02505A-ABC4-467E-9A99-224AFDB35238.mobileprovision
+c000000004C7DF8330000000000001D3A
+t1283323955
+s7482
+
+N/Users/vipm/Library/MobileDevice/Provisioning Profiles/C073F59F-ABB8-4C62-8640-9EB978C543DD.mobileprovision
+c000000004C6BE25C0000000000001C05
+t1282138716
+s7173
+
+N/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-cigsvvygdjmclvfaatiosjsgfktd/FeefactorVip2_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-ealihcrpqeahjkdaoixuowahenod/FeefactorVip2_Prefix.pch.gch
+t1282619553
+s9831984
+
+N/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-eenyzptpmbeclqexwatpixgzspuz/FeefactorVip2_Prefix.pch.gch
+t1282619553
+s10290736
+
+N/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-fmtajtguxlmczwghotsvgvpdosmz/FeefactorVip2_Prefix.pch.gch
+t2
+s0
+
+NFeefactorVip2-Info.plist
+c000000004C731E5F000000000000038D
+t1282612831
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies304316986#304316986#0(0"0(0#1#0"8632102624#0"0#
+
+CCodeSign "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app"
+r0
+
+CCodeSign /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app
+s304316987.012389
+e304316987.653400
+r1
+xCodeSign
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/FeefactorVip2.app304316987#304316987#0(0"0(0#0#86"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app8617765632#716"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Vicente Malixi (N53W2MZ2KB)" --resource-rules=/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/ResourceRules.plist --entitlements /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app0#
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Account.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Account.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountDevice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDevice.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountDeviceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDeviceSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountHistory.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistory.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountHistorySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistorySearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoice.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoicePayment.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePayment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoicePaymentSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePaymentSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountInvoiceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoiceSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountPlan.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlan.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountPlanSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlanSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRC.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRC.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRCActivityLog.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCActivityLog.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRCSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountRCSetting.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSetting.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/AccountSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Accounts.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Accounts.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BillingRecord.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecord.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BillingRecordSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecordSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Brand.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brand.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProduct.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProduct.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductBaserate.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductBaserateSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserateSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPlanPrice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPrice.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPlanPriceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPriceSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPrice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPrice.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductPriceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPriceSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductSchedule.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSchedule.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductScheduleSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductScheduleSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProductSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandProfile.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProfile.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandService.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandService.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandServiceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServiceSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/BrandServices.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServices.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Brands.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brands.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CardPayments.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardPayments.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CardTransactionHistory.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistory.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CardTransactionHistorySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistorySearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/ChargeTypeOperation.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ChargeTypeOperation.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Config.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Config.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Currency.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Currency.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/CurrencySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CurrencySearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/ExchangeRate.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/ExchangeRateSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRateSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/GDataXMLNode.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/GDataXMLNode.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Image.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Image.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Invoice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Invoice.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/NetmoboFeefactorModel.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/NetmoboFeefactorModel.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PaymentGateway.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGateway.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PaymentGatewaySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGatewaySearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Plan.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plan.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PlanRC.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRC.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PlanRCSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRCSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/PlanSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Plans.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plans.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Profile.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Profile.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/RestTransport3.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/RestTransport3.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/SelfSignUp.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/SelfSignUp.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TransactionDetailRecord.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecord.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TransactionDetailRecordSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecordSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TransactionDetailRecords.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecords.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Transactions.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Transactions.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/TypeMapping.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TypeMapping.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/User.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/User.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserBankAccount.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccount.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserBankAccountSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccountSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserCard.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCard.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserCardSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCardSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPayment.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPayment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPaymentAuthorization.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorization.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPaymentAuthorizationSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorizationSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserPaymentSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserQuestion.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestion.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserQuestionSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestionSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/UserSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserSearchResult.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Users.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Users.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/Util.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Util.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/XmlHeaderHelper.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlHeaderHelper.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/XmlParser.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/main.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/main.o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304312353.553743
+e304312353.621960
+r1
+xCompileC
+xbuild/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/main.o
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m304312353#304312353#0(0"0(0#0#54"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m8627736160#2035"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-generated-files.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-own-target-headers.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-project-headers.hmap -F/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-ealihcrpqeahjkdaoixuowahenod/FeefactorVip2_Prefix.pch -c /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Account.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Account.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountDevice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDevice.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountDeviceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountDeviceSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountHistory.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistory.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountHistorySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountHistorySearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoice.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoicePayment.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePayment.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoicePaymentSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoicePaymentSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountInvoiceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountInvoiceSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountPlan.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlan.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountPlanSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountPlanSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRC.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRC.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRCActivityLog.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCActivityLog.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRCSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountRCSetting.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountRCSetting.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/AccountSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/AccountSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Accounts.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Accounts.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BillingRecord.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecord.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BillingRecordSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BillingRecordSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Brand.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brand.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProduct.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProduct.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductBaserate.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductBaserateSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductBaserateSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPlanPrice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPrice.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPlanPriceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPlanPriceSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPrice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPrice.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductPriceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductPriceSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductSchedule.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSchedule.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductScheduleSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductScheduleSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProductSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProductSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandProfile.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandProfile.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandService.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandService.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandServiceSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServiceSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/BrandServices.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/BrandServices.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Brands.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Brands.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CardPayments.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardPayments.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CardTransactionHistory.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistory.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CardTransactionHistorySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CardTransactionHistorySearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/ChargeTypeOperation.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ChargeTypeOperation.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Config.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Config.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Currency.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Currency.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/CurrencySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/CurrencySearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/ExchangeRate.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/ExchangeRateSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/ExchangeRateSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/GDataXMLNode.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/GDataXMLNode.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Image.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Image.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Invoice.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Invoice.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/NetmoboFeefactorModel.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/NetmoboFeefactorModel.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PaymentGateway.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGateway.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PaymentGatewaySearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PaymentGatewaySearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Plan.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plan.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PlanRC.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRC.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PlanRCSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanRCSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/PlanSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/PlanSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Plans.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Plans.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Profile.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Profile.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/RestTransport3.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/RestTransport3.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/SelfSignUp.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/SelfSignUp.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TransactionDetailRecord.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecord.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TransactionDetailRecordSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecordSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TransactionDetailRecords.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TransactionDetailRecords.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Transactions.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Transactions.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/TypeMapping.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/TypeMapping.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/User.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/User.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserBankAccount.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccount.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserBankAccountSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserBankAccountSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserCard.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCard.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserCardSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserCardSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPayment.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPayment.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPaymentAuthorization.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorization.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPaymentAuthorizationSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentAuthorizationSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserPaymentSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserPaymentSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserQuestion.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestion.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserQuestionSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserQuestionSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/UserSearchResult.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/UserSearchResult.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Users.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Users.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/Util.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/Util.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/XmlHeaderHelper.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlHeaderHelper.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/XmlParser.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/XmlParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/main.o "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/main.o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304312353.554882
+e304312353.622268
+r1
+xCompileC
+xbuild/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/main.o
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m304312353#304312353#0(0"0(0#0#54"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m8603946880#2035"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-generated-files.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-own-target-headers.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-project-headers.hmap -F/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-eenyzptpmbeclqexwatpixgzspuz/FeefactorVip2_Prefix.pch -c /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/main.m -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/FeefactorVip2ViewController.xib"
+r0
+
+CCompileXIB "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/MainWindow.xib"
+r0
+
+CCompileXIB /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2ViewController.xib
+s304312352.113038
+e304312352.533258
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2ViewController.xib
+lSLF07#2@42"CompileXIB FeefactorVip2ViewController.xib304312352#304312352#0(0"0(0#0#79"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2ViewController.xib8629866496#609"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2ViewController.nib /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/MainWindow.xib
+s304312352.110002
+e304312352.558137
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib304312352#304312352#0(0"0(0#0#62"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/MainWindow.xib8641420032#575"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/MainWindow.nib /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCpResource build/Debug-iphoneos/FeefactorVip2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s304312351.998948
+e304312352.109908
+r1
+xCpResource
+xbuild/Debug-iphoneos/FeefactorVip2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist304312351#304312352#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8618818560#504"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app0#
+
+CCreateUniversalBinary "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2" normal "armv6 armv7"
+r0
+
+CCreateUniversalBinary /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2 normal "armv6 armv7"
+s304316986.793753
+e304316986.854338
+r1
+xCreateUniversalBinary
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2 normal "armv6 armv7"304316986#304316986#0(0"0(0#0#59"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/armv6 armv78630473280#602"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2 /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2 -output /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip20#
+
+CGenerateDSYMFile "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app.dSYM" "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2"
+r0
+
+CGenerateDSYMFile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app.dSYM /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2
+s304316986.854440
+e304316987.008867
+r1
+xGenerateDSYMFile
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app.dSYM
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/FeefactorVip2.app.dSYM build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2304316986#304316987#0(0"0(0#0#100"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip28628149024#407"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/FeefactorVip2 -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app.dSYM0#
+
+CLd "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2" normal armv6
+r0
+
+CLd "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2" normal armv7
+r0
+
+CLd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2 normal armv6
+s304316986.342411
+e304316986.793652
+r1
+xLd
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2
+xnormal
+xarmv6
+lSLF07#2@148"Link /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2304316986#304316986#0(0"0(0#0#0"8636591328#973"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -F/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -filelist /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip2.LinkFileList -dead_strip -all_load -ObjC -lxml2 -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -lNetmobo -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv6/FeefactorVip20#
+
+CLd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2 normal armv7
+s304316986.343538
+e304316986.762557
+r1
+xLd
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2
+xnormal
+xarmv7
+lSLF07#2@148"Link /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2304316986#304316986#0(0"0(0#0#0"8633447392#973"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -F/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -filelist /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip2.LinkFileList -dead_strip -all_load -ObjC -lxml2 -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -lNetmobo -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/Objects-normal/armv7/FeefactorVip20#
+
+CProcessInfoPlistFile "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/Info.plist" FeefactorVip2-Info.plist
+r0
+
+CProcessInfoPlistFile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/Info.plist FeefactorVip2-Info.plist
+s304312351.999989
+e304312352.006600
+r1
+xProcessInfoPlistFile
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/Info.plist
+xFeefactorVip2-Info.plist
+lSLF07#2@32"Process FeefactorVip2-Info.plist304312352#304312352#0(0"0(0#0#72"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2-Info.plist8614038048#622"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FeefactorVip2-Info.plist -genpkginfo /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/ResourceRules.plist -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/Info.plist0#
+
+CProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-cigsvvygdjmclvfaatiosjsgfktd/FeefactorVip2_Prefix.pch.gch FeefactorVip2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-ealihcrpqeahjkdaoixuowahenod/FeefactorVip2_Prefix.pch.gch FeefactorVip2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304312352.558264
+e304312353.553525
+r1
+xProcessPCH
+x/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-ealihcrpqeahjkdaoixuowahenod/FeefactorVip2_Prefix.pch.gch
+xFeefactorVip2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile FeefactorVip2_Prefix.pch304312352#304312353#0(0"0(0#0#72"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2_Prefix.pch8605012192#1918"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-generated-files.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-own-target-headers.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-project-headers.hmap -F/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources -c /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2_Prefix.pch -o /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-ealihcrpqeahjkdaoixuowahenod/FeefactorVip2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-eenyzptpmbeclqexwatpixgzspuz/FeefactorVip2_Prefix.pch.gch FeefactorVip2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304312352.559483
+e304312353.495479
+r1
+xProcessPCH
+x/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-eenyzptpmbeclqexwatpixgzspuz/FeefactorVip2_Prefix.pch.gch
+xFeefactorVip2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile FeefactorVip2_Prefix.pch304312352#304312353#0(0"0(0#0#72"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2_Prefix.pch8604528800#1918"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-generated-files.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-own-target-headers.hmap -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2-project-headers.hmap -F/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/DerivedSources -c /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/FeefactorVip2_Prefix.pch -o /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-eenyzptpmbeclqexwatpixgzspuz/FeefactorVip2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FeefactorVip2_Prefix-fmtajtguxlmczwghotsvgvpdosmz/FeefactorVip2_Prefix.pch.gch FeefactorVip2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/2B02505A-ABC4-467E-9A99-224AFDB35238.mobileprovision" "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/C073F59F-ABB8-4C62-8640-9EB978C543DD.mobileprovision" "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/C073F59F-ABB8-4C62-8640-9EB978C543DD.mobileprovision" /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision
+s304312354.350755
+e304312354.370058
+r1
+xProcessProductPackaging
+x/Users/vipm/Library/MobileDevice/Provisioning Profiles/C073F59F-ABB8-4C62-8640-9EB978C543DD.mobileprovision
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/C073F59F-ABB8-4C62-8640-9EB978C543DD.mobileprovision" build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision304312354#304312354#0(0"0(0#0#111"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision8624340640#446"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/vipm/Library/MobileDevice/Provisioning Profiles/C073F59F-ABB8-4C62-8640-9EB978C543DD.mobileprovision" -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent
+s304312354.374238
+e304312354.386572
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent304312354#304312354#0(0"0(0#0#128"/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent8618325440#468"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/FeefactorVip2.build/Debug-iphoneos/FeefactorVip2.build/FeefactorVip2.xcent0#
+
+CTouch "/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2 h files/build/Debug-iphoneos/FeefactorVip2.app"
+r0
+
+CTouch /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app
+s304316987.009086
+e304316987.012186
+r1
+xTouch
+x/AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app
+lSLF07#2@92"Touch /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app304316987#304316987#0(0"0(0#0#0"8625735392#288"    cd /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /AurisoftApps/Netmobo/Netmobolibe/FeefactorVip2/build/Debug-iphoneos/FeefactorVip2.app0#
+

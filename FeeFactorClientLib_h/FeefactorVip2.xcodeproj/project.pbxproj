@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* FeefactorVip2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FeefactorVip2ViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		2E926E1C1223822C00A22826 /* libNetmobo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E926B241223565C00A22826 /* libNetmobo.a */; };
+		2E973C14126D3C6600C13108 /* libNetmobo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E973C13126D3C6600C13108 /* libNetmobo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FeefactorVip2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeefactorVip2AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FeefactorVip2AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeefactorVip2AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* FeefactorVip2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeefactorVip2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* FeefactorVip2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeefactorVip2ViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* FeefactorVip2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeefactorVip2ViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FeefactorVip2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeefactorVip2ViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E926B241223565C00A22826 /* libNetmobo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetmobo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E973C13126D3C6600C13108 /* libNetmobo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetmobo.a; sourceTree = "<group>"; };
+		2E973C1E126D3C8300C13108 /* RestTransport3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestTransport3.h; sourceTree = "<group>"; };
+		2E973C20126D3C8300C13108 /* XmlHeaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlHeaderHelper.h; sourceTree = "<group>"; };
+		2E973C23126D3C8300C13108 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
+		2E973C25126D3C8300C13108 /* TypeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMapping.h; sourceTree = "<group>"; };
+		2E973C27126D3C8300C13108 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		2E973C29126D3C8300C13108 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		2E973C2D126D3C8300C13108 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		2E973C2F126D3C8300C13108 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		2E973C31126D3C8300C13108 /* UserQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestion.h; sourceTree = "<group>"; };
+		2E973C33126D3C8300C13108 /* UserQuestionSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestionSearchResult.h; sourceTree = "<group>"; };
+		2E973C35126D3C8300C13108 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		2E973C37126D3C8300C13108 /* UserSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchResult.h; sourceTree = "<group>"; };
+		2E973C39126D3C8300C13108 /* SelfSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSignUp.h; sourceTree = "<group>"; };
+		2E973C3B126D3C8300C13108 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		2E973C3E126D3C8300C13108 /* AccountHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistory.h; sourceTree = "<group>"; };
+		2E973C40126D3C8300C13108 /* AccountHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistorySearchResult.h; sourceTree = "<group>"; };
+		2E973C42126D3C8300C13108 /* Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accounts.h; sourceTree = "<group>"; };
+		2E973C44126D3C8300C13108 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		2E973C46126D3C8300C13108 /* AccountPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlan.h; sourceTree = "<group>"; };
+		2E973C48126D3C8300C13108 /* AccountRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRC.h; sourceTree = "<group>"; };
+		2E973C4A126D3C8300C13108 /* AccountRCActivityLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCActivityLog.h; sourceTree = "<group>"; };
+		2E973C4C126D3C8300C13108 /* AccountPlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlanSearchResult.h; sourceTree = "<group>"; };
+		2E973C4E126D3C8300C13108 /* AccountRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSearchResult.h; sourceTree = "<group>"; };
+		2E973C50126D3C8300C13108 /* AccountRCSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSetting.h; sourceTree = "<group>"; };
+		2E973C52126D3C8300C13108 /* AccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSearchResult.h; sourceTree = "<group>"; };
+		2E973C54126D3C8300C13108 /* AccountDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDevice.h; sourceTree = "<group>"; };
+		2E973C56126D3C8300C13108 /* AccountDeviceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDeviceSearchResult.h; sourceTree = "<group>"; };
+		2E973C59126D3C8300C13108 /* Brands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brands.h; sourceTree = "<group>"; };
+		2E973C5B126D3C8300C13108 /* CurrencySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencySearchResult.h; sourceTree = "<group>"; };
+		2E973C5D126D3C8300C13108 /* ExchangeRateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateSearchResult.h; sourceTree = "<group>"; };
+		2E973C5F126D3C8300C13108 /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
+		2E973C61126D3C8300C13108 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		2E973C63126D3C8300C13108 /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
+		2E973C65126D3C8300C13108 /* BrandProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProfile.h; sourceTree = "<group>"; };
+		2E973C67126D3C8300C13108 /* BrandSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandSearchResult.h; sourceTree = "<group>"; };
+		2E973C6A126D3C8300C13108 /* UserCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCard.h; sourceTree = "<group>"; };
+		2E973C6C126D3C8300C13108 /* UserCardSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCardSearchResult.h; sourceTree = "<group>"; };
+		2E973C6E126D3C8300C13108 /* UserBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccount.h; sourceTree = "<group>"; };
+		2E973C70126D3C8300C13108 /* UserBankAccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccountSearchResult.h; sourceTree = "<group>"; };
+		2E973C72126D3C8300C13108 /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		2E973C74126D3C8300C13108 /* PaymentGatewaySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGatewaySearchResult.h; sourceTree = "<group>"; };
+		2E973C76126D3C8300C13108 /* CardTransactionHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistory.h; sourceTree = "<group>"; };
+		2E973C78126D3C8300C13108 /* CardTransactionHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistorySearchResult.h; sourceTree = "<group>"; };
+		2E973C7A126D3C8300C13108 /* CardPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPayments.h; sourceTree = "<group>"; };
+		2E973C7C126D3C8300C13108 /* UserPaymentAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorization.h; sourceTree = "<group>"; };
+		2E973C7E126D3C8300C13108 /* UserPaymentAuthorizationSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorizationSearchResult.h; sourceTree = "<group>"; };
+		2E973C81126D3C8300C13108 /* AccountInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoice.h; sourceTree = "<group>"; };
+		2E973C83126D3C8300C13108 /* AccountInvoicePayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePayment.h; sourceTree = "<group>"; };
+		2E973C85126D3C8300C13108 /* AccountInvoicePaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePaymentSearchResult.h; sourceTree = "<group>"; };
+		2E973C87126D3C8300C13108 /* AccountInvoiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoiceSearchResult.h; sourceTree = "<group>"; };
+		2E973C89126D3C8300C13108 /* BillingRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecord.h; sourceTree = "<group>"; };
+		2E973C8B126D3C8300C13108 /* BillingRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecordSearchResult.h; sourceTree = "<group>"; };
+		2E973C8D126D3C8300C13108 /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
+		2E973C8F126D3C8300C13108 /* UserPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPayment.h; sourceTree = "<group>"; };
+		2E973C91126D3C8300C13108 /* UserPaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentSearchResult.h; sourceTree = "<group>"; };
+		2E973C94126D3C8300C13108 /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
+		2E973C96126D3C8300C13108 /* PlanRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRC.h; sourceTree = "<group>"; };
+		2E973C98126D3C8300C13108 /* PlanRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRCSearchResult.h; sourceTree = "<group>"; };
+		2E973C9A126D3C8300C13108 /* Plans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plans.h; sourceTree = "<group>"; };
+		2E973C9C126D3C8300C13108 /* PlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSearchResult.h; sourceTree = "<group>"; };
+		2E973C9F126D3C8300C13108 /* BrandProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProduct.h; sourceTree = "<group>"; };
+		2E973CA1126D3C8300C13108 /* BrandProductBaserate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserate.h; sourceTree = "<group>"; };
+		2E973CA3126D3C8300C13108 /* BrandProductBaserateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserateSearchResult.h; sourceTree = "<group>"; };
+		2E973CA5126D3C8300C13108 /* BrandProductSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSchedule.h; sourceTree = "<group>"; };
+		2E973CA7126D3C8300C13108 /* BrandProductScheduleSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductScheduleSearchResult.h; sourceTree = "<group>"; };
+		2E973CA9126D3C8300C13108 /* BrandProductSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSearchResult.h; sourceTree = "<group>"; };
+		2E973CAB126D3C8300C13108 /* BrandService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandService.h; sourceTree = "<group>"; };
+		2E973CAD126D3C8300C13108 /* BrandServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServices.h; sourceTree = "<group>"; };
+		2E973CAF126D3C8300C13108 /* BrandServiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServiceSearchResult.h; sourceTree = "<group>"; };
+		2E973CB1126D3C8300C13108 /* ChargeTypeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeTypeOperation.h; sourceTree = "<group>"; };
+		2E973CB3126D3C8300C13108 /* BrandProductPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPrice.h; sourceTree = "<group>"; };
+		2E973CB5126D3C8300C13108 /* BrandProductPlanPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPrice.h; sourceTree = "<group>"; };
+		2E973CB7126D3C8300C13108 /* BrandProductPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPriceSearchResult.h; sourceTree = "<group>"; };
+		2E973CB9126D3C8300C13108 /* BrandProductPlanPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPriceSearchResult.h; sourceTree = "<group>"; };
+		2E973CBC126D3C8300C13108 /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
+		2E973CBE126D3C8300C13108 /* TransactionDetailRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecord.h; sourceTree = "<group>"; };
+		2E973CC0126D3C8300C13108 /* TransactionDetailRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecordSearchResult.h; sourceTree = "<group>"; };
+		2E973CC2126D3C8300C13108 /* NetmoboFeefactorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetmoboFeefactorModel.h; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FeefactorVip2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeefactorVip2_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FeefactorVip2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FeefactorVip2-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				2E926E1C1223822C00A22826 /* libNetmobo.a in Frameworks */,
+				2E973C14126D3C6600C13108 /* libNetmobo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E926B221223565C00A22826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FeefactorVip2AppDelegate.h */,
+				1D3623250D0F684500981E51 /* FeefactorVip2AppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* FeefactorVip2ViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FeefactorVip2ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FeefactorVip2.app */,
+				2E926B241223565C00A22826 /* libNetmobo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C1B126D3C8300C13108 /* Feefactor Libe */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FeefactorVip2_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* FeefactorVip2ViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* FeefactorVip2-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C13126D3C6600C13108 /* libNetmobo.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E973C1B126D3C8300C13108 /* Feefactor Libe */ = {
+			isa = PBXGroup;
+			children = (
+				2E973CC2126D3C8300C13108 /* NetmoboFeefactorModel.h */,
+				2E973C2B126D3C8300C13108 /* FeeFactor_API */,
+				2E973C1C126D3C8300C13108 /* REST_XML_API */,
+			);
+			name = "Feefactor Libe";
+			sourceTree = "<group>";
+		};
+		2E973C1C126D3C8300C13108 /* REST_XML_API */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C22126D3C8300C13108 /* Util */,
+				2E973C1D126D3C8300C13108 /* Transport */,
+			);
+			name = REST_XML_API;
+			sourceTree = "<group>";
+		};
+		2E973C1D126D3C8300C13108 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C1E126D3C8300C13108 /* RestTransport3.h */,
+				2E973C20126D3C8300C13108 /* XmlHeaderHelper.h */,
+			);
+			name = Transport;
+			sourceTree = "<group>";
+		};
+		2E973C22126D3C8300C13108 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C23126D3C8300C13108 /* XmlParser.h */,
+				2E973C25126D3C8300C13108 /* TypeMapping.h */,
+				2E973C27126D3C8300C13108 /* GDataXMLNode.h */,
+				2E973C29126D3C8300C13108 /* Util.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2E973C2B126D3C8300C13108 /* FeeFactor_API */ = {
+			isa = PBXGroup;
+			children = (
+				2E973CBB126D3C8300C13108 /* Transactions */,
+				2E973C9E126D3C8300C13108 /* Services */,
+				2E973C93126D3C8300C13108 /* Plans */,
+				2E973C80126D3C8300C13108 /* Invoices */,
+				2E973C69126D3C8300C13108 /* Cardpayments */,
+				2E973C58126D3C8300C13108 /* Brands */,
+				2E973C3D126D3C8300C13108 /* Accounts */,
+				2E973C2C126D3C8300C13108 /* Users */,
+			);
+			name = FeeFactor_API;
+			sourceTree = "<group>";
+		};
+		2E973C2C126D3C8300C13108 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C2D126D3C8300C13108 /* User.h */,
+				2E973C2F126D3C8300C13108 /* Profile.h */,
+				2E973C31126D3C8300C13108 /* UserQuestion.h */,
+				2E973C33126D3C8300C13108 /* UserQuestionSearchResult.h */,
+				2E973C35126D3C8300C13108 /* Users.h */,
+				2E973C37126D3C8300C13108 /* UserSearchResult.h */,
+				2E973C39126D3C8300C13108 /* SelfSignUp.h */,
+				2E973C3B126D3C8300C13108 /* Image.h */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		2E973C3D126D3C8300C13108 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C3E126D3C8300C13108 /* AccountHistory.h */,
+				2E973C40126D3C8300C13108 /* AccountHistorySearchResult.h */,
+				2E973C42126D3C8300C13108 /* Accounts.h */,
+				2E973C44126D3C8300C13108 /* Account.h */,
+				2E973C46126D3C8300C13108 /* AccountPlan.h */,
+				2E973C48126D3C8300C13108 /* AccountRC.h */,
+				2E973C4A126D3C8300C13108 /* AccountRCActivityLog.h */,
+				2E973C4C126D3C8300C13108 /* AccountPlanSearchResult.h */,
+				2E973C4E126D3C8300C13108 /* AccountRCSearchResult.h */,
+				2E973C50126D3C8300C13108 /* AccountRCSetting.h */,
+				2E973C52126D3C8300C13108 /* AccountSearchResult.h */,
+				2E973C54126D3C8300C13108 /* AccountDevice.h */,
+				2E973C56126D3C8300C13108 /* AccountDeviceSearchResult.h */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		2E973C58126D3C8300C13108 /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C59126D3C8300C13108 /* Brands.h */,
+				2E973C5B126D3C8300C13108 /* CurrencySearchResult.h */,
+				2E973C5D126D3C8300C13108 /* ExchangeRateSearchResult.h */,
+				2E973C5F126D3C8300C13108 /* Brand.h */,
+				2E973C61126D3C8300C13108 /* Currency.h */,
+				2E973C63126D3C8300C13108 /* ExchangeRate.h */,
+				2E973C65126D3C8300C13108 /* BrandProfile.h */,
+				2E973C67126D3C8300C13108 /* BrandSearchResult.h */,
+			);
+			name = Brands;
+			sourceTree = "<group>";
+		};
+		2E973C69126D3C8300C13108 /* Cardpayments */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C6A126D3C8300C13108 /* UserCard.h */,
+				2E973C6C126D3C8300C13108 /* UserCardSearchResult.h */,
+				2E973C6E126D3C8300C13108 /* UserBankAccount.h */,
+				2E973C70126D3C8300C13108 /* UserBankAccountSearchResult.h */,
+				2E973C72126D3C8300C13108 /* PaymentGateway.h */,
+				2E973C74126D3C8300C13108 /* PaymentGatewaySearchResult.h */,
+				2E973C76126D3C8300C13108 /* CardTransactionHistory.h */,
+				2E973C78126D3C8300C13108 /* CardTransactionHistorySearchResult.h */,
+				2E973C7A126D3C8300C13108 /* CardPayments.h */,
+				2E973C7C126D3C8300C13108 /* UserPaymentAuthorization.h */,
+				2E973C7E126D3C8300C13108 /* UserPaymentAuthorizationSearchResult.h */,
+			);
+			name = Cardpayments;
+			sourceTree = "<group>";
+		};
+		2E973C80126D3C8300C13108 /* Invoices */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C81126D3C8300C13108 /* AccountInvoice.h */,
+				2E973C83126D3C8300C13108 /* AccountInvoicePayment.h */,
+				2E973C85126D3C8300C13108 /* AccountInvoicePaymentSearchResult.h */,
+				2E973C87126D3C8300C13108 /* AccountInvoiceSearchResult.h */,
+				2E973C89126D3C8300C13108 /* BillingRecord.h */,
+				2E973C8B126D3C8300C13108 /* BillingRecordSearchResult.h */,
+				2E973C8D126D3C8300C13108 /* Invoice.h */,
+				2E973C8F126D3C8300C13108 /* UserPayment.h */,
+				2E973C91126D3C8300C13108 /* UserPaymentSearchResult.h */,
+			);
+			name = Invoices;
+			sourceTree = "<group>";
+		};
+		2E973C93126D3C8300C13108 /* Plans */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C94126D3C8300C13108 /* Plan.h */,
+				2E973C96126D3C8300C13108 /* PlanRC.h */,
+				2E973C98126D3C8300C13108 /* PlanRCSearchResult.h */,
+				2E973C9A126D3C8300C13108 /* Plans.h */,
+				2E973C9C126D3C8300C13108 /* PlanSearchResult.h */,
+			);
+			name = Plans;
+			sourceTree = "<group>";
+		};
+		2E973C9E126D3C8300C13108 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2E973C9F126D3C8300C13108 /* BrandProduct.h */,
+				2E973CA1126D3C8300C13108 /* BrandProductBaserate.h */,
+				2E973CA3126D3C8300C13108 /* BrandProductBaserateSearchResult.h */,
+				2E973CA5126D3C8300C13108 /* BrandProductSchedule.h */,
+				2E973CA7126D3C8300C13108 /* BrandProductScheduleSearchResult.h */,
+				2E973CA9126D3C8300C13108 /* BrandProductSearchResult.h */,
+				2E973CAB126D3C8300C13108 /* BrandService.h */,
+				2E973CAD126D3C8300C13108 /* BrandServices.h */,
+				2E973CAF126D3C8300C13108 /* BrandServiceSearchResult.h */,
+				2E973CB1126D3C8300C13108 /* ChargeTypeOperation.h */,
+				2E973CB3126D3C8300C13108 /* BrandProductPrice.h */,
+				2E973CB5126D3C8300C13108 /* BrandProductPlanPrice.h */,
+				2E973CB7126D3C8300C13108 /* BrandProductPriceSearchResult.h */,
+				2E973CB9126D3C8300C13108 /* BrandProductPlanPriceSearchResult.h */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2E973CBB126D3C8300C13108 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				2E973CBC126D3C8300C13108 /* Transactions.h */,
+				2E973CBE126D3C8300C13108 /* TransactionDetailRecord.h */,
+				2E973CC0126D3C8300C13108 /* TransactionDetailRecordSearchResult.h */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E926B201223565C00A22826 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FeefactorVip2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FeefactorVip2" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeefactorVip2;
+			productName = FeefactorVip2;
+			productReference = 1D6058910D05DD3D006BFB54 /* FeefactorVip2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E926B231223565C00A22826 /* Netmobo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E926B811223572500A22826 /* Build configuration list for PBXNativeTarget "Netmobo" */;
+			buildPhases = (
+				2E926B201223565C00A22826 /* Headers */,
+				2E926B211223565C00A22826 /* Sources */,
+				2E926B221223565C00A22826 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Netmobo;
+			productName = Netmobo;
+			productReference = 2E926B241223565C00A22826 /* libNetmobo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FeefactorVip2" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E926B231223565C00A22826 /* Netmobo */,
+				1D6058900D05DD3D006BFB54 /* FeefactorVip2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* FeefactorVip2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E926B211223565C00A22826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FeefactorVip2_Prefix.pch;
+				INFOPLIST_FILE = "FeefactorVip2-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = FeefactorVip2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FeefactorVip2_Prefix.pch;
+				INFOPLIST_FILE = "FeefactorVip2-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = FeefactorVip2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E926B251223565C00A22826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Netmobo;
+			};
+			name = Debug;
+		};
+		2E926B261223565C00A22826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Netmobo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lxml2",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lxml2",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FeefactorVip2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E926B811223572500A22826 /* Build configuration list for PBXNativeTarget "Netmobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E926B251223565C00A22826 /* Debug */,
+				2E926B261223565C00A22826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FeefactorVip2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
